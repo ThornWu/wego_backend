@@ -15,7 +15,7 @@ DMAX = 12
 
 def TraverseVenue():
     global venue_num
-    with open('../Dataset/LA-venues.csv', 'r', encoding='gbk') as f:
+    with open('../Dataset/Venues/LA/LA-venues.csv', 'r', encoding='gbk') as f:
         f_csv = csv.reader(f)
         headers = next(f_csv)
         for row in f_csv:
@@ -45,7 +45,7 @@ def CategoryDistanceMatrix():
                             category_distance_matrix[j, i] = category_distance_matrix[i, j]
                     except:
                         continue
-    np.save("cate_result_full.npy", category_distance_matrix)
+    np.save("Dataset/Venues/cate_result_LA.npy", category_distance_matrix)
 
 def GeographicalDistanceMatrix():
     global R, DMAX, venue_num
@@ -64,11 +64,11 @@ def GeographicalDistanceMatrix():
             else:
                 geographicl_distance_matrix[i, j] = 0
                 geographicl_distance_matrix[j, i] = geographicl_distance_matrix[i, j]
-    np.save("geo_dis_result_full.npy", geographicl_distance_matrix)
+    np.save("Dataset/Venues/geo_dis_result_LA.npy", geographicl_distance_matrix)
 
 def LocationCluester():
-    cat_matrix = np.load("cate_result_full.npy")
-    geo_matrix = np.load("geo_dis_result_full.npy")
+    cat_matrix = np.load("Dataset/Venues/cate_result_LA.npy")
+    geo_matrix = np.load("Dataset/Venues/geo_dis_result_LA.npy")
     sim_matrix = cat_matrix + geo_matrix
     for row in sim_matrix:
         for i in range(0,len(sim_matrix)):
