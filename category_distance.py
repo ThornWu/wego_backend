@@ -6,7 +6,7 @@ import pickle
 # tree.create_node("id", "id", parent="id", data='name')# Node格式
 def CreateLocationCategoryHierarchicalTree():
     tree = Tree()
-    f = open('categories1.txt','r')
+    f = open('Category/categories1.txt','r')
     for line in f:
         result = json.loads(line)
     tree.create_node('root', 'root')# root node
@@ -36,7 +36,7 @@ def CreateLocationCategoryHierarchicalTree():
     # print(tree.is_branch('4bf58dd8d48988d17f941735'))
     # print(tree.level('root'))
     # print(tree.level('4bf58dd8d48988d17f941735'))
-    output = open('Tree.pkl', 'wb')
+    output = open('Category/Tree.pkl', 'wb')
     pickle.dump(tree, output)# 将构建好的树存入Tree.pkl文件
     f.close()
     output.close()
@@ -52,7 +52,7 @@ def CreateLocationCategoryHierarchicalTree():
 # 6.如果两个节点的level不相等，判断两个节点的父节点和另一个节点本身是否相等
 # 7.如果相等，则两者之间的类别距离为1，否则两者类别距离为无穷大
 def CalCategoryDistance(id1, id2):
-    pkl_file = open('Tree.pkl', 'rb')# 读取Tree.pkl文件
+    pkl_file = open('Category/Tree.pkl', 'rb')# 读取Tree.pkl文件
     tree = pickle.load(pkl_file)
     dist = 0
     if id1 == id2:# 判断两个节点的类别id是否相等
