@@ -2,7 +2,6 @@ from bottle import route, run, template, request, redirect, response
 import sqlite3
 import hashlib
 
-md5 = hashlib.md5()
 con = sqlite3.connect('wego.db')
 
 @route('/hello')
@@ -24,11 +23,13 @@ def login():
 
 @route('/login',method='POST')
 def do_login():
+    m = hashlib.sha256()
     username = request.forms.get('username')
     password = request.forms.get('password')
-    md5.update(password.encode(encoding='utf-8'))
 
-    if check_login(username,md5.hexdigest()):
+    m.update(password.encode(encoding='utf-8'))
+
+    if check_login(username,m.hexdigest()):
         response.set_cookie("account",username,secret='wego')
         return "<p>Your login information was correct</p>"
     else:
@@ -60,13 +61,14 @@ def register():
     '''
 @route('/register', method='POST')
 def do_register():
+    m = hashlib.sha256()
     username = request.forms.get('username')
     password = request.forms.get('password')
-    md5.update(password.encode(encoding='utf-8'))
+    m.update(password.encode(encoding='utf-8'))
     gender = (request.forms.get('gender') == "man") if 'true' else 'false'
     homecity = request.forms.get('homecity')    
     try:
-        con.execute('insert into user(username,password,gender,homecity) values(?,?,?,?)',[username,md5.hexdigest(),gender,homecity])
+        con.execute('insert into user(username,password,gender,homecity) values(?,?,?,?)',[username,m.hexdigest(),gender,homecity])
         con.commit()
     except:
         return "Error"
