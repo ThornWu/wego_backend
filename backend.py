@@ -1,8 +1,10 @@
 from bottle import route, run, template, request, redirect, response
 import sqlite3
 import hashlib
+import os
 
-con = sqlite3.connect('wego.db')
+SQL_PATH = os.path.join(os.getcwd(),"wego.db")
+con = sqlite3.connect(SQL_PATH)
 
 @route('/hello')
 @route('/hello/<name>')
@@ -66,7 +68,7 @@ def do_register():
     password = request.forms.get('password')
     m.update(password.encode(encoding='utf-8'))
     gender = (request.forms.get('gender') == "man") if 'true' else 'false'
-    homecity = request.forms.get('homecity')    
+    homecity = request.forms.get('homecity') 
     try:
         con.execute('insert into user(username,password,gender,homecity) values(?,?,?,?)',[username,m.hexdigest(),gender,homecity])
         con.commit()
@@ -85,12 +87,15 @@ def iflogin():
 
 def check_login(username,password):
     print(username,password)
-    c = con.cursor()
-    c.execute("select password from user where username=(?)", (username,))
-    result = c.fetchall()
-    if password == result[0][0]:
-        return True
-    else:
+    try:
+        c = con.cursor()
+        c.execute("select password from user where username=(?)", (username,))
+        result = c.fetchall()
+        if password == result[0][0]:
+            return True
+        else:
+            return False
+    except:
         return False
 
 run(reloader=True, host='0.0.0.0', port=8088)
