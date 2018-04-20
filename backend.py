@@ -2,26 +2,13 @@ from bottle import route, run, template, request, redirect, response
 import sqlite3
 # import hashlib
 import os
+import json
 
 SQL_PATH = os.path.join(os.getcwd(),"wego.db")
 con = sqlite3.connect(SQL_PATH)
 
-@route('/hello')
-@route('/hello/<name>')
-def index(name='Stranger'):
-    return template('<b>Hello {{name}}</b>!', name=name)
-
-@route('/login')
-def login():
-    return '''
-        <form action="/login" method="post">
-            Username:<input name="username" type="text"/>
-            <br/>
-            Password:<input name="password" type="password"/>
-            <br/>            
-            <input value="login" type="submit"/> 
-        </form>
-    '''
+# @route('/hello')
+# @route('/hello/<name>')
 
 @route('/login',method='POST')
 def do_login():
@@ -32,10 +19,12 @@ def do_login():
     # m.update(password.encode(encoding='utf-8'))
 
     if check_login(username,password):
-        response.set_cookie("account",username,secret='wego')
-        return "<p>Your login information was correct</p>"
+        # response.set_cookie("account",username,secret='wego')
+        data = {"text":"Login successful", "code":"OK"}
+        return json.dumps(data)
     else:
-        return "<p>Login failed</p>"
+        data = {"text":"Login failed", "code":"OK"}
+        return json.dumps(data)
 
 @route('/logout')
 def do_logout():
