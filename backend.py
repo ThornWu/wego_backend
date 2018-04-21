@@ -23,7 +23,7 @@ def do_login():
         data = {"text":"Login successful", "code":"OK"}
         return json.dumps(data)
     else:
-        data = {"text":"Login failed", "code":"OK"}
+        data = {"text":"Login failed", "code":"Error"}
         return json.dumps(data)
 
 @route('/logout')
