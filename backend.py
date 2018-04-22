@@ -56,7 +56,7 @@ def do_register():
     username = request.forms.get('username')
     password = request.forms.get('password')
     # m.update(password.encode(encoding='utf-8'))
-    gender = (request.forms.get('gender') == "man") if 'true' else 'false'
+    gender = (request.forms.get('gender') == "man")
     homecity = request.forms.get('homecity') 
     try:
         con.execute('insert into user(username,password,gender,homecity) values(?,?,?,?)',[username,password,gender,homecity])
