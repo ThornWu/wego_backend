@@ -1,8 +1,9 @@
 from bottle import route, run, template, request, redirect, response
 import sqlite3
-# import hashlib
 import os
 import json
+import time
+# import hashlib
 
 SQL_PATH = os.path.join(os.getcwd(),"wego.db")
 con = sqlite3.connect(SQL_PATH)
@@ -31,40 +32,24 @@ def do_logout():
     response.delete_cookie("account")
     return "Logout successfully"
 
-@route('/register')
-def register():
-    return '''
-        <form action="/register" method="post">
-            Username: <input name="username" type="text"/>
-            <br/>
-            Password: <input name="password" type="password"/>
-            <br/>
-            Reapeat password:<input type="password"/>
-            <br/>
-            Gender: <input name="gender" type="radio" value="man" checked/> Man
-            <input name="gender" type= "radio" value="woman"/> Woman
-            <br/>
-            Homecity:<input name="homecity" type="radio" value="Los Angeles" checked/>Los Angeles
-            <input name="homecity" type="radio" value="New York"/>New York
-            <br/>
-            <input value="register" type="submit"/>
-        </form>
-    '''
 @route('/register', method='POST')
 def do_register():
     # m = hashlib.sha256()
+    userid = int(round(time.time() * 1000))
     username = request.forms.get('username')
     password = request.forms.get('password')
+    email = request.forms.get('email')
     # m.update(password.encode(encoding='utf-8'))
-    gender = (request.forms.get('gender') == "man")
-    homecity = request.forms.get('homecity') 
+    gender = True
+    
     try:
-        con.execute('insert into user(username,password,gender,homecity) values(?,?,?,?)',[username,password,gender,homecity])
+        con.execute('insert into user(userid,username,password,email,gender) values(?,?,?,?,?)',[userid,username,password,email,gender])
         con.commit()
+        data = {"text":"Register successful", "code":"OK"}
+        return json.dumps(data)
     except:
-        return "Error"
-    else:
-        return "OK"
+        data = {"text":"Please choose another username", "code":"Error"}
+        return json.dumps(data)
 
 @route('/iflogin')
 def iflogin():

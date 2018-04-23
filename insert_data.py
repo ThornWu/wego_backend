@@ -135,7 +135,6 @@ def DoInsertCategory():
     content = f.read()
     result = json.loads(content)
     categories = result["response"]["categories"]
-    print(categories)
 
     first_count = 1
     for frist in categories:
@@ -160,12 +159,12 @@ def DoInsertCategory():
     f.close()
     print("Finish insert category datas")
 
-DoInsertUser("LA")
-DoInsertUser("NYC")
-DoInsertVenue("LA")
-DoInsertVenue("NYC")
-DoInsertTip("LA")
-DoInsertTip("NYC")
-DoInsertFriendship("LA")
-DoInsertFriendship("NYC")
-DoInsertCategory()
+# DoInsertUser("LA")
+# DoInsertUser("NYC")
+# DoInsertVenue("LA")
+# DoInsertVenue("NYC")
+# DoInsertTip("LA")
+# DoInsertTip("NYC")
+# DoInsertFriendship("LA")
+# DoInsertFriendship("NYC")
+# DoInsertCategory()
