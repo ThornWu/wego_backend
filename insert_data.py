@@ -135,6 +135,7 @@ def DoInsertCategory():
     content = f.read()
     result = json.loads(content)
     categories = result["response"]["categories"]
+    print(categories)
 
     first_count = 1
     for frist in categories:

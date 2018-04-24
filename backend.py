@@ -27,11 +27,6 @@ def do_login():
         data = {"text":"Login failed", "code":"Error"}
         return json.dumps(data)
 
-@route('/logout')
-def do_logout():
-    response.delete_cookie("account")
-    return "Logout successfully"
-
 @route('/register', method='POST')
 def do_register():
     # m = hashlib.sha256()
@@ -59,12 +54,17 @@ def iflogin():
     else:
         redirect('/login')
 
+@route('/logout')
+def do_logout():
+    response.delete_cookie("account")
+    return "Logout successfully"
+
 def check_login(username,password):
     print(username,password)
     
     try:
         c = con.cursor()
-        c.execute("select password from user where username=(?)", (username,))
+        c.execute("select password from user where username=(?)",[username])
         result = c.fetchall()
         if password == result[0][0]:
             return True
