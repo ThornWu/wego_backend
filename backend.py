@@ -46,6 +46,145 @@ def do_register():
         data = {"text":"Please choose another username", "code":"Error"}
         return json.dumps(data)
 
+@route('/search')
+def do_search():
+    city = request.query.city
+    latitude = request.query.latitude
+    longitude = request.query.longitude
+    time = request.query.time
+    keyword = request.query.keyword    
+    if(keyword=="restaurant"):
+        try:
+            c = con.cursor()
+            c.execute("select B.categoryname,C.* from category as B join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in (select categoryid from category where parentid = '3' or categoryid='3')) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on B.categoryid = C.category")
+            result = c.fetchall()
+            result_format = []
+            for item in result:
+                item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[3],"longitude":item[4],"address":item[5]}
+                result_format.append(item_json)
+        except:
+            result_format = []
+        data = {"result":result_format}
+        return json.dumps(data) 
+    elif(keyword=="mall"):
+        try:
+            c = con.cursor()
+            c.execute("select B.categoryname,C.* from category as B join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in ('4bf58dd8d48988d1fd941735')) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on B.categoryid = C.category")
+            result = c.fetchall()
+            result_format = []
+            for item in result:
+                item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[3],"longitude":item[4],"address":item[5]}
+                result_format.append(item_json)
+        except:
+            result_format = []
+        data = {"result":result_format}
+        return json.dumps(data) 
+    elif(keyword=="nightlife"):
+        try:
+            c = con.cursor()
+            c.execute("select B.categoryname,C.* from category as B join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in (select categoryid from category where parentid ='6' or categoryid = '6')) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on B.categoryid = C.category")
+            result = c.fetchall()
+            result_format = []
+            for item in result:
+                item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[3],"longitude":item[4],"address":item[5]}
+                result_format.append(item_json)
+        except:
+            result_format = []
+        data = {"result":result_format}
+        return json.dumps(data)    
+    elif(keyword=="hotel"):
+        try:
+            c = con.cursor()
+            c.execute("select B.categoryname,C.* from category as B join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in (select categoryid from category where parentid = '4bf58dd8d48988d1f0941735' or categoryid='4bf58dd8d48988d1fa931735')) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on B.categoryid = C.category")
+            result = c.fetchall()
+            result_format = []
+            for item in result:
+                item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[3],"longitude":item[4],"address":item[5]}
+                result_format.append(item_json)
+        except:
+            result_format = []
+        data = {"result":result_format}
+        return json.dumps(data)       
+    elif(keyword=="park"):
+        try:
+            c = con.cursor()
+            c.execute("select B.categoryname,C.* from category as B join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in ('4bf58dd8d48988d182941735', '4bf58dd8d48988d193941735', '4bf58dd8d48988d163941735')) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on B.categoryid = C.category")
+            result = c.fetchall()
+            result_format = []
+            for item in result:
+                item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[3],"longitude":item[4],"address":item[5]}
+                result_format.append(item_json)
+        except:
+            result_format = []
+        data = {"result":result_format}
+        return json.dumps(data)
+    elif(keyword=="movie"):
+        try:
+            c = con.cursor()
+            c.execute("select B.categoryname,C.* from category as B join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in (select categoryid from category where parentid = '4bf58dd8d48988d17f941735' or categoryid='4bf58dd8d48988d17f941735')) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on B.categoryid = C.category")
+            result = c.fetchall()
+            result_format = []
+            for item in result:
+                item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[3],"longitude":item[4],"address":item[5]}
+                result_format.append(item_json)
+        except:
+            result_format = []
+        data = {"result":result_format}
+        return json.dumps(data)
+    elif(keyword=="museum"):
+        try:
+            c = con.cursor()
+            c.execute("select B.categoryname,C.* from category as B join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in (select categoryid from category where parentid = '4bf58dd8d48988d181941735' or categoryid='4bf58dd8d48988d181941735')) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on B.categoryid = C.category")
+            result = c.fetchall()
+            result_format = []
+            for item in result:
+                item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[3],"longitude":item[4],"address":item[5]}
+                result_format.append(item_json)
+        except:
+            result_format = []
+        data = {"result":result_format}
+        return json.dumps(data)
+    elif(keyword=="stadium"):
+        try:
+            c = con.cursor()
+            c.execute("select B.categoryname,C.* from category as B join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in (select categoryid from category where parentid = '4bf58dd8d48988d184941735' or categoryid='4bf58dd8d48988d184941735' or parentid ='4bf58dd8d48988d1b4941735' or categoryid='4bf58dd8d48988d1b4941735')) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on B.categoryid = C.category")
+            result = c.fetchall()
+            result_format = []
+            for item in result:
+                item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[3],"longitude":item[4],"address":item[5]}
+                result_format.append(item_json)
+        except:
+            result_format = []
+        data = {"result":result_format}
+        return json.dumps(data)
+@route('/history')
+def do_returnhistory():
+    userid=request.query.userid
+    try:
+        c = con.cursor()
+        c.execute("select E.categoryname,F.* from category as E join (select C.* ,D.createtime from venue as C join (select venueid,createtime from tip as A join (select * from user where user.userid =(?)) as B on A.userid = B.userid) as D on C.venueid = D.venueid order by D.createtime desc) as F on E.categoryid = F.category",[userid])
+        result = c.fetchall()
+        result_format = []
+        for item in result:
+            item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[3],"longitude":item[4],"address":item[5],"createtime":item[-1]}
+            result_format.append(item_json)
+    except:
+        result_format = []
+    data = {"result":result_format}
+    return json.dumps(data)
+
+@route('/favorite')
+def do_searchfavorite():
+    userid=request.query.userid
+    try:
+        c = con.cursor()
+        c.execute("select * from venue where venueid in (select distinct venueid from tip where userid = (?))",[userid])
+        result = c.fetchall()
+    except:
+        result = []
+    data = {"result":result}
+    return json.dumps(data)
+
 @route('/iflogin')
 def iflogin():
     username = request.get_cookie("account",secret='wego')
