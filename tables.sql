@@ -6,6 +6,9 @@ CREATE TABLE `user` (
 	`gender`	boolean NOT NULL,
 	`profile`	varchar(30),
 	`homecity`	varchar(30),
+	'la_label' integer(4) default -2,
+	'ny_label' integer(4) default -2,
+	'isused' boolean default True,
 	PRIMARY KEY(userid)
 );
 
@@ -17,6 +20,9 @@ CREATE TABLE `venue` (
 	`longitude` double NOT NULL,
 	`address`	varchar(100),
 	`localcity`	varchar(30),
+	'la_label' integer(4) default -2,
+	'ny_label' integer(4) default -2,
+	'isused' boolean default True,
 	PRIMARY KEY(venueid)
 );
 
@@ -40,13 +46,6 @@ CREATE TABLE `category` (
 );
 
 CREATE TABLE `favorite` (
-	`userid` integer(13) not null,
-	`venueid` varchar(24) not null,
-	`createtime` integer(10) not null
-);
-
-CREATE TABLE `history` (
-	`history` integer primary key AUTOINCREMENT,
 	`userid` integer(13) not null,
 	`venueid` varchar(24) not null,
 	`createtime` integer(10) not null

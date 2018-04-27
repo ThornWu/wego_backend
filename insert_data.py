@@ -160,6 +160,86 @@ def DoInsertCategory():
     f.close()
     print("Finish insert category datas")
 
+def DoUpdateLabel():
+    count = 0
+    error_count = 0
+    with open(os.path.join(PROJECT_ROOT,"Origin","Result","location_cluster_la.csv"), 'r', encoding='ISO-8859-1') as f:
+        f_csv = csv.reader(f)
+        headers = next(f_csv) # 取出表头
+        for item in f_csv:
+            venueid = item[0]
+            la_label = item[1]
+            try:
+                con.execute('update venue set la_label = (?) where venueid=(?)',[la_label,venueid])
+            except:
+                print("Some errors happened when inserting data to the dataset. Venueid=" + venueid + ", LA_label=" + la_label)
+                error_count = error_count +1
+            count = count + 1
+            if(count % 3000 == 0):
+                con.commit()
+                print(count)
+        con.commit()
+    f.close()
+
+    count = 0
+    with open(os.path.join(PROJECT_ROOT,"Origin","Result","location_cluster_nyc.csv"), 'r', encoding='ISO-8859-1') as f:
+        f_csv = csv.reader(f)
+        headers = next(f_csv) # 取出表头
+        for item in f_csv:
+            venueid = item[0]
+            ny_label = item[1]
+            try:
+                con.execute('update venue set ny_label = (?) where venueid=(?)',[ny_label,venueid])
+            except:
+                print("Some errors happened when inserting data to the dataset. Venueid=" + venueid + ", NYC_label=" + ny_label)
+                error_count = error_count +1
+            count = count + 1
+            if(count % 3000 == 0):
+                con.commit()
+                print(count)
+        con.commit()
+    f.close()
+
+    count = 0
+    with open(os.path.join(PROJECT_ROOT,"Origin","Result","user_cluster_la.csv"), 'r', encoding='ISO-8859-1') as f:
+        f_csv = csv.reader(f)
+        headers = next(f_csv) # 取出表头
+        for item in f_csv:
+            userid = item[0]
+            la_label = item[1]
+            try:
+                con.execute('update user set la_label = (?) where userid=(?)',[la_label,userid])
+            except:
+                print("Some errors happened when inserting data to the dataset. Userid=" + userid + ", LA_label=" + la_label)
+                error_count = error_count +1
+            count = count + 1
+            if(count % 3000 == 0):
+                con.commit()
+                print(count)
+        con.commit()
+    f.close()
+
+    count = 0
+    with open(os.path.join(PROJECT_ROOT,"Origin","Result","user_cluster_nyc.csv"), 'r', encoding='ISO-8859-1') as f:
+        f_csv = csv.reader(f)
+        headers = next(f_csv) # 取出表头
+        for item in f_csv:
+            userid = item[0]
+            ny_label = item[1]
+            try:
+                con.execute('update user set ny_label = (?) where userid=(?)',[ny_label,userid])
+            except:
+                print("Some errors happened when inserting data to the dataset. Userid=" + userid + ", NYC_label=" + ny_label)
+                error_count = error_count +1
+            count = count + 1
+            if(count % 3000 == 0):
+                con.commit()
+                print(count)
+        con.commit()
+    f.close()
+    print("Error count:" + str(error_count))
+    print("Finish update labels")
+    
 # DoInsertUser("LA")
 # DoInsertUser("NYC")
 # DoInsertVenue("LA")
@@ -169,3 +249,4 @@ def DoInsertCategory():
 # DoInsertFriendship("LA")
 # DoInsertFriendship("NYC")
 # DoInsertCategory()
+DoUpdateLabel()
