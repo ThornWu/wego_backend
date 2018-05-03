@@ -185,6 +185,36 @@ def do_searchfavorite():
     data = {"result":result}
     return json.dumps(data)
 
+@route('/positioninfo')
+def do_getpositioninfo():
+    userid = request.query.userid
+    venueid = request.query.venueid
+    if(userid and venueid):
+        try:
+            c = con.cursor()
+            c.execute("select A.categoryname,B.* from category as A join (select * from venue where venueid = (?)) as B on A.categoryid = B.category",[venueid])
+            result = c.fetchall()
+            position = result[0]
+            
+            c = con.cursor()
+            c.execute("select createtime from tip where userid =(?) and venueid = (?) order by createtime desc limit 1",[userid,venueid])
+            result = c.fetchall()
+            if(len(result)!=0):
+                lastvisited = result[0][0]
+            else:
+                lastvisited = 0
+
+            c = con.cursor()
+            c.execute("select * from favorite where userid =(?) and venueid = (?)",[userid,venueid])
+            result = c.fetchall()
+            isstarred = "True" if(len(result)!=0) else "False"
+
+            data = {"category":position[0],"venueid":position[1],"venuename":position[2],"latitude":position[4],"longitude":position[5],"address":position[6],"isused":position[-1],"lastvisited":lastvisited,"isstarred":isstarred}
+        except:
+            data = {}
+        return json.dumps(data)
+    return
+
 @route('/iflogin')
 def iflogin():
     username = request.get_cookie("account",secret='wego')
