@@ -60,7 +60,7 @@ def do_search():
             result = c.fetchall()
             result_format = []
             for item in result:
-                item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[3],"longitude":item[4],"address":item[5]}
+                item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[4],"longitude":item[5],"address":item[6]}
                 result_format.append(item_json)
         except:
             result_format = []
@@ -73,7 +73,7 @@ def do_search():
             result = c.fetchall()
             result_format = []
             for item in result:
-                item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[3],"longitude":item[4],"address":item[5]}
+                item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[4],"longitude":item[5],"address":item[6]}
                 result_format.append(item_json)
         except:
             result_format = []
@@ -86,7 +86,7 @@ def do_search():
             result = c.fetchall()
             result_format = []
             for item in result:
-                item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[3],"longitude":item[4],"address":item[5]}
+                item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[4],"longitude":item[5],"address":item[6]}
                 result_format.append(item_json)
         except:
             result_format = []
@@ -99,7 +99,7 @@ def do_search():
             result = c.fetchall()
             result_format = []
             for item in result:
-                item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[3],"longitude":item[4],"address":item[5]}
+                item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[4],"longitude":item[5],"address":item[6]}
                 result_format.append(item_json)
         except:
             result_format = []
@@ -112,7 +112,7 @@ def do_search():
             result = c.fetchall()
             result_format = []
             for item in result:
-                item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[3],"longitude":item[4],"address":item[5]}
+                item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[4],"longitude":item[5],"address":item[6]}
                 result_format.append(item_json)
         except:
             result_format = []
@@ -125,7 +125,7 @@ def do_search():
             result = c.fetchall()
             result_format = []
             for item in result:
-                item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[3],"longitude":item[4],"address":item[5]}
+                item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[4],"longitude":item[5],"address":item[6]}
                 result_format.append(item_json)
         except:
             result_format = []
@@ -138,7 +138,7 @@ def do_search():
             result = c.fetchall()
             result_format = []
             for item in result:
-                item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[3],"longitude":item[4],"address":item[5]}
+                item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[4],"longitude":item[5],"address":item[6]}
                 result_format.append(item_json)
         except:
             result_format = []
@@ -151,7 +151,7 @@ def do_search():
             result = c.fetchall()
             result_format = []
             for item in result:
-                item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[3],"longitude":item[4],"address":item[5]}
+                item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[4],"longitude":item[5],"address":item[6]}
                 result_format.append(item_json)
         except:
             result_format = []
@@ -166,7 +166,7 @@ def do_returnhistory():
         result = c.fetchall()
         result_format = []
         for item in result:
-            item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[3],"longitude":item[4],"address":item[5],"createtime":item[-1]}
+            item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[4],"longitude":item[5],"address":item[6],"createtime":item[-1]}
             result_format.append(item_json)
     except:
         result_format = []
