@@ -176,16 +176,33 @@ def do_handlehistory():
     return json.dumps(data)
 
 @route('/favorite')
-def do_searchfavorite():
-    userid=request.query.userid
-    try:
-        c = con.cursor()
-        c.execute("select * from venue where venueid in (select distinct venueid from tip where userid = (?))",[userid])
-        result = c.fetchall()
-    except:
-        result = []
-    data = {"result":result}
-    return json.dumps(data)
+def do_handlefavorite():
+    userid = request.query.userid
+    venueid = request.query.venueid
+    action = request.query.action
+    if(action == "add"):
+        try:
+            createtime = time.time()
+            con.execute('insert into favorite(userid,venueid,createtime) values(?,?,?)',[userid,venueid,createtime])
+            con.commit()
+            data = {"text":"Add successful", "code":"OK"}
+            return json.dumps(data)
+        except:
+            data = {"text":"This place has been added in your favorite", "code":"Error"}
+            return json.dumps(data)
+    else:
+        try:
+            c = con.cursor()
+            c.execute("select A.categoryname,B.* from category as A join (select * from venue where venueid in (select venueid from favorite where userid=(?))) as B on A.categoryid = B.category",[userid])
+            result = c.fetchall()
+            result_format = []
+            for item in result:
+                item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[4],"longitude":item[5],"address":item[6]}
+                result_format.append(item_json)
+        except:
+            result_format = []
+        data = {"result":result_format}
+        return json.dumps(data)
 
 @route('/positioninfo')
 def do_getpositioninfo():
