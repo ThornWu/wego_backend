@@ -160,15 +160,15 @@ def do_search():
         data = {"result":result_format}
         return json.dumps(data)
 @route('/history')
-def do_returnhistory():
+def do_handlehistory():
     userid=request.query.userid
     try:
         c = con.cursor()
-        c.execute("select E.categoryname,F.* from category as E join (select C.* ,D.createtime from venue as C join (select venueid,createtime from tip as A join (select * from user where user.userid =(?)) as B on A.userid = B.userid) as D on C.venueid = D.venueid order by D.createtime desc) as F on E.categoryid = F.category",[userid])
+        c.execute("select E.categoryname,F.* from category as E join (select C.* from venue as C join (select venueid,createtime from tip as A join (select * from user where user.userid =(?)) as B on A.userid = B.userid) as D on C.venueid = D.venueid order by D.createtime desc) as F on E.categoryid = F.category",[userid])
         result = c.fetchall()
         result_format = []
         for item in result:
-            item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[4],"longitude":item[5],"address":item[6],"createtime":item[-1]}
+            item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[4],"longitude":item[5],"address":item[6]}
             result_format.append(item_json)
     except:
         result_format = []
