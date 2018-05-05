@@ -174,6 +174,20 @@ def do_handlehistory():
         result_format = []
     data = {"result":result_format}
     return json.dumps(data)
+    
+@route('/sign')
+def do_handlesign():
+    userid = request.query.userid
+    venueid = request.query.venueid
+    try:
+        createtime = time.time()
+        con.execute('insert into tip(userid,venueid,createtime) values(?,?,?)',[userid,venueid,createtime])
+        con.commit()
+        data = {"text":"Sign successful", "code":"OK"}
+        return json.dumps(data)
+    except:
+        data = {"text":"Sign failed, place try again", "code":"Error"}
+        return json.dumps(data)
 
 @route('/favorite')
 def do_handlefavorite():
@@ -190,6 +204,15 @@ def do_handlefavorite():
         except:
             data = {"text":"This place has been added in your favorite", "code":"Error"}
             return json.dumps(data)
+    elif(action == "delete"):
+        try:
+            c = con.cursor()
+            c.execute('delete from favorite where userid=(?) and venueid=(?)',[userid,venueid])
+            data = {"text":"Delete successful", "code":"OK"}
+            return json.dumps(data)
+        except:
+            data = {"text":"This place has not been added in your favorite", "code":"Error"}
+            return json.dumps(data)            
     else:
         try:
             c = con.cursor()

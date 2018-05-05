@@ -48,5 +48,6 @@ CREATE TABLE `category` (
 CREATE TABLE `favorite` (
 	`userid` integer(13) not null,
 	`venueid` varchar(24) not null,
-	`createtime` integer(10) not null
+	`createtime` integer(10) not null,
+	PRIMARY KEY(userid,venueid)
 );
