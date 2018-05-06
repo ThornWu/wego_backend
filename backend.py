@@ -181,6 +181,7 @@ def do_search():
     else:
         try:
             c = con.cursor()
+            keyword = '%' + keyword + '%'
             if(city=="LA"):
                 c.execute("select B.categoryname,C.* from category as B join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where venuename like (?) and la_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on B.categoryid = C.category limit 50",[keyword])
             else:
@@ -261,6 +262,12 @@ def do_handlefavorite():
             result_format = []
         data = {"result":result_format}
         return json.dumps(data)
+
+@route('friend')
+def do_handlefrienship():
+    userid = request.query.userid
+    action = request.query.action
+
 
 @route('/positioninfo')
 def do_getpositioninfo():
