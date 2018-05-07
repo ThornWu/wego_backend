@@ -19,9 +19,11 @@ def do_login():
 
     # m.update(password.encode(encoding='utf-8'))
 
-    if check_login(username,password):
+    check_response = check_login(username,password)
+    print(check_response)
+    if (check_response!={}):
         # response.set_cookie("account",username,secret='wego')
-        data = {"text":"Login successful", "code":"OK"}
+        data = {"text":"Login successful", "code":"OK", "user":{"userid":check_response['userid'],"username":check_response['username']}}
         return json.dumps(data)
     else:
         data = {"text":"Login failed", "code":"Error"}
@@ -317,13 +319,13 @@ def check_login(username,password):
     
     try:
         c = con.cursor()
-        c.execute("select password from user where username=(?)",[username])
+        c.execute("select * from user where username=(?)",[username])
         result = c.fetchall()
-        if password == result[0][0]:
-            return True
+        if password == result[0][2]:
+            return {'userid':result[0][0],'username':result[0][1]}
         else:
-            return False
+            return {}
     except:
-        return False
+        return {}
 
 run(reloader=True, host='0.0.0.0', port=8088)
