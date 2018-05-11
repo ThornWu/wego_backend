@@ -89,7 +89,7 @@ def findTopKVenue(pop_matrix,top_K,groupid):
             if(pop_matrix[j] > pop_matrix[max]):
                 max = j
         pop_matrix[max] = 0
-        venue_top_matrix.append(location_groups[groupid][max])
+        venue_top_matrix.append(dataset_num_venueid_dict[location_groups[groupid][max]])
     print(venue_top_matrix)
     return venue_top_matrix
 
