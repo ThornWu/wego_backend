@@ -47,6 +47,30 @@ def do_register():
     except:
         data = {"text":"Please choose another username", "code":"Error"}
         return json.dumps(data)
+@route('/recommend')
+def do_recommend():
+    userid = request.query.userid
+    # 0-3: weekday 4-7:weekend 0\4:morning 1\5:afternoon 2\6:evening 3\7:midnight
+    timeid = request.query.timeid
+    lat = request.query.lat
+    lon = request.query.lon
+    city = request.query.city
+    try:
+        c = con.cursor()
+        if(city=="LA"):
+            c.execute("select B.categoryname,C.* from category as B join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where la_label!=-2) ) as B on A.venueid = B.venueid) as C on B.categoryid = C.category limit 10")
+        else:
+            c.execute("select B.categoryname,C.* from category as B join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where ny_label!=-2) ) as B on A.venueid = B.venueid) as C on B.categoryid = C.category limit 10")                
+        result = c.fetchall()
+        result_format = []
+        for item in result:
+            item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[4],"longitude":item[5],"address":item[6]}
+            result_format.append(item_json)
+    except:
+        result_format = []
+    data = {"result":result_format}
+    return json.dumps(data)     
+    
 
 @route('/search')
 def do_search():
