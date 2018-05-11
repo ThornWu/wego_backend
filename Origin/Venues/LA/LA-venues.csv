@@ -10,7 +10,9 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 43a52546f964a520532c1fe3,John F. Kennedy International Airport (JFK),40.64512192,-73.78349304,Van Wyck & JFK Expy.,Queens,NY,167879,75939,0,0,2.0,4bf58dd8d48988d1ed931735,4bf58dd8d48988d1eb931735,,,,,,,,,,,,,,,,,4bf58dd8d48988d189941735
 49e25d07f964a5200f621fe3,Bottega Louie,34.04707467,-118.25656770000002,700 S Grand Ave,Los Angeles,CA,9210,5268,0,0,7.0,4bf58dd8d48988d16a941735,4bf58dd8d48988d1db931735,4bf58dd8d48988d1ca941735,4bf58dd8d48988d11f951735,4bf58dd8d48988d116941735,4bf58dd8d48988d110941735,4bf58dd8d48988d10c941735,,,,,,,,,,,,4bf58dd8d48988d11f951735
 4a677f82f964a52091c91fe3,McCarran International Airport (LAS),36.08521089,-115.15075209999999,5757 Wayne Newton Blvd.,Las Vegas,NV,160724,81633,0,0,1.0,4bf58dd8d48988d1ed931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ed931735
-49b064dcf964a520bc521fe3,Wurstk：?che,34.04569009,-118.23619369999999,800 E 3rd St,Los Angeles,CA,8683,5263,0,0,3.0,4bf58dd8d48988d16f941735,4bf58dd8d48988d155941735,4bf58dd8d48988d10d941735,,,,,,,,,,,,,,,,4bf58dd8d48988d1ed931735
+4c07258792a4ef3b5d30b0f1,Shandrow Group,33.830638,-118.18463600000001,"3970 Atlantic Ave., 21o",Long Beach,CA,7,3,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4c07258792a4ef3b5d30b0f1,Shandrow Group,33.830638,-118.18463600000001,"3970 Atlantic Ave., 21o",Long Beach,CA,7,3,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+49b064dcf964a520bc521fe3,Wurstk：?che,34.04569009,-118.23619369999999,800 E 3rd St,Los Angeles,CA,8683,5263,0,0,3.0,4bf58dd8d48988d16f941735,4bf58dd8d48988d155941735,4bf58dd8d48988d10d941735,,,,,,,,,,,,,,,,-1
 44d9ff60f964a5208b361fe3,Dallas/Fort Worth International Airport (DFW),32.89760578,-97.04051971,3200 E Airfield Dr,DFW Airport,TX,148625,59618,0,0,3.0,4bf58dd8d48988d1ed931735,4bf58dd8d48988d1f7931735,4bf58dd8d48988d1f0931735,,,,,,,,,,,,,,,,4bf58dd8d48988d1f7931735
 45f555cef964a5200e441fe3,Seattle-Tacoma International Airport (SEA),47.44364658,-122.3025942,17801 International Blvd,Seatac,WA,146099,47626,0,0,1.0,4bf58dd8d48988d1ed931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ed931735
 4161e400f964a5206f1d1fe3,Hollywood Bowl,34.11223982,-118.338654,2301 N Highland Ave,Los Angeles,CA,12898,8819,0,0,3.0,4bf58dd8d48988d1e5931735,4bf58dd8d48988d1f2931735,4bf58dd8d48988d137941735,,,,,,,,,,,,,,,,4bf58dd8d48988d1ed931735
@@ -25,6 +27,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4a8a103af964a520c90920e3,Hartsfield-Jackson Atlanta International Airport (ATL),33.64063339,-84.43508148,6000 N. Terminal Pkwy.,Atlanta,GA,260834,94230,0,0,1.0,4bf58dd8d48988d1ed931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ed931735
 3fd66200f964a5206aee1ee3,Pink's Hot Dogs,34.08385883,-118.3442008,709 N La Brea Ave,Los Angeles,CA,5198,4378,0,0,2.0,4bf58dd8d48988d16f941735,4bf58dd8d48988d12d941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ed931735
 449e9fb9f964a520c0341fe3,Phoenix Sky Harbor International Airport (PHX),33.435452500000004,-112.00711729999999,3400 E. Sky Harbor Blvd.,Phoenix,AZ,129383,54636,0,0,3.0,4bf58dd8d48988d1ed931735,4bf58dd8d48988d1f0931735,4bf58dd8d48988d1eb931735,,,,,,,,,,,,,,,,4bf58dd8d48988d1f0931735
+4d10e85b01d5a090af333a47,UniversityDecisions.com,33.463597,-111.923057,UniversityDecisions.com,Scottsdale,AZ,7,3,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4d10e85b01d5a090af333a47,UniversityDecisions.com,33.463597,-111.923057,UniversityDecisions.com,Scottsdale,AZ,7,3,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
 427ff980f964a520c7211fe3,The Getty Center,34.077296399999994,-118.47407340000002,1200 Getty Center Dr.,Los Angeles,CA,7980,6328,0,0,4.0,4bf58dd8d48988d18f941735,4bf58dd8d48988d1e2931735,4bf58dd8d48988d190941735,4bf58dd8d48988d1f9931735,,,,,,,,,,,,,,,4bf58dd8d48988d18f941735
 4b7ce4d7f964a5208da82fe3,Lomography Gallery Store LA,34.09067842,-118.3647412,7998 Santa Monica Blvd,Los Angeles,CA,446,266,0,0,3.0,4bf58dd8d48988d127951735,4bf58dd8d48988d1e2931735,4bf58dd8d48988d1fb941735,,,,,,,,,,,,,,,,4bf58dd8d48988d18f941735
 4a0a463ef964a52098741fe3,Father's Office,34.03034487,-118.38460559999999,3229 Helms Ave,Los Angeles,CA,8250,5036,0,0,3.0,4bf58dd8d48988d16c941735,4bf58dd8d48988d155941735,4bf58dd8d48988d130941735,,,,,,,,,,,,,,,,4bf58dd8d48988d18f941735
@@ -195,7 +199,9 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 447bf8f1f964a520ec331fe3,Apple Store,40.763949,-73.97325699999999,767 5th Ave,New York,NY,44075,28847,0,0,1.0,4bf58dd8d48988d122951735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d122951735
 452113b6f964a520bc3a1fe3,Boston Logan International Airport (BOS),42.36831045,-71.02154732,1 Harborside Dr.,Boston,MA,128721,47724,0,0,1.0,4bf58dd8d48988d1ed931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ed931735
 4a5bc475f964a520bdbb1fe3,Honda Center,33.80778609,-117.87639140000002,2695 E Katella Ave,Anaheim,CA,10481,5324,0,0,9.0,4bf58dd8d48988d184941735,4bf58dd8d48988d1f3931735,4bf58dd8d48988d166941735,4bf58dd8d48988d1cb941735,4bf58dd8d48988d185941735,4bf58dd8d48988d1c4941735,4bf58dd8d48988d1e6931735,4bf58dd8d48988d1f1931735,4bf58dd8d48988d1ff931735,,,,,,,,,,4bf58dd8d48988d1f3931735
-49b5e6aaf964a52005531fe3,The Waffle,34.098115,-118.325647,6255 W Sunset Blvd,Los Angeles,CA,2100,1371,0,0,2.0,4bf58dd8d48988d143941735,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1f3931735
+4b3d2119f964a520938e25e3,Le Bomb Shelter,48.84726861,2.42970633,69 Avenue Aubert,Vincennes,France,99,5,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4b3d2119f964a520938e25e3,Le Bomb Shelter,48.84726861,2.42970633,69 Avenue Aubert,Vincennes,France,99,5,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+49b5e6aaf964a52005531fe3,The Waffle,34.098115,-118.325647,6255 W Sunset Blvd,Los Angeles,CA,2100,1371,0,0,2.0,4bf58dd8d48988d143941735,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,,-1
 3fd66200f964a52078ee1ee3,House of Blues,34.09461665,-118.37357639999999,8430 Sunset Blvd,West Hollywood,CA,4002,3052,0,0,7.0,4bf58dd8d48988d1e9931735,4bf58dd8d48988d14f941735,4bf58dd8d48988d116941735,4bf58dd8d48988d1d9941735,4bf58dd8d48988d121941735,4bf58dd8d48988d1e5931735,4bf58dd8d48988d1f3931735,,,,,,,,,,,,4bf58dd8d48988d1e9931735
 47039fc1f964a520414b1fe3,Indiana Jones Adventure: Temple of the Forbidden Eye,33.81128949,-117.92026159999999,1313 S Harbor Blvd,Anaheim,CA,9955,6849,0,0,2.0,4bf58dd8d48988d182941735,4bf58dd8d48988d191941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1e9931735
 3fd66200f964a52046ef1ee3,El Coyote,34.07600436,-118.34918799999998,7312 Beverly Blvd,Los Angeles,CA,2061,1220,0,0,1.0,4bf58dd8d48988d1c1941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1c1941735
@@ -783,6 +789,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4afc22c8f964a5200a2022e3,M：? P：?che,40.7627651,-73.97554620000001,15 W. 56th St,New York,NY,3962,3149,0,0,4.0,4bf58dd8d48988d142941735,4bf58dd8d48988d1d5941735,4bf58dd8d48988d113941735,4bf58dd8d48988d14a941735,,,,,,,,,,,,,,,4bf58dd8d48988d121941735
 4a5a0e4ff964a520acb91fe3,Char No. 4,40.68507621,-73.99163514,196 Smith St,Brooklyn,NY,3922,2269,0,0,3.0,4bf58dd8d48988d157941735,4bf58dd8d48988d143941735,4bf58dd8d48988d116941735,,,,,,,,,,,,,,,,4bf58dd8d48988d121941735
 4b08edd6f964a520661323e3,The Counter,34.1432086,-118.13160900000001,140 Shoppers Lane,Pasadena,CA,1587,902,0,0,3.0,4bf58dd8d48988d16c941735,4bf58dd8d48988d1c9941735,4bf58dd8d48988d123941735,,,,,,,,,,,,,,,,4bf58dd8d48988d121941735
+4c73f3e8ff1fb60c9919f2a7,Bohall Bed & No Breakfast,42.243455,-123.05380600000001,null,null,null,103,1,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4c73f3e8ff1fb60c9919f2a7,Bohall Bed & No Breakfast,42.243455,-123.05380600000001,null,null,null,103,1,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
 49f12da2f964a52097691fe3,Trader Joe's,34.10776275,-118.2716873,2738 Hyperion Ave,Los Angeles,CA,4190,1118,0,0,1.0,4bf58dd8d48988d118951735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d118951735
 3fd66200f964a520dbe31ee3,Bowery Ballroom,40.720287,-73.99349484,6 Delancey St.,New York,NY,9519,6242,0,0,4.0,4bf58dd8d48988d1dd941735,4bf58dd8d48988d1e9931735,4bf58dd8d48988d1d9941735,4bf58dd8d48988d1e5931735,,,,,,,,,,,,,,,4bf58dd8d48988d1dd941735
 4be9b70a415e20a12f2ce4bb,I-405 (San Diego Freeway),33.82524372,-118.22120009999999,San Diego Fwy,Southern California,CA,6096,2904,0,0,1.0,4bf58dd8d48988d1f9931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1f9931735
@@ -1247,8 +1255,10 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4a5a8cdaf964a5208bba1fe3,Hotel Amarano Burbank,34.1558877,-118.3456439,322 N Pass Ave,Burbank,CA,528,250,0,0,3.0,4bf58dd8d48988d116941735,4bf58dd8d48988d1fa931735,4bf58dd8d48988d133951735,,,,,,,,,,,,,,,,4bf58dd8d48988d185941735
 4adcda4ef964a5206a4021e3,Bliss Spa at W Barcelona,41.382971000000005,2.178457,Placa de la Rosa dels Vents,Barcelona,Spain,77,55,0,0,1.0,4bf58dd8d48988d1ed941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ed941735
 4ba18590f964a520e0bd37e3,Bite Bar & Bakery,34.026764,-118.45615900000001,3221 Pico Blvd,Santa Monica,California,264,145,0,0,1.0,4bf58dd8d48988d16a941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d16a941735
-40db6b00f964a5207b011fe3,ChikaLicious Dessert Bar,40.72966537,-73.98695469,203 E. 10th St.,New York,NY,2552,1741,0,0,2.0,4bf58dd8d48988d1d0941735,4bf58dd8d48988d1bc941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d16a941735
-4c12b87ca1010f47e9634918,Nightmare Tattoo & Piercing Studio,34.091085,-118.35788400000001,7739 Santa Monica Blvd,Los Angeles,California,142,34,0,0,3.0,4bf58dd8d48988d1de931735,4bf58dd8d48988d121941735,4bf58dd8d48988d1dd941735,,,,,,,,,,,,,,,,4bf58dd8d48988d16a941735
+4cfa1be1c6cca35da0468432,Bliss Spa at W Doha,25.281312,51.495236,null,Doha,Ad Dawhah,2,2,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4cfa1be1c6cca35da0468432,Bliss Spa at W Doha,25.281312,51.495236,null,Doha,Ad Dawhah,2,2,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+40db6b00f964a5207b011fe3,ChikaLicious Dessert Bar,40.72966537,-73.98695469,203 E. 10th St.,New York,NY,2552,1741,0,0,2.0,4bf58dd8d48988d1d0941735,4bf58dd8d48988d1bc941735,,,,,,,,,,,,,,,,,-1
+4c12b87ca1010f47e9634918,Nightmare Tattoo & Piercing Studio,34.091085,-118.35788400000001,7739 Santa Monica Blvd,Los Angeles,California,142,34,0,0,3.0,4bf58dd8d48988d1de931735,4bf58dd8d48988d121941735,4bf58dd8d48988d1dd941735,,,,,,,,,,,,,,,,-1
 43582f80f964a520dd281fe3,Whole Foods Market,30.2708087,-97.75367885,525 N Lamar Blvd,Austin,TX,27107,7425,0,0,1.0,4bf58dd8d48988d118951735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d118951735
 4aabdcddf964a520805a20e3,The Summit Bar,40.725046999999996,-73.978356,133 Ave C,New York,NY,4030,2076,0,0,3.0,4bf58dd8d48988d11e941735,4bf58dd8d48988d116941735,4bf58dd8d48988d121941735,,,,,,,,,,,,,,,,4bf58dd8d48988d118951735
 4a4cc86df964a52043ad1fe3,Silverlake Lounge,34.08237933,-118.27322959999998,2906 W. Sunset Blvd.,Los Angeles,CA,1066,723,0,0,2.0,4bf58dd8d48988d1dd941735,4bf58dd8d48988d116941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1dd941735
@@ -1731,6 +1741,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4a7abca3f964a52073e91fe3,Galco's Soda Pop Stop,34.11862,-118.193367,5702 York Blvd.,Los Angeles,CA,587,411,0,0,4.0,4bf58dd8d48988d11f951735,4bf58dd8d48988d1c5941735,4bf58dd8d48988d118951735,4bf58dd8d48988d117951735,,,,,,,,,,,,,,,4bf58dd8d48988d11f951735
 4d3f1f9ea2e4b1f7d2410126,True Food Kitchen,34.0137687,-118.4942118,"395 Santa Monica Place, Space No. 172",Santa Monica,California,400,257,0,0,1.0,4bf58dd8d48988d1c4941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1c4941735
 4aa56b53f964a520474820e3,Mr. Cecil's California Ribs,34.02835761,-118.45177350000002,12244 West Pico Boulevard,Los Angeles,CA,449,317,0,0,1.0,4bf58dd8d48988d1df931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1df931735
+4ba0db89f964a520a78237e3,??，???,39.973402,116.50017460000001,null,null,null,9,4,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4ba0db89f964a520a78237e3,??，???,39.973402,116.50017460000001,null,null,null,9,4,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
 4b115a70f964a520c87a23e3,The Coffee Bean & Tea Leaf,34.0771544,-118.38343619999999,8793 Beverly Blvd,West Hollywood,CA,951,514,0,0,1.0,4bf58dd8d48988d1e0931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1e0931735
 4a0338b7f964a5209e711fe3,Zankou Chicken,34.047174,-118.443805,1716 S Sepulveda Blvd,Los Angeles,CA,1457,843,0,0,1.0,4bf58dd8d48988d115941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d115941735
 49ce7bc6f964a520485a1fe3,Crushcakes Cupcakery & Crushcafe,34.425663,-119.70529679999999,1315 Anacapa St,Santa Barbara,CA,628,323,0,0,3.0,4bf58dd8d48988d1bc941735,4bf58dd8d48988d16d941735,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,4bf58dd8d48988d115941735
@@ -1783,6 +1795,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4b61f374f964a5201f2d2ae3,Spicy Talk Bistro,47.673384999999996,-122.118117,16650 Redmond Way,Redmond,WA,470,202,0,0,1.0,4bf58dd8d48988d1d2941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1d2941735
 4bd4a4d8cfa7b7137e8a24da,California/Nevada Border,35.60724284,-115.3913784,31338-32760 Interstate 15,Primm,Nevada,3214,2467,0,0,2.0,4bf58dd8d48988d1f9931735,4bf58dd8d48988d1f6931735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1d2941735
 4b5b09d4f964a52030e028e3,Stadion Utama Gelora Bung Karno,-6.2188468320000005,106.80264469999999,Jalan Stadion Senayan,Jakarta Pusat,DKI Jakarta,53479,31414,0,0,2.0,4bf58dd8d48988d188941735,4cce455aebf7b749d5e191f5,,,,,,,,,,,,,,,,,4bf58dd8d48988d188941735
+4b46d911f964a520da2826e3,skull mansion,34.1623,-118.33877,3206 w verdugo ave,Burbank,Ca,494,28,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4b46d911f964a520da2826e3,skull mansion,34.1623,-118.33877,3206 w verdugo ave,Burbank,Ca,494,28,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
 4a74fe0bf964a52038e01fe3,Oak Fire Pizzeria & Pub,34.086186,-118.37663400000001,829 N La Cienega Blvd,Los Angeles,CA,782,584,0,0,1.0,4bf58dd8d48988d1ca941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ca941735
 4776efaaf964a520184d1fe3,Napa Valley Grille,34.06014371,-118.44381809999999,1100 Glendon Ave,Los Angeles,CA,1072,592,0,0,1.0,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d14e941735
 49de84a3f964a52064601fe3,Blue Martini,36.06849254,-115.17761709999999,6593 Las Vegas Blvd S,Las Vegas,NV,4971,2322,0,0,3.0,4bf58dd8d48988d121941735,4bf58dd8d48988d116941735,4bf58dd8d48988d11e941735,,,,,,,,,,,,,,,,4bf58dd8d48988d14e941735
@@ -1925,6 +1939,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4ab5a467f964a520bb7520e3,Wingstop,34.01716,-118.33560990000002,3823 Crenshaw Blvd,Los Angeles,CA,169,111,0,0,1.0,4bf58dd8d48988d14c941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d14c941735
 44d75352f964a52066361fe3,Habibi Cafe,34.063140999999995,-118.447144,923 BROXTON AVE,Westwood,CA,461,382,0,0,1.0,4bf58dd8d48988d119941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d119941735
 49ecd915f964a5209f671fe3,Astro Burger,34.08367445,-118.3224106,5601 Melrose Ave,Los Angeles,CA,950,464,0,0,1.0,4bf58dd8d48988d16c941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d16c941735
+4d7c956f6b0dcbff49adb989,Happy's place,51.80320146,4.7228765489999995,Bakema erf,Dordrecht,Netherlands,36,2,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4d7c956f6b0dcbff49adb989,Happy's place,51.80320146,4.7228765489999995,Bakema erf,Dordrecht,Netherlands,36,2,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
 40e0b100f964a52084041fe3,Delano Hotel,25.79212479,-80.1291275,1685 Collins Ave,Miami Beach,Florida,3472,2552,0,0,1.0,4bf58dd8d48988d1fa931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1fa931735
 4a7d21d7f964a52089ee1fe3,Max Karaoke Studio,34.03889,-118.441744,"2130 Sawtelle Blvd, #101",Los Angeles,CA,7647,6313,0,0,1.0,4bf58dd8d48988d120941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d120941735
 4a3319a0f964a520009b1fe3,Huntington Beach Beer Co. & Restaurant,33.6582724,-118.00103899999999,201 Main St,Huntington Beach,CA,1817,1031,0,0,4.0,4bf58dd8d48988d14e941735,4bf58dd8d48988d116941735,4bf58dd8d48988d1d7941735,4bf58dd8d48988d1cf941735,,,,,,,,,,,,,,,4bf58dd8d48988d120941735
@@ -1983,8 +1999,10 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4aeb5fe4f964a52080c121e3,Blue Ribbon Brasserie,40.7254534,-74.0029779,97 Sullivan,New York,NY,1941,1227,0,0,1.0,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d14e941735
 4c11a039416620a11088d9e4,Apple Store,33.86241565,-118.09397220000001,239 Los Cerritos Mall,Cerritos,CA,4026,1365,0,0,1.0,4bf58dd8d48988d122951735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d122951735
 4a919343f964a520bd1a20e3,The Beachcomber,34.03722656,-118.6764675,23000 Pacific Coast Hwy,Malibu,CA,546,465,0,0,2.0,4bf58dd8d48988d14e941735,4bf58dd8d48988d16d941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d122951735
-4ad2b8bff964a52093e220e3,StoneFire Grill,34.238167499999996,-118.57155800000001,9229 Winnetka Ave.,Chatsworth,CA,669,382,0,0,2.0,4bf58dd8d48988d14e941735,4bf58dd8d48988d1df931735,,,,,,,,,,,,,,,,,4bf58dd8d48988d122951735
-4bd73ba035aad13a83728ef3,Harbor Animal Care Center,33.752088,-118.294073,957 N. Gaffey Street,San Pedro,CA,90,39,0,0,3.0,4bf58dd8d48988d130941735,4bf58dd8d48988d100951735,4bf58dd8d48988d1e5941735,,,,,,,,,,,,,,,,4bf58dd8d48988d122951735
+4b180e02f964a5202bcc23e3,Venice Family Clinic Simms/Mann Health And Wellness Center,34.023228,-118.46307379999999,2509 Pico Blvd.,Santa Monica,California,26,14,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4b180e02f964a5202bcc23e3,Venice Family Clinic Simms/Mann Health And Wellness Center,34.023228,-118.46307379999999,2509 Pico Blvd.,Santa Monica,California,26,14,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4ad2b8bff964a52093e220e3,StoneFire Grill,34.238167499999996,-118.57155800000001,9229 Winnetka Ave.,Chatsworth,CA,669,382,0,0,2.0,4bf58dd8d48988d14e941735,4bf58dd8d48988d1df931735,,,,,,,,,,,,,,,,,-1
+4bd73ba035aad13a83728ef3,Harbor Animal Care Center,33.752088,-118.294073,957 N. Gaffey Street,San Pedro,CA,90,39,0,0,3.0,4bf58dd8d48988d130941735,4bf58dd8d48988d100951735,4bf58dd8d48988d1e5941735,,,,,,,,,,,,,,,,-1
 4a26b26bf964a520c17e1fe3,In-N-Out Burger,34.10610966,-118.134354,1210 N Atlantic Blvd,Alhambra,CA,2401,1170,0,0,1.0,4bf58dd8d48988d16c941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d16c941735
 4a74cd46f964a520a7df1fe3,BJ's Restaurant & Brewhouse,32.77939105,-117.0096517,5500 Grossmont Center Dr,La Mesa,CA,3087,1026,0,0,3.0,4bf58dd8d48988d1ca941735,4bf58dd8d48988d116941735,4bf58dd8d48988d1d7941735,,,,,,,,,,,,,,,,4bf58dd8d48988d16c941735
 4b058853f964a5201bbf22e3,Frankfurt International Airport (FRA),50.03729676,8.560409546,Airportring,Frankfurt am Main,HE,26562,11345,0,0,2.0,4bf58dd8d48988d1ed931735,4bf58dd8d48988d1eb931735,,,,,,,,,,,,,,,,,4bf58dd8d48988d16c941735
@@ -2506,6 +2524,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 3fd66200f964a52064ee1ee3,Waterfront Cafe,33.99503188,-118.48076019999999,205 Ocean Front Walk,Venice,CA,1540,993,0,0,2.0,4bf58dd8d48988d117941735,4bf58dd8d48988d116941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1c1941735
 3fd66200f964a52066e31ee3,Le Bernardin,40.761365000000005,-73.982107,155 W 51st St,New York,NY,1131,990,0,0,3.0,4bf58dd8d48988d10c941735,4bf58dd8d48988d123941735,4bf58dd8d48988d1ce941735,,,,,,,,,,,,,,,,4bf58dd8d48988d1c1941735
 4bf082e324f020a12735684f,Chill,34.15021541,-118.38807240000001,11706 Moorpark St.,Studio City,CA,319,128,0,0,1.0,4bf58dd8d48988d16d941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d16d941735
+4b739804f964a5205cb52de3,pebbles dood cave,34.1630071,-118.33770530000001,3207 verdugo ave,Burbank,CA,97,4,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4b739804f964a5205cb52de3,pebbles dood cave,34.1630071,-118.33770530000001,3207 verdugo ave,Burbank,CA,97,4,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
 4aa40e90f964a520094520e3,In-N-Out Burger,34.37706277,-118.565348,25220 N The Old Road,Newhall,CA,1449,1092,0,0,1.0,4bf58dd8d48988d16c941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d16c941735
 4c782964566db60c4bb3400e,Lemonade,34.02059041,-118.28609879999999,3607 Trousdale Pkwy,Los Angeles,CA,454,180,0,0,2.0,4bf58dd8d48988d14e941735,4bf58dd8d48988d1a1941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d16c941735
 4a5294c3f964a520c1b11fe3,T.F. Green International Airport (PVD),41.72600624,-71.43589497,2000 Post Rd,Warwick,RI,12302,5591,0,0,1.0,4bf58dd8d48988d1ed931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ed931735
@@ -2708,9 +2728,11 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 44733e3ef964a520a6331fe3,St. Francis Fountain and Candy,37.75285167,-122.40827,2801 24th St,San Francisco,CA,2779,1358,0,0,3.0,4bf58dd8d48988d147941735,4bf58dd8d48988d1c9941735,4bf58dd8d48988d143941735,,,,,,,,,,,,,,,,4bf58dd8d48988d10f941735
 40c8f600f964a520fe001fe3,Shoreline Amphitheatre,37.42694,-122.081179,1 Amphitheatre Pkwy,Mountain View,CA,4143,3126,0,0,2.0,4bf58dd8d48988d1e5931735,4bf58dd8d48988d1e6931735,,,,,,,,,,,,,,,,,4bf58dd8d48988d10f941735
 4bda48f63904a5935c08469e,La Villa Basque,34.000562,-118.219089,2801 leonis blvd.,Vernon,CA,125,58,0,0,2.0,4bf58dd8d48988d10c941735,4bf58dd8d48988d118941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d10f941735
-46d440d8f964a520644a1fe3,Resto,40.743697999999995,-73.982888,111 E 29th St,New York,NY,2394,1628,0,0,2.0,4bf58dd8d48988d116941735,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d10f941735
-4c914ca2ae96a0935c4ea246,Lardon Bacon Truck,34.04810808,-118.2588959,Moving Target!,Los Angeles,CA,289,217,0,0,2.0,4bf58dd8d48988d1cb941735,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d10f941735
-4c551f92a724e21e2c4f88f7,The Hatchery,34.282189,-118.489865,null,Granada Hills,California,279,13,0,0,3.0,4bf58dd8d48988d1e5941735,4bf58dd8d48988d119941735,4bf58dd8d48988d1d4941735,,,,,,,,,,,,,,,,4bf58dd8d48988d10f941735
+4c5f5328de6920a1b9ad9364,Christian's Spa & Grill,34.08684,-118.386724,null,null,null,21,3,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4c5f5328de6920a1b9ad9364,Christian's Spa & Grill,34.08684,-118.386724,null,null,null,21,3,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+46d440d8f964a520644a1fe3,Resto,40.743697999999995,-73.982888,111 E 29th St,New York,NY,2394,1628,0,0,2.0,4bf58dd8d48988d116941735,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,,-1
+4c914ca2ae96a0935c4ea246,Lardon Bacon Truck,34.04810808,-118.2588959,Moving Target!,Los Angeles,CA,289,217,0,0,2.0,4bf58dd8d48988d1cb941735,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,,-1
+4c551f92a724e21e2c4f88f7,The Hatchery,34.282189,-118.489865,null,Granada Hills,California,279,13,0,0,3.0,4bf58dd8d48988d1e5941735,4bf58dd8d48988d119941735,4bf58dd8d48988d1d4941735,,,,,,,,,,,,,,,,-1
 4a649307f964a5204bc61fe3,Cafe Duke - Soho,40.723695,-73.99856,545 Broadway,New York,NY,3014,985,0,0,1.0,4bf58dd8d48988d146941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d146941735
 4b106399f964a520576f23e3,Koraku Ramen,34.150969,-118.44747659999999,14425 1/4 Ventura Blvd.,Sherman Oaks,CA,421,231,0,0,3.0,4bf58dd8d48988d1d1941735,4bf58dd8d48988d111941735,4bf58dd8d48988d142941735,,,,,,,,,,,,,,,,4bf58dd8d48988d146941735
 4c90f3faaa03b713526520f5,InStyle at Saks Women's Contemporary department,33.5094668,-112.0289956,2446 East Camelback Road,Phoenix,AZ,5,5,0,0,1.0,4bf58dd8d48988d1f6941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1f6941735
@@ -2806,6 +2828,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4b15504cf964a5204cb023e3,RBC Center,35.80267403,-78.72111797,1400 Edwards Mill Rd,Raleigh,NC,8738,3180,0,0,4.0,4bf58dd8d48988d185941735,4bf58dd8d48988d184941735,4bf58dd8d48988d18b941735,4bf58dd8d48988d171941735,,,,,,,,,,,,,,,4bf58dd8d48988d185941735
 4b36b9e6f964a520633b25e3,Scoma's Restaurant,37.808834600000004,-122.4182081,1 Al Scoma Way,San Francisco,CA,1305,1227,0,0,1.0,4bf58dd8d48988d1ce941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ce941735
 44b3bd91f964a52051351fe3,T.G.I. Friday's,32.760121999999996,-117.161777,403 Camino Del Rio S,San Diego,CA,813,592,0,0,1.0,4bf58dd8d48988d116941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d116941735
+4b5e8d8ef964a520619229e3,casa bragassa,37.799584,-122.4402,null,null,null,51,3,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4b5e8d8ef964a520619229e3,casa bragassa,37.799584,-122.4402,null,null,null,51,3,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
 4aa8255ff964a520954f20e3,Waves Coffee,49.262953,-122.781174,2627 Shaughnessy St,Port Coquitlam,Canada,295,62,0,0,1.0,4bf58dd8d48988d1e0931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1e0931735
 4ae93c40f964a52099b421e3,Ralph's (Brentwood),34.0447403,-118.4667239,12057 Wilshire Blvd,Los Angeles,CA,2504,587,0,0,1.0,4bf58dd8d48988d118951735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d118951735
 4aa29b03f964a520f44120e3,No. 7,40.685976000000004,-73.973047,7 Greene Avenue,Brooklyn,NY,2292,1299,0,0,4.0,4bf58dd8d48988d14e941735,4bf58dd8d48988d143941735,4bf58dd8d48988d123941735,4bf58dd8d48988d121941735,,,,,,,,,,,,,,,4bf58dd8d48988d118951735
@@ -2851,6 +2875,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4a179e64f964a5206a791fe3,Nobu,34.08719,-118.376697,903 N La Cienega Blvd,West Hollywood,CA,1039,808,0,0,3.0,4bf58dd8d48988d1d2941735,4bf58dd8d48988d1b0941735,4bf58dd8d48988d111941735,,,,,,,,,,,,,,,,4bf58dd8d48988d10f941735
 49c7f7c2f964a520da571fe3,Ted & Honey,40.68892999,-73.9956665,264 Clinton St,Brooklyn,NY,2018,650,0,0,4.0,4bf58dd8d48988d1c5941735,4bf58dd8d48988d1dc931735,4bf58dd8d48988d1e0931735,4bf58dd8d48988d16d941735,,,,,,,,,,,,,,,4bf58dd8d48988d10f941735
 4b893cabf964a520152532e3,Steven's Steakhouse,34.0077,-118.159075,5332 Stevens Pl,Commerce,California,451,292,0,0,1.0,4bf58dd8d48988d1cc941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1cc941735
+4d545ef06aaa59417276336f,shawn8111's house,33.934011,-117.494386,11007 campbell  ave,riverside,ca,56,4,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4d545ef06aaa59417276336f,shawn8111's house,33.934011,-117.494386,11007 campbell  ave,riverside,ca,56,4,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
 4b1325bcf964a520bf9423e3,Yogurtland,33.77458136,-118.120451,5710 E 7th St,Long Beach,CA,1173,592,0,0,1.0,4bf58dd8d48988d1d0941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1d0941735
 4b05868bf964a5205e6522e3,Rosen Shingle Creek Hotel,28.42559951,-81.43484831,9939 Universal Blvd,Orlando,Florida,3877,1461,0,0,3.0,4bf58dd8d48988d1fa931735,4bf58dd8d48988d12f951735,4bf58dd8d48988d1ff931735,,,,,,,,,,,,,,,,4bf58dd8d48988d1d0941735
 4b58de4ff964a520d26f28e3,Rock & Roll Hall of Fame + Museum,41.50851302,-81.69543028,1100 Rock & Roll Blvd,Cleveland,OH,3275,2622,0,0,4.0,4bf58dd8d48988d181941735,4bf58dd8d48988d1f2931735,4bf58dd8d48988d1e5931735,4bf58dd8d48988d1f1931735,,,,,,,,,,,,,,,4bf58dd8d48988d1d0941735
@@ -3016,7 +3042,9 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4283ee00f964a520ce221fe3,FAO Schwarz,40.76355592,-73.97286773,767 5th Ave,New York,NY,8164,6956,0,0,3.0,4bf58dd8d48988d1f3941735,4bf58dd8d48988d117951735,4bf58dd8d48988d128951735,,,,,,,,,,,,,,,,4bf58dd8d48988d103941735
 4b9f0fabf964a5202e1237e3,Goal,34.0726905,-118.37124150000001,8334 W 3rd St,Los Angeles,CA,599,381,0,0,1.0,4bf58dd8d48988d11d941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d11d941735
 49dfbf19f964a52007611fe3,Fox & Obel,41.891106,-87.617405,401 E Illinois St #1,Chicago,IL,1892,1067,0,0,3.0,4bf58dd8d48988d118951735,4bf58dd8d48988d143941735,4bf58dd8d48988d16d941735,,,,,,,,,,,,,,,,4bf58dd8d48988d118951735
-4a765ca4f964a520ece21fe3,The Fremont Street Experience,36.17065042,-115.14405729999999,425 Fremont St.,Las Vegas,NV,8141,6242,0,0,4.0,4bf58dd8d48988d11a941735,4bf58dd8d48988d1f1931735,4bf58dd8d48988d183941735,4bf58dd8d48988d17c941735,,,,,,,,,,,,,,,4bf58dd8d48988d118951735
+4d61516a71f38eec3d985621,PERUMAHAN GRIYA SUDIANG MANDIRI BLOK C/5,33.9421386,-118.1598396,PERUMAHAN GRIYA SUDIANG MANDIRI,MAKASSAR,MAKASSAR,1,1,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4d61516a71f38eec3d985621,PERUMAHAN GRIYA SUDIANG MANDIRI BLOK C/5,33.9421386,-118.1598396,PERUMAHAN GRIYA SUDIANG MANDIRI,MAKASSAR,MAKASSAR,1,1,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4a765ca4f964a520ece21fe3,The Fremont Street Experience,36.17065042,-115.14405729999999,425 Fremont St.,Las Vegas,NV,8141,6242,0,0,4.0,4bf58dd8d48988d11a941735,4bf58dd8d48988d1f1931735,4bf58dd8d48988d183941735,4bf58dd8d48988d17c941735,,,,,,,,,,,,,,,-1
 4b4f8e6bf964a5204c0b27e3,Loehmann's,39.4287221,-76.6258717,160 W. RIDGELY ROAD,Timonium,MD,145,78,0,0,1.0,4bf58dd8d48988d103951735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d103951735
 4ad27afaf964a520dbe120e3,Daphne's Greek Cafe,34.090585,-118.34426,"7100 Santa Monica Blvd, Suite 130",Los Angeles,CA,758,403,0,0,1.0,4bf58dd8d48988d10e941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d10e941735
 4cb66ea752edb1f70e016ffe,Chicken Dijon,34.10152,-118.32622620000001,6282 Hollywood Blvd,Los Angeles,California,435,240,0,0,1.0,4bf58dd8d48988d115941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d115941735
@@ -3112,7 +3140,9 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4aa2a088f964a520fd4120e3,Kean Coffee,33.62784147,-117.90855649999999,2043 Westcliff Dr. Ste. 100,Newport Beach,CA,2070,592,0,0,1.0,4bf58dd8d48988d1e0931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1e0931735
 4a67f0e2f964a52044ca1fe3,CVS Pharmacy,34.062536,-118.445428,1001 Westwood Blvd,Los Angeles,CA,492,305,0,0,1.0,4bf58dd8d48988d10f951735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d10f951735
 49b5889bf964a520fa521fe3,Grey Dog Cafe,40.73378729,-73.99303526,90 University Pl,New York,NY,7109,3331,0,0,3.0,4bf58dd8d48988d143941735,4bf58dd8d48988d1c5941735,4bf58dd8d48988d1e0931735,,,,,,,,,,,,,,,,4bf58dd8d48988d10f951735
-4af87235f964a520530d22e3,Voyeur,39.948234899999996,-75.1613845,1221 St. James St.,Philadelphia,PA,4314,1385,0,0,3.0,4bf58dd8d48988d1d8941735,4bf58dd8d48988d120941735,4bf58dd8d48988d11f941735,,,,,,,,,,,,,,,,4bf58dd8d48988d10f951735
+4c403caf6c1a95219732b96a,warnet nanda,-6.212104,106.99421699999999,nusantara 1,bekasi,bekasi,24,1,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4c403caf6c1a95219732b96a,warnet nanda,-6.212104,106.99421699999999,nusantara 1,bekasi,bekasi,24,1,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4af87235f964a520530d22e3,Voyeur,39.948234899999996,-75.1613845,1221 St. James St.,Philadelphia,PA,4314,1385,0,0,3.0,4bf58dd8d48988d1d8941735,4bf58dd8d48988d120941735,4bf58dd8d48988d11f941735,,,,,,,,,,,,,,,,-1
 4287e280f964a5203b231fe3,Starbucks,34.036063,-118.47788700000001,2525 Wilshire Blvd,Santa Monica,CA,1186,574,0,0,1.0,4bf58dd8d48988d1e0931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1e0931735
 49a8972ef964a520a7521fe3,Porchetta,40.72657049,-73.98472,110 E 7th St,New York,NY,4624,3806,0,0,1.0,4bf58dd8d48988d1c4941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1c4941735
 4b6ceb37f964a520c95d2ce3,Applebee's Neighborhood Grill and Bar,34.09584939,-118.126545,21 East Main Street,Alhambra,CA,556,360,0,0,1.0,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d14e941735
@@ -3285,7 +3315,9 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4a5a45abf964a52009ba1fe3,Open Sesame,33.895711999999996,-118.3946154,2640 N Sepulveda Blvd,Manhattan Beach,CA,726,411,0,0,2.0,4bf58dd8d48988d115941735,4bf58dd8d48988d1c0941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1f6941735
 4b4f8c08f964a520e80a27e3,Loehmann's - Northbrook,42.149885499999996,-87.79988440000001,181 SKOKIE BOULEVARD,Northbrook,IL,87,66,0,0,1.0,4bf58dd8d48988d1f6941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1f6941735
 4a56edacf964a520ebb51fe3,Pizzeria Ortica,33.690141,-117.882301,650 Anton Blvd,Costa Mesa,CA,411,285,0,0,2.0,4bf58dd8d48988d1ca941735,4bf58dd8d48988d110941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1f6941735
-457bb4dff964a520f23e1fe3,La Piazza,34.07211872,-118.357545,6301 W 3rd St,Los Angeles,CA,741,432,0,0,2.0,4bf58dd8d48988d1ca941735,4bf58dd8d48988d110941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1f6941735
+4c453a24dcd61b8d557e7c56,D & D's DP Den,34.092267,-118.37066200000001,1215 N Sweetzer Ave,Los Angeles,California,279,12,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4c453a24dcd61b8d557e7c56,D & D's DP Den,34.092267,-118.37066200000001,1215 N Sweetzer Ave,Los Angeles,California,279,12,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+457bb4dff964a520f23e1fe3,La Piazza,34.07211872,-118.357545,6301 W 3rd St,Los Angeles,CA,741,432,0,0,2.0,4bf58dd8d48988d1ca941735,4bf58dd8d48988d110941735,,,,,,,,,,,,,,,,,-1
 4b5738adf964a520bd2b28e3,Borracho Cantina,34.092502,-118.378426,8570 W Sunset Blvd,Los Angeles,CA,478,344,0,0,1.0,4bf58dd8d48988d1c1941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1c1941735
 3fd66200f964a52018ee1ee3,Buddakan,39.948705,-75.147182,325 Chestnut St,Philadelphia,PA,1198,1013,0,0,1.0,4bf58dd8d48988d142941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d142941735
 41326e00f964a520ea141fe3,Red Square,36.09235499,-115.17637250000001,3950 Las Vegas Blvd. South,Las Vegas,NV,988,858,0,0,2.0,4bf58dd8d48988d11e941735,4bf58dd8d48988d1cc941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d142941735
@@ -3302,6 +3334,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4ab2a1f4f964a520b76b20e3,Cube Marketplace and Cafe,34.08239932,-118.3442196,615 N. La Brea Avenue,Los Angeles,CA,491,387,0,0,2.0,4bf58dd8d48988d1c4941735,4bf58dd8d48988d110941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d157941735
 4a412995f964a520daa41fe3,Fort Defiance,40.676840000000006,-74.01355932,365  Van Brunt Street,Brooklyn,NY,2366,1132,0,0,3.0,4bf58dd8d48988d143941735,4bf58dd8d48988d1ce941735,4bf58dd8d48988d121941735,,,,,,,,,,,,,,,,4bf58dd8d48988d157941735
 42717900f964a5206f211fe3,Brooklyn Botanic Garden,40.66760246,-73.96317959,1000 Washington Ave,Brooklyn,NY,5897,4246,0,0,2.0,4bf58dd8d48988d163941735,4bf58dd8d48988d15a941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d157941735
+4b2062c9f964a520a23124e3,Dave Goodrich's Beach House,33.904131,-118.420024,212 Seaview,Los Angeles,CA,90,4,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4b2062c9f964a520a23124e3,Dave Goodrich's Beach House,33.904131,-118.420024,212 Seaview,Los Angeles,CA,90,4,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
 4bcd27cf0687ef3b4aa0e0cc,Kajane Mua,-8.512482,115.26099199999999,Jl.  Monkey Forest,Ubud,"Bali, Indonesia",25,20,0,0,1.0,4bf58dd8d48988d12f951735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d12f951735
 4b0367e2f964a520364f22e3,Original Thai BBQ,34.0797371,-118.3091179,484 N Western Ave,Los Angeles,CA,104,78,0,0,1.0,4bf58dd8d48988d149941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d149941735
 4cf30092e3b9a0935ab14753,Candy Cane Lane,34.175573,-118.567444,null,null,null,161,142,0,0,1.0,4bf58dd8d48988d164941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d164941735
@@ -3379,6 +3413,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4a749da6f964a520dede1fe3,Champs-Elysees,34.062744,-118.3836466,275 S Robertson Blvd,Los Angeles,CA,186,112,0,0,1.0,4bf58dd8d48988d16d941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d16d941735
 47cafdaef964a520024e1fe3,Third Stop,34.07358218,-118.380802,8636 W 3rd Street,Los Angeles,CA,1065,613,0,0,1.0,4bf58dd8d48988d155941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d155941735
 4a7b9022f964a52069eb1fe3,Mercat a la Planxa,41.87317193,-87.62454987,638 S. Michigan Ave.,Chicago,IL,1418,1025,0,0,1.0,4bf58dd8d48988d1db931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1db931735
+4b66511cf964a520af1d2be3,Trattoria Limone Pasta Caffe,33.8190732,-118.17634050000001,3405 Orange Avenue,Long Beach,CA,28,15,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4b66511cf964a520af1d2be3,Trattoria Limone Pasta Caffe,33.8190732,-118.17634050000001,3405 Orange Avenue,Long Beach,CA,28,15,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
 4a5c918df964a5204abc1fe3,McDonald's,34.15322418,-118.257603,500 N Central Ave,Glendale,CA,521,208,0,0,1.0,4bf58dd8d48988d16e941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d16e941735
 4c10446ace640f475fc13952,101/405 Interchange,34.16018466,-118.4692669,El Camino Real,Encino,CA,2870,988,0,0,1.0,4bf58dd8d48988d1f9931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1f9931735
 4b8d60f5f964a5202df832e3,Nick's Cafe,34.065948,-118.233102,1300 Spring st,Los Angeles,CA,305,180,0,0,1.0,4bf58dd8d48988d147941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d147941735
@@ -3411,7 +3447,9 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4b6e4f14f964a5207ab72ce3,Roy's Hawaiian Fusion,33.80366741,-117.9113245,321 W. Katella Ave. Ste. 105,Anaheim,CA,800,540,0,0,2.0,4bf58dd8d48988d111941735,4bf58dd8d48988d157941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1cc941735
 41afac80f964a520611e1fe3,Trinity Hall Irish Pub and Restaurant,32.8380809,-96.77557647,5321 E. Mockingbird Ln.,Dallas,TX,3367,1652,0,0,6.0,4bf58dd8d48988d1cf941735,4bf58dd8d48988d1e9931735,4bf58dd8d48988d123941735,4bf58dd8d48988d143941735,4bf58dd8d48988d11b941735,4bf58dd8d48988d14e941735,,,,,,,,,,,,,4bf58dd8d48988d1e9931735
 4a89e892f964a520500920e3,Starbucks,34.080476000000004,-118.152499,1131 S Fremont Ave Ste A,Alhambra,CA,1227,413,0,0,2.0,4bf58dd8d48988d1e0931735,4bf58dd8d48988d16d941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1e9931735
-4aca252ef964a5209fc020e3,Corner Bakery,34.07439046,-118.37625859999999,100 N La Cienega Blvd,Los Angeles,CA,1114,586,0,0,3.0,4bf58dd8d48988d14e941735,4bf58dd8d48988d16a941735,4bf58dd8d48988d16d941735,,,,,,,,,,,,,,,,4bf58dd8d48988d1e9931735
+4ca41e7db0ff8cfadc5ebd5e,Trith Manor,34.077847,-118.355497,null,null,null,24,2,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4ca41e7db0ff8cfadc5ebd5e,Trith Manor,34.077847,-118.355497,null,null,null,24,2,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4aca252ef964a5209fc020e3,Corner Bakery,34.07439046,-118.37625859999999,100 N La Cienega Blvd,Los Angeles,CA,1114,586,0,0,3.0,4bf58dd8d48988d14e941735,4bf58dd8d48988d16a941735,4bf58dd8d48988d16d941735,,,,,,,,,,,,,,,,-1
 4b5f0ffdf964a52048a429e3,Zummo's,41.4257343,-75.6495489,918 Marion St.,Scranton,PA,373,67,0,0,1.0,4bf58dd8d48988d1e0931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1e0931735
 49f74d3cf964a5207f6c1fe3,Gillette Stadium,42.09089809,-71.26436234,1 Patriot Place,Foxborough,MA,8930,5340,0,0,2.0,4bf58dd8d48988d189941735,4bf58dd8d48988d184941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d189941735
 4a4b8a43f964a5206fac1fe3,Sightglass Coffee,37.77702183,-122.408318,270 7th St,San Francisco,CA,4959,1260,0,0,1.0,4bf58dd8d48988d1e0931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1e0931735
@@ -3431,6 +3469,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4b589ca9f964a5203f6128e3,Starbucks,34.078758,-118.11434299999999,810 E Valley Blvd.,Alhambra,CA,998,347,0,0,1.0,4bf58dd8d48988d1e0931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1e0931735
 4e0548eb1838eb15aef3560f,Marriage Equalitocalypse,40.73380965,-74.00209978,26 Gay Street,New York,NY,3162,2980,0,0,3.0,4bf58dd8d48988d1d8941735,4bf58dd8d48988d132941735,4bf58dd8d48988d126941735,,,,,,,,,,,,,,,,4bf58dd8d48988d132941735
 4abef585f964a5209b9020e3,BobaTime,34.059676,-118.292075,701 S Vermont Ave,Los Angeles,CA,685,323,0,0,3.0,4bf58dd8d48988d1c9941735,4bf58dd8d48988d1dc931735,4bf58dd8d48988d142941735,,,,,,,,,,,,,,,,4bf58dd8d48988d132941735
+4bf5c1dd94b2a593ba45acee,Geo's Organic Coffee,33.995142,-118.41720900000001,null,null,null,70,33,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4bf5c1dd94b2a593ba45acee,Geo's Organic Coffee,33.995142,-118.41720900000001,null,null,null,70,33,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
 4b15502bf964a52009b023e3,HSBC Arena,42.87506975,-78.87638569,One Seymour H Knox III Plaza,Buffalo,NY,8788,3056,0,0,3.0,4bf58dd8d48988d185941735,4bf58dd8d48988d1e5931735,4bf58dd8d48988d171941735,,,,,,,,,,,,,,,,4bf58dd8d48988d185941735
 4cf9e995a6c76a3122c49d5f,UCLA vs. USC at The Rose Bowl,34.161322999999996,-118.16761000000001,1001 Rose Bowl Dr,Pasadena,CA,581,485,0,0,3.0,4bf58dd8d48988d1b8941735,4bf58dd8d48988d1b4941735,4bf58dd8d48988d189941735,,,,,,,,,,,,,,,,4bf58dd8d48988d1b8941735
 4b7f861af964a520df3230e3,Golden Screen Cinemas (GSC),3.058324885,101.5927219,Summit USJ Shopping Complex,Petaling Jaya,Selangor,2814,1605,0,0,4.0,4bf58dd8d48988d180941735,4bf58dd8d48988d1e1931735,4bf58dd8d48988d17f941735,4d4b7104d754a06370d81259,,,,,,,,,,,,,,,4bf58dd8d48988d180941735
@@ -3439,8 +3479,10 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 49e8cacff964a52085651fe3,Famima,34.048731,-118.255223,525 W. 6th St.,Los Angeles,CA,540,207,0,0,5.0,4bf58dd8d48988d142941735,4bf58dd8d48988d1e0931735,4bf58dd8d48988d10f951735,4bf58dd8d48988d123941735,4bf58dd8d48988d1c7941735,,,,,,,,,,,,,,4bf58dd8d48988d1d1941735
 4b12d57bf964a520198f23e3,La Conversation,34.0822,-118.38968700000001,638 N. Dohney,Los Angeles,CA,419,284,0,0,2.0,4bf58dd8d48988d10c941735,4bf58dd8d48988d16a941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1d1941735
 4afdce51f964a5200b2b22e3,Talesai,34.09072638,-118.38914799999999,9043 Sunset Bl,West Hollywood,CA,264,145,0,0,1.0,4bf58dd8d48988d149941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d149941735
-4a3ffc96f964a52029a41fe3,Blue Table,34.154507,-118.641884,4774 Park Granada #4,Calabasas,CA,232,86,0,0,2.0,4bf58dd8d48988d16d941735,4bf58dd8d48988d146941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d149941735
-4ad1263af964a52014dd20e3,Topanga State Park,34.08735533,-118.5510635,865 Paseo Miramar,Pacific Palisades,CA,223,169,0,0,3.0,4bf58dd8d48988d159941735,4bf58dd8d48988d163941735,4bf58dd8d48988d165941735,,,,,,,,,,,,,,,,4bf58dd8d48988d149941735
+4c24d0b7c11dc9b6a30b2624,Training Adventures,34.016436999999996,-118.477295,1934 14th Street,Santa Monica,CA,35,6,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4c24d0b7c11dc9b6a30b2624,Training Adventures,34.016436999999996,-118.477295,1934 14th Street,Santa Monica,CA,35,6,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4a3ffc96f964a52029a41fe3,Blue Table,34.154507,-118.641884,4774 Park Granada #4,Calabasas,CA,232,86,0,0,2.0,4bf58dd8d48988d16d941735,4bf58dd8d48988d146941735,,,,,,,,,,,,,,,,,-1
+4ad1263af964a52014dd20e3,Topanga State Park,34.08735533,-118.5510635,865 Paseo Miramar,Pacific Palisades,CA,223,169,0,0,3.0,4bf58dd8d48988d159941735,4bf58dd8d48988d163941735,4bf58dd8d48988d165941735,,,,,,,,,,,,,,,,-1
 4a97556ff964a520672920e3,Via Tribunali - Georgetown,47.548876,-122.317272,6009 12th Ave S,Georgetown,WA,558,252,0,0,1.0,4bf58dd8d48988d1ca941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ca941735
 4a3eaebdf964a52049a31fe3,Pedone's Pizza,33.8162997,-118.387208,1819 S. Catalina,Redondo Beach,CA,321,141,0,0,1.0,4bf58dd8d48988d1ca941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ca941735
 4c65c3a18e9120a1ab28d664,City Of downey,33.9475955,-118.117209,9943-10199 N Lakewood Blvd,Downey,California,441,84,0,0,1.0,4bf58dd8d48988d126941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d126941735
@@ -3471,6 +3513,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4d92ab557ac3a35d4412c625,Kitty Cat Central,33.873656,-118.33629499999999,3635 artesia blvd,Torrance,CA,22,3,0,0,1.0,4bf58dd8d48988d103941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d103941735
 4bc74e562f94d13ad4a7117f,Coachella Festival VIP,33.68471076,-116.23955729999999,Empire Polo Club,Indio,CA,555,359,0,0,5.0,4bf58dd8d48988d1d9941735,4bf58dd8d48988d15f941735,4bf58dd8d48988d1e5931735,4bf58dd8d48988d121941735,4bf58dd8d48988d11e941735,,,,,,,,,,,,,,4bf58dd8d48988d103941735
 4bac32d8f964a520a3ea3ae3,asian-ya,34.029230600000005,-118.4429283,11660 west gateway boulevard,los angeles,ca,202,94,0,0,1.0,4bf58dd8d48988d142941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d142941735
+4c785cb297028cfaecadd7fe,Casa HSG,33.114115999999996,-96.85664,Heritage Lakes,Frisco,TX,112,4,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4c785cb297028cfaecadd7fe,Casa HSG,33.114115999999996,-96.85664,Heritage Lakes,Frisco,TX,112,4,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
 4cd750cfa5b3468869a99850,Jacks N Joe,34.028771899999995,-118.27513799999998,2498 S Figueroa St,Los Angeles,CA,578,337,0,0,1.0,4bf58dd8d48988d143941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d143941735
 3fd66200f964a52071e71ee3,Campbell Apartment,40.752884,-73.977778,15 Vanderbilt Avenue,New York,NY,5284,4305,0,0,3.0,4bf58dd8d48988d11e941735,4bf58dd8d48988d116941735,4bf58dd8d48988d121941735,,,,,,,,,,,,,,,,4bf58dd8d48988d143941735
 4ac910dff964a52065be20e3,In-N-Out Burger,33.82482481,-117.95849380000001,600 S Brookhurst St,Anaheim,CA,1464,920,0,0,1.0,4bf58dd8d48988d16c941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d16c941735
@@ -3485,9 +3529,11 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4b5f184ef964a520c9a529e3,PETA,34.107815,-118.26806,2898 Rowena Ave #103,Los Angeled,CA,154,14,0,0,1.0,4bf58dd8d48988d124941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d124941735
 4ce8b3d1595cb1f7d3cbca14,Fantasmic!,33.81170846,-117.9211521,1313 S. Harbor Blvd.,Anaheim,CA,1533,982,0,0,3.0,4bf58dd8d48988d182941735,4bf58dd8d48988d11a941735,4bf58dd8d48988d1f1931735,,,,,,,,,,,,,,,,4bf58dd8d48988d124941735
 4a7e298bf964a52040f11fe3,Ben Pao,41.89096884,-87.62969971,52 W. Illinois,Chicago,IL,693,585,0,0,2.0,4bf58dd8d48988d145941735,4bf58dd8d48988d142941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d124941735
-4a457146f964a5202ea81fe3,Kim Sun Young Salon,34.076563,-118.3088923,300 N. Western Ave,Los Angeles,CA,283,174,0,0,2.0,4bf58dd8d48988d110951735,4bf58dd8d48988d10c951735,,,,,,,,,,,,,,,,,4bf58dd8d48988d124941735
-4ac518cef964a520f9a520e3,Trafalgar Square,51.50778589,-0.127944052,Trafalgar Square,London,Greater London,8544,5898,0,0,2.0,4bf58dd8d48988d164941735,4bf58dd8d48988d12d941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d124941735
-455ad751f964a5205a3d1fe3,Stoneridge Mall,37.69523103,-121.92884450000001,1 Stoneridge Mall Rd,Pleasanton,CA,9106,3169,0,0,3.0,4bf58dd8d48988d1fd941735,4bf58dd8d48988d1f6941735,4bf58dd8d48988d103951735,,,,,,,,,,,,,,,,4bf58dd8d48988d124941735
+4bf87c784a67c9288f8a25cf,Hong kong inn,34.278426,-119.294168,null,Ventura,null,11,10,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4bf87c784a67c9288f8a25cf,Hong kong inn,34.278426,-119.294168,null,Ventura,null,11,10,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4a457146f964a5202ea81fe3,Kim Sun Young Salon,34.076563,-118.3088923,300 N. Western Ave,Los Angeles,CA,283,174,0,0,2.0,4bf58dd8d48988d110951735,4bf58dd8d48988d10c951735,,,,,,,,,,,,,,,,,-1
+4ac518cef964a520f9a520e3,Trafalgar Square,51.50778589,-0.127944052,Trafalgar Square,London,Greater London,8544,5898,0,0,2.0,4bf58dd8d48988d164941735,4bf58dd8d48988d12d941735,,,,,,,,,,,,,,,,,-1
+455ad751f964a5205a3d1fe3,Stoneridge Mall,37.69523103,-121.92884450000001,1 Stoneridge Mall Rd,Pleasanton,CA,9106,3169,0,0,3.0,4bf58dd8d48988d1fd941735,4bf58dd8d48988d1f6941735,4bf58dd8d48988d103951735,,,,,,,,,,,,,,,,-1
 4aab5dfff964a520865920e3,Lucques,34.08237934,-118.37536899999999,8474 Melrose Ave.,Los Angeles,CA,587,514,0,0,1.0,4bf58dd8d48988d1c0941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1c0941735
 4b74b51ff964a52097ed2de3,Off Vine,34.097313,-118.325975,6263 Lelan way,Los Angeles,CA,385,331,0,0,1.0,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d14e941735
 4bf0830fb315c9b6821d93ff,Gamestop,34.1726238,-118.5516381,19203 Ventura Blvd,Tarzana,CA,121,56,0,0,1.0,4bf58dd8d48988d10b951735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d10b951735
@@ -3848,6 +3894,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4b4a44ccf964a520918126e3,University Of Santa Monica,34.0321062,-118.48219509999998,2100 Wilshire Blvd,Santa Monica,California,142,26,0,0,1.0,4bf58dd8d48988d1ae941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ae941735
 4b5a6794f964a520ffc228e3,Ground Zero Performance Cafe (TRO),34.01951219,-118.28225790000002,615 Childs Way,Los Angeles,CA,523,182,0,0,3.0,4bf58dd8d48988d1e0931735,4bf58dd8d48988d1e5931735,4bf58dd8d48988d1a8941735,,,,,,,,,,,,,,,,4bf58dd8d48988d1ae941735
 4bfd0b77b68d0f475022e857,AllSaints Spitalfields,52.47804945,-1.894497871,SU741 Bullring Shopping Centre,Birmingham,West Mids.,66,37,0,0,2.0,4bf58dd8d48988d103951735,4bf58dd8d48988d1f4941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ae941735
+4b8548e8f964a520965431e3,The Church of Scientogy,34.037122,-118.47617199999999,null,null,null,13,12,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4b8548e8f964a520965431e3,The Church of Scientogy,34.037122,-118.47617199999999,null,null,null,13,12,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
 3fd66200f964a52062ef1ee3,Ye Coach and Horses,34.0980586,-118.3553937,7617 Sunset Blvd.,Los Angeles,CA,446,303,0,0,1.0,4bf58dd8d48988d118941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d118941735
 4b2008adf964a520662c24e3,Mt FUJI Sushi & Rolls,34.18238512,-118.31068400000001,Palm ave,Burbank,CA,243,132,0,0,1.0,4bf58dd8d48988d1d2941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1d2941735
 3fd66200f964a520cdf11ee3,Peep,40.726310999999995,-74.001932,177 Prince St,New York,NY,1743,1174,0,0,1.0,4bf58dd8d48988d149941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d149941735
@@ -3869,6 +3917,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4bb77e361261d13a9a59e798,Hungry Fox,34.201622,-118.42476699999999,null,null,null,179,87,0,0,1.0,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d14e941735
 4c79e03181bca093d819ff14,Playmakers Sports Bar,46.866349,-96.821398,2525 9th Ave S,Fargo,North Dakota,141,46,0,0,3.0,4bf58dd8d48988d11d941735,4bf58dd8d48988d116941735,4bf58dd8d48988d1ca941735,,,,,,,,,,,,,,,,4bf58dd8d48988d14e941735
 4a06f456f964a5200d731fe3,Village Bakery & Cafe,34.124299,-118.26729099999999,3119 Los Feliz Blvd,Los Angeles,CA,1037,392,0,0,3.0,4bf58dd8d48988d1c5941735,4bf58dd8d48988d16a941735,4bf58dd8d48988d143941735,,,,,,,,,,,,,,,,4bf58dd8d48988d14e941735
+4b999bf2f964a5203b8735e3,Soya Sushi,34.47035282,-117.245627,19179 Bear Valley Rd #9,Apple Valley,California,50,24,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4b999bf2f964a5203b8735e3,Soya Sushi,34.47035282,-117.245627,19179 Bear Valley Rd #9,Apple Valley,California,50,24,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
 4405f0aef964a52041301fe3,Cafe Mason,37.786463,-122.409989,320 Mason St,San Francisco,CA,1262,973,0,0,1.0,4bf58dd8d48988d16d941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d16d941735
 3fd66200f964a52000f01ee3,Big Dean's Ocean Front Cafe,34.010265999999994,-118.495549,1615 Ocean Front Walk,Santa Monica,CA,1198,666,0,0,1.0,4bf58dd8d48988d117941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d117941735
 4a90572cf964a520631720e3,US Post Office- Pan Pacific Park,34.07575679999999,-118.3556941,7610 Beverly Blvd,Los Angeles,CA,532,228,0,0,1.0,4bf58dd8d48988d172941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d172941735
@@ -4021,6 +4071,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 472eda7ef964a520094c1fe3,Chase Field,33.44551542,-112.0667481,401 E Jefferson St.,Phoenix,AZ,11595,6241,0,0,2.0,4bf58dd8d48988d18c941735,4bf58dd8d48988d1e8941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d18c941735
 4a66451bf964a52050c81fe3,Gyu-Kaku,34.039459,-118.4301817,10925 W Pico Blvd,Los Angeles,CA,1049,650,0,0,3.0,4bf58dd8d48988d111941735,4bf58dd8d48988d113941735,4bf58dd8d48988d142941735,,,,,,,,,,,,,,,,4bf58dd8d48988d18c941735
 44ca1c8af964a520f6351fe3,Gimme Coffee,40.711804,-73.949134,495 Lorimer St,Brooklyn,NY,4442,748,0,0,1.0,4bf58dd8d48988d1e0931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1e0931735
+4ce539f36e842c0f8150fc40,Art of the Check In,34.031369,-118.46971599999999,2700 Colorado Avenue,Santa Monica,CA,4,4,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4ce539f36e842c0f8150fc40,Art of the Check In,34.031369,-118.46971599999999,2700 Colorado Avenue,Santa Monica,CA,4,4,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
 4a9c6d85f964a520223720e3,Pasadena Sandwich Company,34.150752000000004,-118.0826166,259 Sierra Madre Villa,Pasadena,CA,216,150,0,0,1.0,4bf58dd8d48988d1c5941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1c5941735
 4a5d65f1f964a5209fbd1fe3,St. George cathedral,34.11252201,-118.27335,3067 st. George st,Los Angeles,CA,661,25,0,0,1.0,4bf58dd8d48988d132941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d132941735
 422b9980f964a520cd1f1fe3,BLT Fish Shack,40.73844549,-73.99356365,21 W 17th St,New York,NY,1602,1124,0,0,2.0,4bf58dd8d48988d1ce941735,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d132941735
@@ -4073,7 +4125,9 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4aebe4bbf964a5200fc521e3,The Wine Bar,34.1024548,-118.34053159999999,"6801 Hollywood Blvd, #209",Hollywood,CA,160,89,0,0,2.0,4bf58dd8d48988d123941735,4bf58dd8d48988d14b941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1d2941735
 4c5de5da7735c9b6ab839072,Rock & Brews,33.91759345,-118.4160787,143 Main St,El Segundo,CA,954,502,0,0,2.0,4bf58dd8d48988d117941735,4bf58dd8d48988d110941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1d2941735
 4b50e2edf964a520fd3627e3,Starbucks,33.82964211,-118.0865479,7565 Carson St.,Long Beach,CA,978,534,0,0,1.0,4bf58dd8d48988d1e0931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1e0931735
-4a766ca7f964a52003e31fe3,BJ's Restaurant & Brewhouse,33.72952398,-117.9886338,16060 Beach Blvd,Huntington Beach,CA,2269,1382,0,0,3.0,4bf58dd8d48988d1ca941735,4bf58dd8d48988d1d7941735,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,4bf58dd8d48988d1e0931735
+4b765cacf964a5207e492ee3,@TheACY Command Central,34.02609466,-118.4039497,null,Los Angeles,California,42,3,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4b765cacf964a5207e492ee3,@TheACY Command Central,34.02609466,-118.4039497,null,Los Angeles,California,42,3,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4a766ca7f964a52003e31fe3,BJ's Restaurant & Brewhouse,33.72952398,-117.9886338,16060 Beach Blvd,Huntington Beach,CA,2269,1382,0,0,3.0,4bf58dd8d48988d1ca941735,4bf58dd8d48988d1d7941735,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,-1
 49dea416f964a52099601fe3,Tropicana Hotel & Casino,36.099804,-115.17143999999999,3801 Las Vegas Blvd. S.,Las Vegas,NV,5924,3260,0,0,5.0,4bf58dd8d48988d17c941735,4bf58dd8d48988d1fa931735,4bf58dd8d48988d131951735,4bf58dd8d48988d1fb931735,4bf58dd8d48988d12f951735,,,,,,,,,,,,,,4bf58dd8d48988d131951735
 4a89b80cf964a520ca0820e3,Harris Teeter - North Bethesda Town Center,39.04968544,-77.10891724,11845 Old Georgetown Rd,North Bethesda,MD,1645,356,0,0,1.0,4bf58dd8d48988d118951735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d118951735
 422b9980f964a520cf1f1fe3,Landmark Sunshine Cinema,40.723177,-73.989805,143 E Houston St,New York,NY,7759,5616,0,0,3.0,4bf58dd8d48988d17f941735,4bf58dd8d48988d17e941735,4bf58dd8d48988d137941735,,,,,,,,,,,,,,,,4bf58dd8d48988d17e941735
@@ -4272,7 +4326,9 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 439158cdf964a520572b1fe3,Marymoor Park,47.66191903,-122.11732859999998,6046 W Lake Sammamish Pkwy NE,Redmond,WA,2569,1352,0,0,3.0,4bf58dd8d48988d163941735,4bf58dd8d48988d1e5941735,4bf58dd8d48988d15a941735,,,,,,,,,,,,,,,,4bf58dd8d48988d1e0931735
 49bfffd0f964a5203c551fe3,Baked & Wired,38.904019,-77.060153,1052 Thomas Jefferson St NW,Washington,DC,3606,1612,0,0,5.0,4bf58dd8d48988d16a941735,4bf58dd8d48988d1dc931735,4bf58dd8d48988d1e0931735,4bf58dd8d48988d1d0941735,4bf58dd8d48988d16d941735,,,,,,,,,,,,,,4bf58dd8d48988d1e0931735
 427ff980f964a520c5211fe3,Bergamot Station Arts Center,34.02730839,-118.4685642,2525 Michigan Ave,Santa Monica,CA,984,630,0,0,2.0,4bf58dd8d48988d1e2931735,4bf58dd8d48988d16d941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1e0931735
-4b02139cf964a520904722e3,Clearman's North Woods Inn,34.128986499999996,-118.0732635,7247 Rosemead Blvd.,San Gabriel,CA,434,285,0,0,2.0,4bf58dd8d48988d1cc941735,4bf58dd8d48988d116941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1e0931735
+4b4f9053f964a520970b27e3,Loehmann's - Houston,29.69791337,-95.5178833,7455 SOUTHWEST FRWY,Houston,TX,14,10,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4b4f9053f964a520970b27e3,Loehmann's - Houston,29.69791337,-95.5178833,7455 SOUTHWEST FRWY,Houston,TX,14,10,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4b02139cf964a520904722e3,Clearman's North Woods Inn,34.128986499999996,-118.0732635,7247 Rosemead Blvd.,San Gabriel,CA,434,285,0,0,2.0,4bf58dd8d48988d1cc941735,4bf58dd8d48988d116941735,,,,,,,,,,,,,,,,,-1
 3fd66200f964a52044e61ee3,Jane,40.72717746,-74.00048375,100 W Houston St,New York,NY,2760,2149,0,0,1.0,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d14e941735
 412d2800f964a520d00c1fe3,Shin-Sen-Gumi Yakitori,33.86276543,-118.30941499999999,18517 S. Western Avenue,Gardena,CA,606,330,0,0,1.0,4bf58dd8d48988d111941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d111941735
 4ba02d35f964a5209b5f37e3,Corner Bakery Cafe,34.154731,-118.473878,15626 Ventura Blvd,Encino,CA,679,326,0,0,2.0,4bf58dd8d48988d1c5941735,4bf58dd8d48988d143941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d111941735
@@ -4311,6 +4367,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4b91723af964a5202fbd33e3,Kmart,34.42179,-118.54300500000001,23222 Valencia Blvd,Valencia,CA,62,51,0,0,1.0,4bf58dd8d48988d1f6941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1f6941735
 4b6c660ef964a520d3362ce3,Roxbury Cafe,34.0681956,-118.40706709999999,459 N Roxbury Dr,Beverly Hills,California,164,96,0,0,2.0,4bf58dd8d48988d16d941735,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1f6941735
 49bfbb27f964a5201d551fe3,Starbucks,34.0185708,-118.4989503,308 Wilshire Blvd,Santa Monica,CA,1684,637,0,0,1.0,4bf58dd8d48988d1e0931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1e0931735
+4b5ce2d3f964a520564929e3,Ben's House,32.630173,-93.908098,7513 henderson gin rd,Shreveport,La,11,4,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4b5ce2d3f964a520564929e3,Ben's House,32.630173,-93.908098,7513 henderson gin rd,Shreveport,La,11,4,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
 4b0e14fef964a520c05423e3,Merriman's Restaurant,20.02283,-155.676663,65-1227 Opelo Rd,Kamuela,HI,113,105,0,0,1.0,4bf58dd8d48988d157941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d157941735
 3fd66200f964a5203fea1ee3,Good Enough To Eat,40.78570813,-73.97665501,483 Amsterdam Ave,New York,NY,4596,3790,0,0,1.0,4bf58dd8d48988d143941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d143941735
 4c425575da3dc9286b66cab9,The Counter Custom Built Burgers,33.62862786,-117.9064322,1104 Irvine Ave.,Newport Beach,CA,695,445,0,0,2.0,4bf58dd8d48988d14e941735,4bf58dd8d48988d16c941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d143941735
@@ -4378,7 +4436,9 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 437bc800f964a520792a1fe3,Mamacita,37.800049,-122.441529,2317 Chestnut St,San Francisco,CA,1621,1184,0,0,2.0,4bf58dd8d48988d151941735,4bf58dd8d48988d1c1941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d11f941735
 4b5f764ff964a520c9bb29e3,Corner Bakery Cafe,33.9826644,-117.70584209999998,4517 Chino Hills Pkwy. Ste. A,Chino,CA,660,298,0,0,1.0,4bf58dd8d48988d16d941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d16d941735
 4b3279bef964a520a20c25e3,In-N-Out Burger,33.758536,-118.019494,6292 Westminster Blvd.,Westminster,CA,956,566,0,0,2.0,4bf58dd8d48988d16c941735,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d16d941735
-4aff90bcf964a5207d3922e3,La Parolaccia Osteria Italiana,33.7651185,-118.1570779,2945 E Broadway,Long Beach,CA,331,212,0,0,3.0,4bf58dd8d48988d110941735,4bf58dd8d48988d1ca941735,4bf58dd8d48988d123941735,,,,,,,,,,,,,,,,4bf58dd8d48988d16d941735
+4cca02eb19f376b0cace5dea,2922 Adkins Ave COMING SOON!!,34.079312,-118.171275,2922 Adkins Ave,Los Angeles,CA,0,0,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4cca02eb19f376b0cace5dea,2922 Adkins Ave COMING SOON!!,34.079312,-118.171275,2922 Adkins Ave,Los Angeles,CA,0,0,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4aff90bcf964a5207d3922e3,La Parolaccia Osteria Italiana,33.7651185,-118.1570779,2945 E Broadway,Long Beach,CA,331,212,0,0,3.0,4bf58dd8d48988d110941735,4bf58dd8d48988d1ca941735,4bf58dd8d48988d123941735,,,,,,,,,,,,,,,,-1
 44f9affef964a52069381fe3,Six Flags Great Adventure,40.139477,-74.44034994,1 Six Flags Blvd,Jackson,NJ,9921,6200,0,0,1.0,4bf58dd8d48988d182941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d182941735
 4ae1db29f964a520018821e3,Starbucks,34.05145,-118.256372,"505 S Flower St, Ste B13",Los Angeles,CA,683,177,0,0,1.0,4bf58dd8d48988d1e0931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1e0931735
 4c7e7736d598a0936ed4c562,"Pasadena, CA",34.147371,-118.1455442,null,Pasadena,CA,716,222,0,0,3.0,4bf58dd8d48988d162941735,4bf58dd8d48988d1f6931735,4d4b7105d754a06377d81259,,,,,,,,,,,,,,,,4bf58dd8d48988d1e0931735
@@ -4489,6 +4549,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4bcbcfe9511f95213437b2c7,South Beverly Grill,34.0660885,-118.3989291,122 S Beverly Dr,Beverly Hills,CA,604,360,0,0,1.0,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d14e941735
 4aca3687f964a520e4c020e3,Starbucks,34.094859,-118.128249,101 W Main St,Alhambra,CA,1302,429,0,0,1.0,4bf58dd8d48988d1e0931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1e0931735
 3fd66200f964a52006e61ee3,Raoul's Restaurant,40.726289,-74.00208,180 Prince St,New York,NY,855,659,0,0,1.0,4bf58dd8d48988d10c941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d10c941735
+4c269408c11dc9b656462924,Castle Brittanica,33.791946,-118.16655700000001,null,null,null,7,3,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
+4c269408c11dc9b656462924,Castle Brittanica,33.791946,-118.16655700000001,null,null,null,7,3,0,0,0.0,,,,,,,,,,,,,,,,,,,-1,-1
 4b2d0e1af964a52037cd24e3,Aeroporto de Congonhas (CGH),-23.62596731,-46.65872097,"Av. Washington Luiz, S/N",S?o Paulo,SP,58742,16512,0,0,1.0,4bf58dd8d48988d1ed931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ed931735
 4a7b59ddf964a520c2ea1fe3,Du-par's Restaurant & Bakery,34.14351238,-118.39381499999999,12036 Ventura Blvd,Los Angeles,CA,823,547,0,0,1.0,4bf58dd8d48988d147941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d147941735
 4b37cf82f964a520974625e3,HK Market,34.158568,-118.264803,831 N Pacific,Glendale,CA,311,178,0,0,2.0,4bf58dd8d48988d113941735,4bf58dd8d48988d118951735,,,,,,,,,,,,,,,,,4bf58dd8d48988d147941735

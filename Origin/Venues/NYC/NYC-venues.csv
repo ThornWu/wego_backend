@@ -23,15 +23,19 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4840fe6bf964a52030501fe3,Port Authority Bus Terminal,40.75723755,-73.99158955,625 8th Ave,New York,NY,48595,9656,0,0,2,4bf58dd8d48988d1fe931735,4bf58dd8d48988d12b951735,,,,,,,,,,,,,,,,,4bf58dd8d48988d18d941735
 40f1d480f964a5206a0a1fe3,The High Line,40.74715943,-74.00497913,10th Ave.,New York,NY,24948,16022,0,0,4,4bf58dd8d48988d163941735,4bf58dd8d48988d15a941735,4bf58dd8d48988d162941735,4bf58dd8d48988d1f1931735,,,,,,,,,,,,,,,4bf58dd8d48988d18d941735
 4c28955e360cef3b1c19bedc,Heatpocalypse NYC,40.73688467,-73.99626732,Moving Target!,New York,NY,10291,7815,0,0,1,4bf58dd8d48988d162941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d162941735
-4b709d01f964a5204c252de3,The Meatball Shop,40.721652,-73.9888529,84 Stanton Street,New York,NY,11774,7632,0,0,2,4bf58dd8d48988d14e941735,4bf58dd8d48988d110941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d162941735
-4aa9386ef964a5208b5220e3,The Breslin,40.74578372,-73.98807317,16 W 29th St,New York,NY,10064,6857,0,0,4,4bf58dd8d48988d14e941735,4bf58dd8d48988d116941735,4bf58dd8d48988d143941735,4bf58dd8d48988d121941735,,,,,,,,,,,,,,,4bf58dd8d48988d162941735
+4cd29490fc8c60fc92e31755,YCD Multimedia Office IL,32.22152402,34.82844114,Shefayim Commercial Center,Kibbutz Shefayim,Israel,170,9,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4cd29490fc8c60fc92e31755,YCD Multimedia Office IL,32.22152402,34.82844114,Shefayim Commercial Center,Kibbutz Shefayim,Israel,170,9,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4b709d01f964a5204c252de3,The Meatball Shop,40.721652,-73.9888529,84 Stanton Street,New York,NY,11774,7632,0,0,2,4bf58dd8d48988d14e941735,4bf58dd8d48988d110941735,,,,,,,,,,,,,,,,,-1
+4aa9386ef964a5208b5220e3,The Breslin,40.74578372,-73.98807317,16 W 29th St,New York,NY,10064,6857,0,0,4,4bf58dd8d48988d14e941735,4bf58dd8d48988d116941735,4bf58dd8d48988d143941735,4bf58dd8d48988d121941735,,,,,,,,,,,,,,,-1
 49c046f1f964a5205b551fe3,Terminal 5,40.64541498,-73.77774239,John F Kennedy International Airport,Queens,NY,33283,17424,0,0,1,4bf58dd8d48988d1eb931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1eb931735
 447bf8f1f964a520ec331fe3,Apple Store,40.7638292,-73.973069,767 5th Ave,New York,NY,43117,28395,0,0,1,4bf58dd8d48988d122951735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d122951735
 4a1afeb7f964a520b77a1fe3,Brooklyn Bowl,40.721876,-73.957676,61 Wythe Ave.,Brooklyn,NY,23314,14683,0,0,8,4bf58dd8d48988d1e4931735,4bf58dd8d48988d1dd941735,4bf58dd8d48988d120941735,4bf58dd8d48988d1e9931735,4bf58dd8d48988d11f941735,4bf58dd8d48988d1ca941735,4bf58dd8d48988d1e6931735,4bf58dd8d48988d11a941735,,,,,,,,,,,4bf58dd8d48988d1dd941735
 4297b480f964a52062241fe3,American Museum of Natural History,40.78092783,-73.97310041,200 Central Park W.,New York,NY,19442,15581,0,0,3,4bf58dd8d48988d181941735,4bf58dd8d48988d190941735,4bf58dd8d48988d1ac941735,,,,,,,,,,,,,,,,4bf58dd8d48988d190941735
 4a43bcb7f964a520bba61fe3,Brooklyn Bridge,40.70536767,-73.99605274,Adams St/Brooklyn Bridge Blvd,Brooklyn,NY,33397,19697,0,0,5,4bf58dd8d48988d1df941735,4bf58dd8d48988d162941735,4bf58dd8d48988d1f9931735,4bf58dd8d48988d1e1931735,4bf58dd8d48988d1f6931735,,,,,,,,,,,,,,4bf58dd8d48988d190941735
-4a8a103af964a520c90920e3,Hartsfield-Jackson Atlanta International Airport (ATL),33.64063339,-84.43508148,6000 N. Terminal Pkwy.,Atlanta,GA,250914,91983,0,0,2,4bf58dd8d48988d1ed931735,4bf58dd8d48988d1f7931735,,,,,,,,,,,,,,,,,4bf58dd8d48988d190941735
-4acbe67af964a52044c820e3,Katz's Delicatessen,40.72230707,-73.98735166,205 E Houston St,New York,NY,9168,7633,0,0,3,4bf58dd8d48988d1c5941735,4bf58dd8d48988d14e941735,4bf58dd8d48988d146941735,,,,,,,,,,,,,,,,4bf58dd8d48988d190941735
+4c582dde7613b713e87a91ea,NY Tech Mixer,40.710867,-74.006706,124 Nassau Street,New York,NY,8,3,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4c582dde7613b713e87a91ea,NY Tech Mixer,40.710867,-74.006706,124 Nassau Street,New York,NY,8,3,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4a8a103af964a520c90920e3,Hartsfield-Jackson Atlanta International Airport (ATL),33.64063339,-84.43508148,6000 N. Terminal Pkwy.,Atlanta,GA,250914,91983,0,0,2,4bf58dd8d48988d1ed931735,4bf58dd8d48988d1f7931735,,,,,,,,,,,,,,,,,-1
+4acbe67af964a52044c820e3,Katz's Delicatessen,40.72230707,-73.98735166,205 E Houston St,New York,NY,9168,7633,0,0,3,4bf58dd8d48988d1c5941735,4bf58dd8d48988d14e941735,4bf58dd8d48988d146941735,,,,,,,,,,,,,,,,-1
 41102700f964a520d60b1fe3,Macy's,40.75061379,-73.98856401,151 W 34th St,New York,NY,25717,15886,0,0,4,4bf58dd8d48988d1f6941735,4bf58dd8d48988d108951735,4bf58dd8d48988d10c951735,4bf58dd8d48988d1f1931735,,,,,,,,,,,,,,,4bf58dd8d48988d108951735
 4d13c1829833a09028a32bf2,usa,43.1359443,-89.3552933,8 mockingbird lane,madison,wisconsin,58,2,0,0,3,4bf58dd8d48988d1b3941735,4bf58dd8d48988d1ea931735,4bf58dd8d48988d12f951735,,,,,,,,,,,,,,,,4bf58dd8d48988d1ea931735
 4a677f82f964a52091c91fe3,McCarran International Airport (LAS),36.08521089,-115.1507521,5757 Wayne Newton Blvd.,Las Vegas,NV,155579,79725,0,0,1,4bf58dd8d48988d1ed931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ed931735
@@ -118,7 +122,9 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4555bea7f964a520253d1fe3,Uniqlo,40.723567,-73.998284,546 Broadway,New York,NY,14944,8819,0,0,1,4bf58dd8d48988d103951735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d103951735
 42893400f964a52054231fe3,Statue of Liberty,40.68919682,-74.04454708,Liberty Island,New York,NY,13663,10986,0,0,7,4bf58dd8d48988d12d941735,4bf58dd8d48988d1e0941735,4bf58dd8d48988d162941735,4bf58dd8d48988d130941735,4bf58dd8d48988d1e2931735,4bf58dd8d48988d166941735,4bf58dd8d48988d163941735,,,,,,,,,,,,4bf58dd8d48988d12d941735
 3fd66200f964a52069e71ee3,Blue Smoke,40.7422,-73.9838,116 East 27th St,New York,NY,5975,4180,0,0,1,4bf58dd8d48988d1df931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1df931735
-43a72ba0f964a520672c1fe3,Regal Union Square Stadium 14,40.73395802,-73.99047375,850 Broadway,New York,NY,24904,14176,0,0,2,4bf58dd8d48988d17f941735,4bf58dd8d48988d180941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1df931735
+4d10e85b01d5a090af333a47,UniversityDecisions.com,33.463597,-111.923057,UniversityDecisions.com,Scottsdale,AZ,7,3,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4d10e85b01d5a090af333a47,UniversityDecisions.com,33.463597,-111.923057,UniversityDecisions.com,Scottsdale,AZ,7,3,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+43a72ba0f964a520672c1fe3,Regal Union Square Stadium 14,40.73395802,-73.99047375,850 Broadway,New York,NY,24904,14176,0,0,2,4bf58dd8d48988d17f941735,4bf58dd8d48988d180941735,,,,,,,,,,,,,,,,,-1
 440da2cbf964a52091301fe3,Austin Bergstrom International Airport (AUS),30.20255876,-97.66759872,3600 Presidential Blvd,Austin,TX,75696,29118,0,0,3,4bf58dd8d48988d1ed931735,4bf58dd8d48988d1f7931735,4bf58dd8d48988d1f0931735,,,,,,,,,,,,,,,,4bf58dd8d48988d1f7931735
 4283ee00f964a5209d221fe3,Jacob Javits Convention Center,40.75684746,-74.00128841,655 W. 34th St.,New York,NY,16492,11909,0,0,3,4bf58dd8d48988d1ff931735,4bf58dd8d48988d171941735,4bf58dd8d48988d1f1931735,,,,,,,,,,,,,,,,4bf58dd8d48988d1f7931735
 4700946bf964a520344b1fe3,Detroit Metropolitan Wayne County Airport (DTW),42.20874864,-83.35979462,1 Detroit Metropolitan Airport,Detroit,MI,91093,37366,0,0,1,4bf58dd8d48988d1ed931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ed931735
@@ -1075,7 +1081,9 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 42055e00f964a520681f1fe3,Therapy NYC,40.7641573,-73.9868226,348 W 52nd St,New York,NY,9298,4589,0,0,2,4bf58dd8d48988d1d8941735,4bf58dd8d48988d116941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d114951735
 43504680f964a520b2281fe3,Jacques Torres Chocolate,40.703237,-73.991375,66 Water St,Brooklyn,NY,1148,909,0,0,2,4bf58dd8d48988d117951735,4bf58dd8d48988d1c9941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d114951735
 3fd66200f964a52029e41ee3,Acme Bar and Grill,40.7272,-73.9941,9 Great Jones St,New York,NY,1806,1227,0,0,3,4bf58dd8d48988d14f941735,4bf58dd8d48988d14e941735,4bf58dd8d48988d17a941735,,,,,,,,,,,,,,,,4bf58dd8d48988d114951735
-4b6caaddf964a520ac4a2ce3,The Whiskey Brooklyn,40.7211443,-73.95695686,44 Berry Street,Brooklyn,NY,3447,2014,0,0,3,4bf58dd8d48988d122941735,4bf58dd8d48988d11f941735,4bf58dd8d48988d16c941735,,,,,,,,,,,,,,,,4bf58dd8d48988d114951735
+4d81d5dd1ae92c0fc78e689a,chennai,13.060422,80.249583,the City,Chennai,tamilnadu,0,0,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4d81d5dd1ae92c0fc78e689a,chennai,13.060422,80.249583,the City,Chennai,tamilnadu,0,0,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4b6caaddf964a520ac4a2ce3,The Whiskey Brooklyn,40.7211443,-73.95695686,44 Berry Street,Brooklyn,NY,3447,2014,0,0,3,4bf58dd8d48988d122941735,4bf58dd8d48988d11f941735,4bf58dd8d48988d16c941735,,,,,,,,,,,,,,,,-1
 425c6100f964a520fc201fe3,Floyd NY,40.69092147,-73.99575233,131 Atlantic Ave,Brooklyn,NY,3664,1702,0,0,1,4bf58dd8d48988d116941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d116941735
 4c10fafcd36ab713ecb71b76,Big Apple BBQ Block Party 2010,40.7424976,-73.9877778,Madison Square Park,New York,NY,1858,1586,0,0,1,4bf58dd8d48988d1df931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1df931735
 40b13b00f964a5209bf31ee3,The Driskill,30.26774082,-97.74149895,604 Brazos Street,Austin,TX,11398,6591,0,0,6,4bf58dd8d48988d1fa931735,4bf58dd8d48988d1d5941735,4bf58dd8d48988d122941735,4bf58dd8d48988d121941735,4bf58dd8d48988d1dc941735,4bf58dd8d48988d11e941735,,,,,,,,,,,,,4bf58dd8d48988d1dc941735
@@ -1810,8 +1818,10 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 49f60f59f964a520fa6b1fe3,25 Degrees,34.100817,-118.3414261,7000 Hollywood Blvd,Los Angeles,CA,2440,1584,0,0,3,4bf58dd8d48988d16c941735,4bf58dd8d48988d14e941735,4bf58dd8d48988d11a941735,,,,,,,,,,,,,,,,4bf58dd8d48988d116941735
 41326e00f964a52080191fe3,Lafitte's Blacksmith Shop,29.9608789,-90.063656,941 Bourbon St,New Orleans,LA,3883,2916,0,0,2,4bf58dd8d48988d116941735,4bf58dd8d48988d11e941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d116941735
 49df75e4f964a520c8601fe3,Le Pain Quotidien,40.73267757,-73.99151981,801 Broadway,New York,NY,2354,1051,0,0,3,4bf58dd8d48988d16a941735,4bf58dd8d48988d16d941735,4bf58dd8d48988d1e0931735,,,,,,,,,,,,,,,,4bf58dd8d48988d116941735
-4a972133f964a520982820e3,Martha's Country Bakery,40.76342184,-73.77087593,41-06 Bell Blvd,Bayside,NY,1286,498,0,0,3,4bf58dd8d48988d16a941735,4bf58dd8d48988d1bc941735,4bf58dd8d48988d1d0941735,,,,,,,,,,,,,,,,4bf58dd8d48988d116941735
-49f1c129f964a520b5691fe3,Fedora,40.7345,-74.0029,239 W 4th St,New York,NY,920,665,0,0,2,4bf58dd8d48988d110941735,4bf58dd8d48988d1d4941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d116941735
+4c50ec44375c0f4705e21593,Sunday Feast,40.712092,-73.95163,385 union ave,Brooklyn,NY,32,4,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4c50ec44375c0f4705e21593,Sunday Feast,40.712092,-73.95163,385 union ave,Brooklyn,NY,32,4,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4a972133f964a520982820e3,Martha's Country Bakery,40.76342184,-73.77087593,41-06 Bell Blvd,Bayside,NY,1286,498,0,0,3,4bf58dd8d48988d16a941735,4bf58dd8d48988d1bc941735,4bf58dd8d48988d1d0941735,,,,,,,,,,,,,,,,-1
+49f1c129f964a520b5691fe3,Fedora,40.7345,-74.0029,239 W 4th St,New York,NY,920,665,0,0,2,4bf58dd8d48988d110941735,4bf58dd8d48988d1d4941735,,,,,,,,,,,,,,,,,-1
 4a6e5d0df964a52093d41fe3,Griffith Observatory,34.11855528,-118.3005881,2800 E Observatory Ave,Los Angeles,CA,7775,6387,0,0,3,4bf58dd8d48988d192941735,4bf58dd8d48988d165941735,4bf58dd8d48988d191941735,,,,,,,,,,,,,,,,4bf58dd8d48988d192941735
 481c36e1f964a5207a4f1fe3,Shorty's 32,40.7268,-74.0027,199 Prince St,New York,NY,689,547,0,0,2,4bf58dd8d48988d14e941735,4bf58dd8d48988d16c941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d192941735
 4a417310f964a52052a51fe3,Lincoln Park Grill,40.767588,-73.9859872,867 9th Ave.,New York,NY,2566,1018,0,0,3,4bf58dd8d48988d11d941735,4bf58dd8d48988d14c941735,4bf58dd8d48988d16c941735,,,,,,,,,,,,,,,,4bf58dd8d48988d192941735
@@ -2654,6 +2664,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 3fd66200f964a520bfe71ee3,Joe's Shanghai,40.762676,-73.975973,24 W. 56th St,New York,NY,1173,969,0,0,1,4bf58dd8d48988d145941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d145941735
 4a1b54b8f964a520ec7a1fe3,Creperie,40.720345,-73.988362,135 Ludlow St,New York,NY,1016,785,0,0,1,4bf58dd8d48988d10c941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d10c941735
 43655e80f964a52061291fe3,Siggy's Good Food,40.698594,-73.992615,76 Henry St,Brooklyn,NY,852,451,0,0,1,4bf58dd8d48988d1d3941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1d3941735
+4b1a5808f964a5201ee923e3,south shore high school,40.633142,-73.917072,6565 flatlands ave,Brooklyn,NY,47,34,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4b1a5808f964a5201ee923e3,south shore high school,40.633142,-73.917072,6565 flatlands ave,Brooklyn,NY,47,34,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
 427ff980f964a520c7211fe3,The Getty Center,34.0772964,-118.4740734,1200 Getty Center Dr.,Los Angeles,CA,7749,6207,0,0,4,4bf58dd8d48988d18f941735,4bf58dd8d48988d1e2931735,4bf58dd8d48988d190941735,4bf58dd8d48988d1f9931735,,,,,,,,,,,,,,,4bf58dd8d48988d18f941735
 4a71df15f964a520c0d91fe3,David Burke Townhouse,40.76383,-73.967516,133 E. 61st St.,New York,NY,1228,1081,0,0,1,4bf58dd8d48988d157941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d157941735
 4a1e060ef964a520b97b1fe3,The Pub on Passyunk East,39.930818,-75.162027,1501 E Passyunk Ave,Philadelphia,PA,5436,1324,0,0,3,4bf58dd8d48988d155941735,4bf58dd8d48988d117941735,4bf58dd8d48988d116941735,,,,,,,,,,,,,,,,4bf58dd8d48988d157941735
@@ -2805,6 +2817,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4a789983f964a520fde51fe3,Aroma Espresso Bar,40.75082,-73.973576,205 E 42nd St,New York,NY,958,415,0,0,2,4bf58dd8d48988d1c5941735,4bf58dd8d48988d1e0931735,,,,,,,,,,,,,,,,,4bf58dd8d48988d16c941735
 4a777018f964a5207be41fe3,Mari Vanna,40.738884,-73.988506,41 E 20th St,New York,NY,811,593,0,0,1,4bf58dd8d48988d109941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d109941735
 4aafca84f964a520bc6420e3,Panera Bread,40.70990587,-73.85941029,7325 Woodhaven Blvd.,Glendale,NY,1063,489,0,0,4,4bf58dd8d48988d1c5941735,4bf58dd8d48988d1dd931735,4bf58dd8d48988d14e941735,4bf58dd8d48988d11c951735,,,,,,,,,,,,,,,4bf58dd8d48988d109941735
+4d2b38aa342d6dcba80714cb,GRAND JOGLO,-6.1471499,106.702825,Kalideres,West jakarta,Jakarta Capital Region,2,1,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4d2b38aa342d6dcba80714cb,GRAND JOGLO,-6.1471499,106.702825,Kalideres,West jakarta,Jakarta Capital Region,2,1,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
 4a80af37f964a520eaf51fe3,BJ's Wholesale Club - Jersey City,40.724055,-74.03959,396 Marin Blvd,Jersey City,NJ,763,390,0,0,1,4bf58dd8d48988d1ff941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ff941735
 4abf1d17f964a520d39020e3,Butler Library - Columbia University,40.80642775,-73.96321177,535 W 114th St,New York,NY,3214,681,0,0,2,4bf58dd8d48988d12f941735,4bf58dd8d48988d1a7941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ff941735
 4acec156f964a520d3d120e3,Bronx Ale House,40.8847964,-73.8996336,216 W 238th St,Bronx,NY,1785,544,0,0,1,4bf58dd8d48988d116941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d116941735
@@ -3129,8 +3143,10 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4ad725d5f964a520d20821e3,Les Enfants Terribles,40.7147442,-73.9910515,37 Canal  St,New York,NY,1761,1033,0,0,3,4bf58dd8d48988d1c8941735,4bf58dd8d48988d116941735,4bf58dd8d48988d10c941735,,,,,,,,,,,,,,,,4bf58dd8d48988d116941735
 42699000f964a52047211fe3,Barolo,40.724226,-74.002147,398 W Broadway,New York,NY,1097,914,0,0,1,4bf58dd8d48988d110941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d110941735
 4b0586cef964a520596f22e3,The Hotel Congress,32.2221444,-110.9668771,311 E Congress St,Tucson,AZ,851,516,0,0,2,4bf58dd8d48988d1fa931735,4bf58dd8d48988d1e9931735,,,,,,,,,,,,,,,,,4bf58dd8d48988d110941735
-3fd66200f964a52026f11ee3,Park Chow,37.7659353,-122.4664186,1240 9th Ave,San Francisco,CA,3007,1742,0,0,3,4bf58dd8d48988d110941735,4bf58dd8d48988d143941735,4bf58dd8d48988d16c941735,,,,,,,,,,,,,,,,4bf58dd8d48988d110941735
-43fdcd9af964a520f72f1fe3,El Cocotero,40.741489,-73.999373,228 W. 18th St,Chelsea,NY,569,432,0,0,2,4bf58dd8d48988d152941735,4bf58dd8d48988d1be941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d110941735
+4d2f54a506a060fc14ca750a,myfriend 's house,7.8497434,98.2989844,353 karon beach,muang,thailand,2,1,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4d2f54a506a060fc14ca750a,myfriend 's house,7.8497434,98.2989844,353 karon beach,muang,thailand,2,1,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+3fd66200f964a52026f11ee3,Park Chow,37.7659353,-122.4664186,1240 9th Ave,San Francisco,CA,3007,1742,0,0,3,4bf58dd8d48988d110941735,4bf58dd8d48988d143941735,4bf58dd8d48988d16c941735,,,,,,,,,,,,,,,,-1
+43fdcd9af964a520f72f1fe3,El Cocotero,40.741489,-73.999373,228 W. 18th St,Chelsea,NY,569,432,0,0,2,4bf58dd8d48988d152941735,4bf58dd8d48988d1be941735,,,,,,,,,,,,,,,,,-1
 4c2d2315e116e21e1b1a8e60,Hide-Chan Ramen,40.756127,-73.968193,248 E 52nd St,New York,NY,1004,698,0,0,1,4bf58dd8d48988d1d1941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1d1941735
 4afd6dcef964a520c52722e3,Veranda,40.7343836,-74.0023916,130 7th Ave South,New York,NY,2703,1301,0,0,1,4bf58dd8d48988d11f941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d11f941735
 4bf3199d354e9c74aa8b2602,The Lott,40.7413856,-73.9931037,55 W 21st St,New York,NY,969,669,0,0,1,4bf58dd8d48988d116941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d116941735
@@ -3354,7 +3370,9 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4d0bf7e3f29c236ac675bfe7,Buvette,40.73272229,-74.0041852,42 Groove St.,New York,NY,419,336,0,0,1,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d14e941735
 4c7f0887fb74236a7727f9b9,Samurai Mama,40.714228,-73.960033,205 Grand St,Brooklyn,NY,503,328,0,0,1,4bf58dd8d48988d111941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d111941735
 4d6ec15e0dd359414b110cbc,The Firefox Gone Mobile Ice Cream Truck,40.726153,-73.99068832,Moving Target!,New York,NY,488,414,0,0,1,4bf58dd8d48988d1cb941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1cb941735
-49c28ea1f964a52000561fe3,Unidentified Flying Chickens (UFC),40.7465344,-73.8940279,71-22 Roosevelt Ave.,Jackson Heights,NY,563,297,0,0,3,4d4ae6fc7a7b7dea34424761,4bf58dd8d48988d113941735,4bf58dd8d48988d14c941735,,,,,,,,,,,,,,,,4bf58dd8d48988d1cb941735
+4d32f55ec75a6ea883db12ae,Meili' home,-4.017079,119.658318,Perumnas wekke'e,Bacukiki,South Sulawesi,24,2,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4d32f55ec75a6ea883db12ae,Meili' home,-4.017079,119.658318,Perumnas wekke'e,Bacukiki,South Sulawesi,24,2,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+49c28ea1f964a52000561fe3,Unidentified Flying Chickens (UFC),40.7465344,-73.8940279,71-22 Roosevelt Ave.,Jackson Heights,NY,563,297,0,0,3,4d4ae6fc7a7b7dea34424761,4bf58dd8d48988d113941735,4bf58dd8d48988d14c941735,,,,,,,,,,,,,,,,-1
 4ad6bf12f964a520360821e3,McDonald's,40.7377352,-73.9965964,541 6th Ave,New York,NY,761,496,0,0,1,4bf58dd8d48988d16e941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d16e941735
 4d20e6db5acaa35d75bbcb35,Pachanga Patterson,40.7634104,-73.9212496,33-17 31st Ave.,Astoria,NY,586,313,0,0,2,4bf58dd8d48988d1c1941735,4bf58dd8d48988d151941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d16e941735
 4419aa38f964a5202e311fe3,Doubletree Metropolitan,40.756961,-73.97198,569 Lexington Ave,New York,NY,2376,1040,0,0,1,4bf58dd8d48988d1fa931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1fa931735
@@ -3412,6 +3430,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4b8dab3df964a520920733e3,Wine Loft,40.302914,-73.979638,32 Laird St,Long Branch,New Jersey,857,208,0,0,1,4bf58dd8d48988d123941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d123941735
 4c6f216bdf6b8cfa9162b44d,Plum Pizzeria & Bar,40.729746,-73.987244,157 2nd Ave.,New York,NY,342,258,0,0,2,4bf58dd8d48988d1ca941735,4bf58dd8d48988d116941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d123941735
 49c2ede7f964a52044561fe3,Yama Japanese Restaurant,40.7359,-73.9875,122 East 17th St,New York,NY,767,534,0,0,1,4bf58dd8d48988d1d2941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1d2941735
+4cbdd10686dd9521ce34aee6,My lovly colourfull room,-6.92405,106.922203,Kp.sukaasih,Sukabumi,Indonesia,3,1,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4cbdd10686dd9521ce34aee6,My lovly colourfull room,-6.92405,106.922203,Kp.sukaasih,Sukabumi,Indonesia,3,1,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
 4b33aacef964a520771c25e3,McFadden's,40.6565669,-73.6482905,210 Merrick Rd.,Rockville Centre,NY,711,352,0,0,1,4bf58dd8d48988d116941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d116941735
 4af6eeb7f964a520330422e3,Aged Bar & Grill,40.72065642,-73.84565592,107-02 70th Rd,Forest Hills,NY,365,248,0,0,3,4bf58dd8d48988d143941735,4bf58dd8d48988d1cc941735,4bf58dd8d48988d123941735,,,,,,,,,,,,,,,,4bf58dd8d48988d116941735
 4b71ca01f964a5207d5c2de3,Marc by Marc Jacobs Mens,40.735144,-74.005109,382 Bleecker St,New York,NY,4925,4070,0,0,1,4bf58dd8d48988d106951735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d106951735
@@ -3946,6 +3966,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4bc655c451b376b04b711b6f,Heartland Brewery,40.756977,-73.990667,625 8th Ave,New York,NY,1223,961,0,0,3,4bf58dd8d48988d1cf941735,4bf58dd8d48988d14e941735,4bf58dd8d48988d1d7941735,,,,,,,,,,,,,,,,4bf58dd8d48988d117951735
 4bdc485363c5c9b6c90c2b68,Bradley Beach,40.20096935,-74.00817633,Ocean Ave,Bradley Beach,NJ,1721,631,0,0,1,4bf58dd8d48988d1e2941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1e2941735
 427ea800f964a520b0211fe3,Tamarind,40.7397692,-73.9874433,43 E 22nd St,New York,NY,694,718,0,0,2,4bf58dd8d48988d10f941735,4bf58dd8d48988d1dc931735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1e2941735
+4c96a34cf244b1f75a3f361d,Stuy Hood,40.8089,-72.843296,null,null,null,9,4,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4c96a34cf244b1f75a3f361d,Stuy Hood,40.8089,-72.843296,null,null,null,9,4,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
 45acb4cbf964a52063411fe3,Honshu Sushi,40.7164,-74.0357,31 Montgomery St,Jersey City,NJ,370,188,0,0,1,4bf58dd8d48988d111941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d111941735
 40f9bd80f964a520d30a1fe3,Jackie's Fifth Amendment,40.670389,-73.985615,404 5th Ave,Brooklyn,NY,205,132,0,0,1,4bf58dd8d48988d118941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d118941735
 4a85a71bf964a520c7fe1fe3,Karaoke Duet 48,40.75349907,-73.96910191,304 E 48th St,New York,NY,959,747,0,0,2,4bf58dd8d48988d120941735,4bf58dd8d48988d120941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d118941735
@@ -4086,7 +4108,9 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 445b56e7f964a520e8321fe3,Cha Cha Lounge,34.0994676,-118.2590654,2375 Glendale Blvd,Los Angeles,CA,3855,1895,0,0,3,4bf58dd8d48988d116941735,4bf58dd8d48988d118941735,4bf58dd8d48988d1d4941735,,,,,,,,,,,,,,,,4bf58dd8d48988d116941735
 4c8d1db45e048cfa33d7d2cd,The Drink,40.711063,-73.9452529,228 Manhattan,Brooklyn,NY,939,575,0,0,1,4bf58dd8d48988d116941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d116941735
 4876216df964a52011511fe3,Jack's Coffee,40.7345781,-74.0006365,138 W 10th St,New York,NY,1962,581,0,0,1,4bf58dd8d48988d1e0931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1e0931735
-4a55218af964a520b8b31fe3,New York Public Library - Schomburg Center for Research in Black Culture,40.81413403,-73.94021988,515 Malcolm X Blvd,New York,NY,531,323,0,0,3,4bf58dd8d48988d181941735,4bf58dd8d48988d1a7941735,4bf58dd8d48988d12f941735,,,,,,,,,,,,,,,,4bf58dd8d48988d1e0931735
+4c7a4d432dc19521ac11ab77,Kelapa Dua,-6.36652,106.843647,Jl. H. Rijin,Jawa Barat,Indonesia,5,5,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4c7a4d432dc19521ac11ab77,Kelapa Dua,-6.36652,106.843647,Jl. H. Rijin,Jawa Barat,Indonesia,5,5,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4a55218af964a520b8b31fe3,New York Public Library - Schomburg Center for Research in Black Culture,40.81413403,-73.94021988,515 Malcolm X Blvd,New York,NY,531,323,0,0,3,4bf58dd8d48988d181941735,4bf58dd8d48988d1a7941735,4bf58dd8d48988d12f941735,,,,,,,,,,,,,,,,-1
 4b80968ef964a5201c7f30e3,Senora Martinez,25.813668,-80.191556,4000 NE 2nd Ave,Miami,FL,415,332,0,0,1,4bf58dd8d48988d1db931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1db931735
 4a92fa2bf964a5205e1e20e3,JCPenney,40.7498018,-73.9877705,901 6th Ave,New York,NY,1423,721,0,0,1,4bf58dd8d48988d1f6941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1f6941735
 40a6af00f964a52027f31ee3,LACMA,34.06326344,-118.3589745,5905 Wilshire Blvd,Los Angeles,CA,6864,4946,0,0,1,4bf58dd8d48988d18f941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d18f941735
@@ -4184,6 +4208,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4b3b9309f964a520297625e3,Bravo Supermarket,40.75805024,-73.92446995,3412 34th Ave,Astoria,NY,616,173,0,0,1,4bf58dd8d48988d118951735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d118951735
 49c84a34f964a5200d581fe3,Distrito,39.95602,-75.20206,3945 Chestnut St,Philadelphia,PA,1527,1097,0,0,2,4bf58dd8d48988d1c1941735,4bf58dd8d48988d120941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d118951735
 4bc779b50050b713dbc4b83b,South Brooklyn Pizza,40.72707,-73.985288,122 First Ave.,New York,NY,1201,743,0,0,1,4bf58dd8d48988d1ca941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ca941735
+4bc41a1ddce4eee165f0719d,West Shore Motor Lodge Inc,40.5326004,-74.22499847,2600 Veterans Rd W,Staten Island,NY,5,5,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4bc41a1ddce4eee165f0719d,West Shore Motor Lodge Inc,40.5326004,-74.22499847,2600 Veterans Rd W,Staten Island,NY,5,5,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
 4b1ebea3f964a520df1e24e3,Bread & Butter,40.74104678,-73.98540974,315 Park Ave S,New York,NY,1260,341,0,0,1,4bf58dd8d48988d146941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d146941735
 4b5f88d6f964a5200dc029e3,Blue Door Fish at Delano,25.792133,-80.128756,1685 Collins Avenue,Miami Beach,FL,361,305,0,0,2,4bf58dd8d48988d10c941735,4bf58dd8d48988d1d2941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d146941735
 4bddccbe6198c9b67bb911ff,Ellis Island,40.69842152,-74.03974056,1 Ellis Island,New York,NY,1909,1813,0,0,5,4bf58dd8d48988d162941735,4bf58dd8d48988d190941735,4bf58dd8d48988d15d941735,4bf58dd8d48988d163941735,4bf58dd8d48988d12d951735,,,,,,,,,,,,,,4bf58dd8d48988d190941735
@@ -4327,10 +4353,12 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4556177bf964a5202a3d1fe3,Salt,40.7276442,-74.0023863,58 MacDougal St,New York,NY,657,557,0,0,2,4bf58dd8d48988d1c2941735,4bf58dd8d48988d143941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d149941735
 4b79abcbf964a520000a2fe3,Wegmans,40.28973981,-74.29839134,55 US Highway 9,Manalapan,NJ,164,102,0,0,2,4bf58dd8d48988d118951735,4bf58dd8d48988d1f9941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d118951735
 4bb6a8e51344b71362e89d04,Taureau,40.726473,-73.983958,127 E 7th St,New York,NY,367,310,0,0,1,4bf58dd8d48988d10c941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d10c941735
-4a5badbef964a520a0bb1fe3,The Suffolk,40.7190801,-73.9861613,107 Suffolk St,New York,NY,510,397,0,0,3,4bf58dd8d48988d1e5931735,4bf58dd8d48988d116941735,4bf58dd8d48988d11f941735,,,,,,,,,,,,,,,,4bf58dd8d48988d10c941735
-4a5b64a8f964a52012bb1fe3,Bouchon Bistro,0,0,3355 Las Vegas Blvd S,Las Vegas,NV,1701,1251,0,0,6,4bf58dd8d48988d10c941735,4bf58dd8d48988d1c7941735,4bf58dd8d48988d16a941735,4bf58dd8d48988d1fa931735,4bf58dd8d48988d16d941735,4bf58dd8d48988d1e0931735,,,,,,,,,,,,,4bf58dd8d48988d10c941735
-4a9acc73f964a520c73220e3,Sawgrass Mills Mall,26.15043015,-80.32228947,12801 W Sunrise Blvd,Sunrise,FL,6803,4144,0,0,3,4bf58dd8d48988d1fd941735,4bf58dd8d48988d114941735,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,4bf58dd8d48988d10c941735
-4aa56b40f964a520464820e3,Hot Grill,40.8837317,-74.1330439,669 Lexington Ave.,Clifton,NJ,818,479,0,0,2,4bf58dd8d48988d16f941735,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d10c941735
+4c296996ed0ac9b6bdd661aa,Light photography,-7.009280703,110.4343128,Jl. Tentara Pelajar 34,Semarang,Central Java,46,4,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4c296996ed0ac9b6bdd661aa,Light photography,-7.009280703,110.4343128,Jl. Tentara Pelajar 34,Semarang,Central Java,46,4,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4a5badbef964a520a0bb1fe3,The Suffolk,40.7190801,-73.9861613,107 Suffolk St,New York,NY,510,397,0,0,3,4bf58dd8d48988d1e5931735,4bf58dd8d48988d116941735,4bf58dd8d48988d11f941735,,,,,,,,,,,,,,,,-1
+4a5b64a8f964a52012bb1fe3,Bouchon Bistro,0,0,3355 Las Vegas Blvd S,Las Vegas,NV,1701,1251,0,0,6,4bf58dd8d48988d10c941735,4bf58dd8d48988d1c7941735,4bf58dd8d48988d16a941735,4bf58dd8d48988d1fa931735,4bf58dd8d48988d16d941735,4bf58dd8d48988d1e0931735,,,,,,,,,,,,,-1
+4a9acc73f964a520c73220e3,Sawgrass Mills Mall,26.15043015,-80.32228947,12801 W Sunrise Blvd,Sunrise,FL,6803,4144,0,0,3,4bf58dd8d48988d1fd941735,4bf58dd8d48988d114941735,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,-1
+4aa56b40f964a520464820e3,Hot Grill,40.8837317,-74.1330439,669 Lexington Ave.,Clifton,NJ,818,479,0,0,2,4bf58dd8d48988d16f941735,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,,-1
 4b4b7d50f964a520c29d26e3,Starbucks,40.756547,-73.985903,1500 Broadway,New York,NY,2790,1452,0,0,1,4bf58dd8d48988d1e0931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1e0931735
 4c0fe9d76b7e2d7f7aca2635,El Jardin De China,40.7505313,-73.8702018,37-37 Junction Blvd.,Corona,NY,320,145,0,0,2,4bf58dd8d48988d145941735,4bf58dd8d48988d1cd941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1e0931735
 49c79540f964a520af571fe3,Blue Spoon Coffee Co.,40.7143287,-74.0067271,76 Chambers St,New York,NY,1406,404,0,0,1,4bf58dd8d48988d1e0931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1e0931735
@@ -4416,7 +4444,9 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4bf15ba86eccc9b68b859f0f,f“?te coffee,40.737038,-73.984093,247 3rd Ave,New York,NY,630,219,0,0,3,4bf58dd8d48988d1e0931735,4bf58dd8d48988d16d941735,4bf58dd8d48988d1d0941735,,,,,,,,,,,,,,,,4bf58dd8d48988d13a941735
 4bdb42876547d13ae4167c26,Wix Lounge,40.73878184,-73.99296552,10 West 18th Street 2nd floor,New York,NY,873,414,0,0,3,4bf58dd8d48988d174941735,4bf58dd8d48988d1e2931735,4bf58dd8d48988d171941735,,,,,,,,,,,,,,,,4bf58dd8d48988d174941735
 42814b00f964a520dc211fe3,Cafe Frida,40.7810083,-73.9763955,368 Columbus Ave,New York,NY,774,633,0,0,1,4bf58dd8d48988d1c1941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1c1941735
-49c42f96f964a520a6561fe3,Bloodhound,37.77592177,-122.4088955,1145 Folsom St,San Francisco,CA,6803,2906,0,0,3,4bf58dd8d48988d116941735,4bf58dd8d48988d1e1931735,4bf58dd8d48988d11e941735,,,,,,,,,,,,,,,,4bf58dd8d48988d1c1941735
+4d426ce0c95b721e058c692b,Menteng i?d?? Office,-0.327403,103.157302,JL. H.sadri,Tembilahan,Riau,3,1,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4d426ce0c95b721e058c692b,Menteng i?d?? Office,-0.327403,103.157302,JL. H.sadri,Tembilahan,Riau,3,1,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+49c42f96f964a520a6561fe3,Bloodhound,37.77592177,-122.4088955,1145 Folsom St,San Francisco,CA,6803,2906,0,0,3,4bf58dd8d48988d116941735,4bf58dd8d48988d1e1931735,4bf58dd8d48988d11e941735,,,,,,,,,,,,,,,,-1
 4a55476bf964a520fdb31fe3,Target,34.08970105,-118.3445978,7100 Santa Monica Blvd. Ste. 201,Los Angeles,CA,10199,4018,0,0,2,4bf58dd8d48988d118951735,4bf58dd8d48988d1f6941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d118951735
 4a272e28f964a52065911fe3,Omni Parker House,42.3578532,-71.060154,60 School St,Boston,MA,1880,1096,0,0,1,4bf58dd8d48988d1fa931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1fa931735
 4a83505ef964a520bffa1fe3,Vivi Bubble Tea,40.715089,-73.997542,49 Bayard St,New York,NY,632,352,0,0,2,4bf58dd8d48988d1dc931735,4bf58dd8d48988d112941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1fa931735
@@ -4569,7 +4599,9 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4d6ee122b45b59417c6a6778,Kimchi Taco,40.74234739,-73.98940086,Moving Target,New York,NY,576,490,0,0,3,4bf58dd8d48988d1cb941735,4bf58dd8d48988d113941735,4bf58dd8d48988d151941735,,,,,,,,,,,,,,,,4bf58dd8d48988d10f941735
 4abb899bf964a520f18320e3,Starbucks,40.77147437,-73.98214817,1889 Broadway,New York,NY,2982,1662,0,0,1,4bf58dd8d48988d1e0931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1e0931735
 4c9465c3efecb7136e69de9d,The Bunker,40.7403472,-74.0057791,24 9th Avenue,New York,NY,1137,645,0,0,2,4bf58dd8d48988d121941735,4bf58dd8d48988d11f941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1e0931735
-4be08704854f9521f6992ba5,Diablo Royale Este,40.728284,-73.982251,167 Ave A,New York,NY,2155,1487,0,0,2,4bf58dd8d48988d11e941735,4bf58dd8d48988d1c1941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1e0931735
+4aabde99f964a5208e5a20e3,Bangin' Orient,40.7151849,-73.939527,69 Orient Ave,New York,NY,322,16,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4aabde99f964a5208e5a20e3,Bangin' Orient,40.7151849,-73.939527,69 Orient Ave,New York,NY,322,16,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4be08704854f9521f6992ba5,Diablo Royale Este,40.728284,-73.982251,167 Ave A,New York,NY,2155,1487,0,0,2,4bf58dd8d48988d11e941735,4bf58dd8d48988d1c1941735,,,,,,,,,,,,,,,,,-1
 4add9a9ef964a520206521e3,Starbucks,40.80780017,-73.94511223,77 W 125 St,New York,NY,863,452,0,0,1,4bf58dd8d48988d1e0931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1e0931735
 4bfe152a4cf820a1a870edf4,Cafe Surfas,34.028591,-118.386471,8777 Washington Blvd,Culver City,CA,321,198,0,0,1,4bf58dd8d48988d16d941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d16d941735
 4b196b01f964a520fbdc23e3,Alice's Tea Cup,40.775092,-73.955404,220 E 81st,New York,NY,598,415,0,0,2,4bf58dd8d48988d16d941735,4bf58dd8d48988d1dc931735,,,,,,,,,,,,,,,,,4bf58dd8d48988d16d941735
@@ -4678,7 +4710,9 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 49e745f3f964a52083641fe3,Guantanamera,40.766,-73.9838,939 8th Ave,New York,NY,581,515,0,0,2,4bf58dd8d48988d154941735,4bf58dd8d48988d1e9931735,,,,,,,,,,,,,,,,,4bf58dd8d48988d10c941735
 3fd66200f964a52052eb1ee3,Lahore Deli,40.7248,-73.9961,132 Crosby St,New York,NY,386,152,0,0,2,4bf58dd8d48988d1c4941735,4bf58dd8d48988d10f941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d10c941735
 4b23d1b1f964a520665a24e3,Houston's,40.73899827,-73.61490011,630 Old Country Rd,Garden City,NY,709,460,0,0,2,4bf58dd8d48988d14e941735,4bf58dd8d48988d1cc941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d10c941735
-4a5e0610f964a520eabd1fe3,Sai Jai Thai,37.78509678,-122.4173605,771 O'Farrell Street,San Francisco,CA,397,311,0,0,2,4bf58dd8d48988d149941735,4bf58dd8d48988d142941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d10c941735
+4d9f67768e8f224bdd6ca356,HUGE Bathroom (men's),40.7028691,-73.9904854,45 Main Street 2nd Floor,Brooklyn,NY,44,2,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4d9f67768e8f224bdd6ca356,HUGE Bathroom (men's),40.7028691,-73.9904854,45 Main Street 2nd Floor,Brooklyn,NY,44,2,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4a5e0610f964a520eabd1fe3,Sai Jai Thai,37.78509678,-122.4173605,771 O'Farrell Street,San Francisco,CA,397,311,0,0,2,4bf58dd8d48988d149941735,4bf58dd8d48988d142941735,,,,,,,,,,,,,,,,,-1
 4a86f917f964a520df0120e3,J.Crew,40.7375025,-73.99244785,91 5th Ave,New York,NY,1879,1135,0,0,3,4bf58dd8d48988d103951735,4bf58dd8d48988d106951735,4bf58dd8d48988d108951735,,,,,,,,,,,,,,,,4bf58dd8d48988d106951735
 4af8baaef964a520880f22e3,International House,40.813783,-73.961526,500 Riverside Drive,New York,NY,615,123,0,0,3,4bf58dd8d48988d1a3941735,4bf58dd8d48988d1f1931735,4bf58dd8d48988d1b2941735,,,,,,,,,,,,,,,,4bf58dd8d48988d106951735
 4b7179aef964a52098482de3,Harpo Productions,41.883622,-87.655258,113 N May Street,Chicago,Illinois,1147,977,0,0,1,4bf58dd8d48988d1f1931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1f1931735
@@ -4731,6 +4765,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4c129d5e77cea5930a61cd60,Broadway/PCCC parking deck,40.9189441,-74.1701804,125 broadway,Paterson,NJ,207,18,0,0,1,4bf58dd8d48988d130941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d130941735
 49ebc1f6f964a52022671fe3,Birdbath Neighborhood Green Bakery,40.7350224,-74.0019738,145 7th Ave S,New York,NY,282,122,0,0,1,4bf58dd8d48988d16a941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d16a941735
 4438a2ccf964a52017321fe3,East Coast Grill,42.3734643,-71.0987209,1271 Cambridge St,Cambridge,MA,1466,894,0,0,3,4bf58dd8d48988d1ce941735,4bf58dd8d48988d143941735,4bf58dd8d48988d144941735,,,,,,,,,,,,,,,,4bf58dd8d48988d16a941735
+4b5fc0e2f964a52077cb29e3,eSolutech,40.01611185,-83.0120945,2649 N. High Street Suite B,Columbus,OH,97,15,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4b5fc0e2f964a52077cb29e3,eSolutech,40.01611185,-83.0120945,2649 N. High Street Suite B,Columbus,OH,97,15,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
 427ff980f964a520cd211fe3,MOCA,34.0533461,-118.2506239,250 S Grand Ave,Los Angeles,CA,1722,1244,0,0,3,4bf58dd8d48988d18f941735,4bf58dd8d48988d181941735,4bf58dd8d48988d1e2931735,,,,,,,,,,,,,,,,4bf58dd8d48988d18f941735
 4ab2f56cf964a5201d6d20e3,Brick NYC,40.714282,-74.007691,22 Warren St,New York,NY,336,259,0,0,2,4bf58dd8d48988d110941735,4bf58dd8d48988d123941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d18f941735
 4a728f52f964a52037db1fe3,NYC Taxi Cab,40.71239443,-74.00493622,Moving Target!,New York,NY,2392,803,0,0,1,4bf58dd8d48988d130951735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d130951735
@@ -4913,6 +4949,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4a9aee23f964a520a43320e3,Cake Man Raven,40.685924,-73.9735391,708 Fulton St,Brooklyn,NY,525,402,0,0,1,4bf58dd8d48988d16a941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d16a941735
 4c2fa71309a99c7413e30a2a,Citarella,40.771733,-73.958734,1313 Third Ave,New York,NY,682,409,0,0,2,4bf58dd8d48988d118951735,4bf58dd8d48988d1f5941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d118951735
 42853f80f964a5200c231fe3,Ritual Coffee Roasters,37.75647,-122.421199,1026 Valencia St,San Francisco,CA,8785,2964,0,0,2,4bf58dd8d48988d1e0931735,4bf58dd8d48988d1c7941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d118951735
+4d7c956f6b0dcbff49adb989,Happy's place,51.80320146,4.722876549,Bakema erf,Dordrecht,Netherlands,36,2,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4d7c956f6b0dcbff49adb989,Happy's place,51.80320146,4.722876549,Bakema erf,Dordrecht,Netherlands,36,2,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
 4b646959f964a52014b12ae3,The Shepherd & The Knucklehead Pub,40.94110567,-74.18530941,529 Belmont Ave,Haledon,NJ,858,171,0,0,1,4bf58dd8d48988d116941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d116941735
 436d4780f964a520c5291fe3,Naidre's in Carroll Gardens,40.684084,-73.999708,502 Henry St,Brooklyn,NY,1121,254,0,0,5,4bf58dd8d48988d143941735,4bf58dd8d48988d1e0931735,4bf58dd8d48988d112941735,4bf58dd8d48988d1c5941735,4bf58dd8d48988d16d941735,,,,,,,,,,,,,,4bf58dd8d48988d116941735
 4ab3222cf964a520836d20e3,The Trocadero Theatre,39.953617,-75.156856,1003 Arch St.,Philadelphia,PA,3493,2194,0,0,1,4bf58dd8d48988d137941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d137941735
@@ -5241,7 +5279,9 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 41609280f964a5205d1d1fe3,Overlook Lounge,40.751771,-73.972199,225 E. 44th St,New York,NY,1805,1171,0,0,1,4bf58dd8d48988d116941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d116941735
 4a1037f4f964a52097761fe3,Barnyard,40.7256,-73.978089,149 avenue C,New York,NY,607,165,0,0,2,4bf58dd8d48988d1c5941735,4bf58dd8d48988d16d941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d116941735
 49ba6a0ff964a52061531fe3,Parkside,30.267068,-97.740306,301 E 6th St,Austin,TX,2657,2041,0,0,4,4bf58dd8d48988d121941735,4bf58dd8d48988d1ce941735,4bf58dd8d48988d1d0941735,4bf58dd8d48988d148941735,,,,,,,,,,,,,,,4bf58dd8d48988d116941735
-445f53aaf964a52001331fe3,Bourgeois Pig,34.1052784,-118.3190033,5931 Franklin Ave,Los Angeles,CA,1721,879,0,0,4,4bf58dd8d48988d16d941735,4bf58dd8d48988d16a941735,4bf58dd8d48988d1dc931735,4bf58dd8d48988d1e0931735,,,,,,,,,,,,,,,4bf58dd8d48988d116941735
+4cb927cb4352a1cdfcee8af5,Primagama Harapan RAYA,0.4978704,101.4827321,Jl harapan raya no 146,Pekanbaru,Riau,29,8,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4cb927cb4352a1cdfcee8af5,Primagama Harapan RAYA,0.4978704,101.4827321,Jl harapan raya no 146,Pekanbaru,Riau,29,8,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+445f53aaf964a52001331fe3,Bourgeois Pig,34.1052784,-118.3190033,5931 Franklin Ave,Los Angeles,CA,1721,879,0,0,4,4bf58dd8d48988d16d941735,4bf58dd8d48988d16a941735,4bf58dd8d48988d1dc931735,4bf58dd8d48988d1e0931735,,,,,,,,,,,,,,,-1
 4a7f4eb1f964a520a5f31fe3,Gilt Groupe,40.746193,-73.982196,2 Park Ave,New York,NY,2326,329,0,0,1,4bf58dd8d48988d124941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d124941735
 3fd66200f964a52038e31ee3,The Emerald Pub,40.7257,-74.0085,308 Spring St,New York,NY,1300,843,0,0,1,4bf58dd8d48988d11b941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d11b941735
 4a537663f964a5204cb21fe3,Saluggi's,40.720102,-74.003582,325 Church St.,New York,NY,1024,520,0,0,1,4bf58dd8d48988d1ca941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ca941735
@@ -5694,7 +5734,9 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 40ff0380f964a5203e0b1fe3,Don Giovanni,40.7595,-73.9912,358 W 44th St,New York,NY,558,436,0,0,1,4bf58dd8d48988d110941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d110941735
 4ad4c013f964a52012ef20e3,Baltimore Marriott Waterfront,39.2829918,-76.6027663,700 Aliceanna St,Baltimore,MD,2498,1087,0,0,2,4bf58dd8d48988d1fa931735,4bf58dd8d48988d131951735,,,,,,,,,,,,,,,,,4bf58dd8d48988d110941735
 3fd66200f964a5201ee61ee3,Moss,40.7256969,-73.998428,146-150 Greene St,New York,NY,196,155,0,0,2,4bf58dd8d48988d1f4941735,4bf58dd8d48988d1e2931735,,,,,,,,,,,,,,,,,4bf58dd8d48988d110941735
-49f4d701f964a5205e6b1fe3,Oishii Boston,42.3434,-71.0663,1166 Washington St,Boston,MA,428,288,0,0,2,4bf58dd8d48988d111941735,4bf58dd8d48988d1d2941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d110941735
+4cfa1be1c6cca35da0468432,Bliss Spa at W Doha,25.281312,51.495236,null,Doha,Ad Dawhah,2,2,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4cfa1be1c6cca35da0468432,Bliss Spa at W Doha,25.281312,51.495236,null,Doha,Ad Dawhah,2,2,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+49f4d701f964a5205e6b1fe3,Oishii Boston,42.3434,-71.0663,1166 Washington St,Boston,MA,428,288,0,0,2,4bf58dd8d48988d111941735,4bf58dd8d48988d1d2941735,,,,,,,,,,,,,,,,,-1
 4a6cd2cff964a520bfd11fe3,Crazy Donkey,40.7307,-73.4245,1058 Broadhollow road,Farmingdale,NY,815,494,0,0,1,4bf58dd8d48988d1d9941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1d9941735
 4cd1877c5845bfb755f9b20d,AIDS Walk New York HQ,40.74296517,-73.99094582,119 W 24th St,New York,NY,8849,3804,0,0,1,4bf58dd8d48988d124941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d124941735
 424de080f964a520b6201fe3,The Heights Bar and Grill,40.80522,-73.966369,2867 Broadway,New York,NY,2116,1009,0,0,1,4bf58dd8d48988d116941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d116941735
@@ -5769,7 +5811,9 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4cc6d7dac844721e42e7f601,Santafe' Steak @ Central Plaza Chonburi,13.33683,100.968758,null,null,null,32,25,0,0,1,4bf58dd8d48988d1e1931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1e1931735
 4a1467b2f964a52034781fe3,McDonald's,40.71882683,-73.98820996,114 Delancey St.,New York,NY,1007,647,0,0,1,4bf58dd8d48988d16e941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d16e941735
 4a7977e7f964a52015e71fe3,NJ Transit - Hamilton Station,40.25512171,-74.70404863,800 Sloan Ave,Hamilton,NJ,5618,1790,0,0,3,4bf58dd8d48988d129951735,4bf58dd8d48988d12a951735,4bf58dd8d48988d1fc931735,,,,,,,,,,,,,,,,4bf58dd8d48988d12a951735
-4c2e91fd66e40f470e89c08b,Atlantic City Boardwalk,39.35567067,-74.43426132,Atlantic City Boardwalk,Atlantic City,NJ,2326,1848,0,0,2,4bf58dd8d48988d1e2941735,4bf58dd8d48988d165941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d12a951735
+4b27e6b4f964a520f58b24e3,The Killingworth Cafe,41.3581273,-72.5653571,Rte. 80,Killingworth,CT,37,7,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4b27e6b4f964a520f58b24e3,The Killingworth Cafe,41.3581273,-72.5653571,Rte. 80,Killingworth,CT,37,7,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4c2e91fd66e40f470e89c08b,Atlantic City Boardwalk,39.35567067,-74.43426132,Atlantic City Boardwalk,Atlantic City,NJ,2326,1848,0,0,2,4bf58dd8d48988d1e2941735,4bf58dd8d48988d165941735,,,,,,,,,,,,,,,,,-1
 4bf8a1675efe2d7ff22c6b34,Coco,40.712872,-73.962605,338 Bedford ave,Brooklyn,NY,44,35,0,0,1,4bf58dd8d48988d111941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d111941735
 4aa7c9c4f964a520334d20e3,Sette Enoteca e Cucina,40.670238,-73.978549,207 7th Ave,Brooklyn,NY,594,441,0,0,1,4bf58dd8d48988d143941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d143941735
 4a7b548bf964a520b4ea1fe3,Paulus Hook Brick Oven Pizza,40.714,-74.0375,84 1/2 Morris St.,Jersey City,NJ,210,89,0,0,1,4bf58dd8d48988d1ca941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ca941735
@@ -5863,9 +5907,11 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 41f98080f964a520311f1fe3,P.J. Horgan's Pub,40.74374,-73.9222255,4217 Queens Blvd,Sunnyside,NY,214,116,0,0,2,4bf58dd8d48988d11b941735,4bf58dd8d48988d16c941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d10b941735
 4a14b3a5f964a52069781fe3,Delicious Heights,40.6844,-74.4384,428 Springfield Ave,Berkeley Heights,NJ,741,295,0,0,1,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d14e941735
 49efa893f964a520e5681fe3,R & G Lounge,37.794133,-122.404931,631 Kearny St,San Francisco,CA,1963,1546,0,0,1,4bf58dd8d48988d145941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d145941735
-4a908898f964a520661820e3,Yun Nan Flavour Snack,40.6419043,-74.003462,775 49th Street #B,Brooklyn,NY,98,61,0,0,2,4bf58dd8d48988d145941735,4bf58dd8d48988d1d1941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d145941735
-49bdd3adf964a5209f541fe3,Driskill 1886 Caf“? & Bakery,30.26770376,-97.74184227,604 Brazos St,Austin,TX,976,758,0,0,2,4bf58dd8d48988d143941735,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d145941735
-4a8977f0f964a520130820e3,Tasty Dumpling,40.7153585,-73.9995147,54 Mulberry St.,New York,NY,455,281,0,0,2,4bf58dd8d48988d108941735,4bf58dd8d48988d145941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d145941735
+4c8a23a01797236a94ae5e88,Pulau Bangka,-2.2307904,106.1345705,Jl. Jendral Sudirman,Pangkal Pinang,Bangka Belitung,0,0,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4c8a23a01797236a94ae5e88,Pulau Bangka,-2.2307904,106.1345705,Jl. Jendral Sudirman,Pangkal Pinang,Bangka Belitung,0,0,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4a908898f964a520661820e3,Yun Nan Flavour Snack,40.6419043,-74.003462,775 49th Street #B,Brooklyn,NY,98,61,0,0,2,4bf58dd8d48988d145941735,4bf58dd8d48988d1d1941735,,,,,,,,,,,,,,,,,-1
+49bdd3adf964a5209f541fe3,Driskill 1886 Caf“? & Bakery,30.26770376,-97.74184227,604 Brazos St,Austin,TX,976,758,0,0,2,4bf58dd8d48988d143941735,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,,-1
+4a8977f0f964a520130820e3,Tasty Dumpling,40.7153585,-73.9995147,54 Mulberry St.,New York,NY,455,281,0,0,2,4bf58dd8d48988d108941735,4bf58dd8d48988d145941735,,,,,,,,,,,,,,,,,-1
 4bdedad017fdef3b78a94e36,NJ Transit Rail - Union Station,40.68366465,-74.23861027,900 Green Lane,Union,NJ,1040,289,0,0,1,4bf58dd8d48988d129951735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d129951735
 4aa445cff964a5202d4620e3,Canyon Ranch Hotel & Spa,25.852791,-80.119788,6801 Collins Ave,Miami Beach,FL,976,272,0,0,2,4bf58dd8d48988d12f951735,4bf58dd8d48988d1fa931735,,,,,,,,,,,,,,,,,4bf58dd8d48988d129951735
 4b23f624f964a520e45d24e3,goodburger,40.706994,-74.006041,101 Maiden Ln,New York,NY,1316,624,0,0,1,4bf58dd8d48988d16c941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d16c941735
@@ -6016,6 +6062,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4d32ede9f8c9224b7cc7b5d2,Pri Florjanu,46.275072,14.52966,null,null,null,2,2,0,0,1,4bf58dd8d48988d16d941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d16d941735
 4b05866af964a520146122e3,Las Paletas Gourmet Popsicles,36.1212316,-86.7904685,2905 12th Ave S #101,Nashville,TN,601,445,0,0,2,4bf58dd8d48988d1c9941735,4bf58dd8d48988d1d0941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d16d941735
 4b006b45f964a520013e22e3,Central Park - The Ramble,40.77885161,-73.97124767,Central Park,New York,NY,2283,1698,0,0,2,4bf58dd8d48988d165941735,4bf58dd8d48988d163941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d16d941735
+4d9834e1b7bf2c0f3cd1ea2d,MaBSTOA M1 / Bx15 / M60 / M100 / M101 / BxM3 / BxM4 Bus at East 125 th Street / 5th Avenue and Madison Ave,40.80614352,-73.94155025,East 125th Street,New York,NY,5,4,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4d9834e1b7bf2c0f3cd1ea2d,MaBSTOA M1 / Bx15 / M60 / M100 / M101 / BxM3 / BxM4 Bus at East 125 th Street / 5th Avenue and Madison Ave,40.80614352,-73.94155025,East 125th Street,New York,NY,5,4,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
 41e46880f964a520dd1e1fe3,Banjara Indian Restaurant,40.7264,-73.9862,97 1st Ave,New York,NY,645,514,0,0,1,4bf58dd8d48988d10f941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d10f941735
 4848561bf964a52076501fe3,Arlo & Esme,40.7239235,-73.9899432,42 E 1st St,New York,NY,2063,1593,0,0,3,4bf58dd8d48988d11f941735,4bf58dd8d48988d1e0931735,4bf58dd8d48988d116941735,,,,,,,,,,,,,,,,4bf58dd8d48988d10f941735
 4b363b1af964a5205b3125e3,LIRR - Manhasset Train Station,40.79704746,-73.69950771,Plandome Road,Manhasset,NY,1174,411,0,0,1,4bf58dd8d48988d12a951735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d12a951735
@@ -6100,6 +6148,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4adf9cacf964a520167c21e3,Tu Casa,40.706283,-73.831461,119-05 Metropolitan Avenue,Kew Gardens,NY,466,191,0,0,1,4bf58dd8d48988d150941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d150941735
 3fd66200f964a52034e61ee3,Thom Bar,40.7241,-74.0033,60 Thompson,New York,NY,806,658,0,0,1,4bf58dd8d48988d1d5941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1d5941735
 408c5100f964a520d1f21ee3,Bar Reis,40.6711,-73.9847,375 5th Ave,Brooklyn,NY,1256,756,0,0,2,4bf58dd8d48988d116941735,4bf58dd8d48988d1c5941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1d5941735
+4bead7c861aca593b13b8400,The Great Oak Tree,37.422006,-122.084095,null,Mountain View,California,47,14,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4bead7c861aca593b13b8400,The Great Oak Tree,37.422006,-122.084095,null,Mountain View,California,47,14,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
 49e3a2b3f964a520a6621fe3,Starbucks,40.746777,-73.981204,3 Park Ave,New York,NY,2456,795,0,0,1,4bf58dd8d48988d1e0931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1e0931735
 4c65eb967abde21eb9466268,101.9 The Fox,-37.832704,144.960716,257 Clarendon Street,South Melbourne,VIC,98,24,0,0,1,4bf58dd8d48988d1f1931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1f1931735
 49f06afef964a5202f691fe3,Sandwich Planet,40.7567,-73.9935,522 9th Avenue,New York,NY,487,308,0,0,2,4bf58dd8d48988d1c5941735,4bf58dd8d48988d16c941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1f1931735
@@ -6126,6 +6176,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4b69fac5f964a5207abf2be3,The New Leaf Caf“?,40.8593969,-73.9340703,1 Margaret Corbin Dr.,New York,NY,747,621,0,0,1,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d14e941735
 49dbc81ff964a520035f1fe3,Toast UWS,40.8005114,-73.9682213,2737 Broadway,New York,NY,995,594,0,0,3,4bf58dd8d48988d143941735,4bf58dd8d48988d123941735,4bf58dd8d48988d16c941735,,,,,,,,,,,,,,,,4bf58dd8d48988d14e941735
 4aaa8febf964a5206b5620e3,Nina's Pizzeria & Restaurant,40.722332,-73.941306,635 Meeker Ave.,Brooklyn,NY,250,127,0,0,2,4bf58dd8d48988d1ca941735,4bf58dd8d48988d110941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d14e941735
+4d18bfb0302da1cd7003c593,Perfect Place To Distress!,1.4018472,103.9006033,lounging on my bed.,null,null,40,2,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4d18bfb0302da1cd7003c593,Perfect Place To Distress!,1.4018472,103.9006033,lounging on my bed.,null,null,40,2,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
 4bc72cc52f94d13a5b5d117f,Coachella Valley Music And Arts Festival,33.68435366,-116.2379265,Empire Polo Club,Indio,CA,2217,864,0,0,6,4bf58dd8d48988d1d9941735,4bf58dd8d48988d15f941735,4bf58dd8d48988d1e6931735,4bf58dd8d48988d171941735,4bf58dd8d48988d1e4941735,4bf58dd8d48988d11f941735,,,,,,,,,,,,,4bf58dd8d48988d1e6931735
 4ae36e85f964a520079521e3,El Ay Si,40.744456,-73.953825,47-38 Vernon Blvd,New York,NY,1074,419,0,0,1,4bf58dd8d48988d14f941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d14f941735
 4aaa4e0ef964a520ad5520e3,MTA Subway - Brooklyn Bridge/City Hall/Chambers Street (4/5/6/J/Z),40.71228057,-74.00508642,Park Row,New York,NY,3233,1215,0,0,1,4bf58dd8d48988d1fd931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1fd931735
@@ -6403,7 +6455,9 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4b7f13a6f964a520c41430e3,SET Nightclub,25.7906841,-80.1313429,320 Lincoln Rd,Miami Beach,FL,1537,950,0,0,1,4bf58dd8d48988d11f941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d11f941735
 4a2b0461f964a52089961fe3,Sabrina's Cafe,39.93890402,-75.15831828,910 Christian St,Philadelphia,PA,1684,1045,0,0,2,4bf58dd8d48988d143941735,4bf58dd8d48988d16d941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d11f941735
 4a4d7a55f964a520f3ad1fe3,New York Marriott,40.69352462,-73.98880005,333 Adams St,Brooklyn,NY,1838,972,0,0,1,4bf58dd8d48988d1fa931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1fa931735
-4b6f19c1f964a520f7dc2ce3,New Chiu Chow Restaurant,40.7176229,-73.9974486,111 Mott Street,New York,NY,164,118,0,0,2,4bf58dd8d48988d145941735,4bf58dd8d48988d14a941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1fa931735
+4cd1674b01eaf04d6f12be5d,Miami,40.739042,-74.001351,null,New York,New York,464,17,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4cd1674b01eaf04d6f12be5d,Miami,40.739042,-74.001351,null,New York,New York,464,17,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4b6f19c1f964a520f7dc2ce3,New Chiu Chow Restaurant,40.7176229,-73.9974486,111 Mott Street,New York,NY,164,118,0,0,2,4bf58dd8d48988d145941735,4bf58dd8d48988d14a941735,,,,,,,,,,,,,,,,,-1
 42893400f964a52065231fe3,Hotel Giraffe,40.7422,-73.9848,365 Park Ave South,New York,NY,483,306,0,0,1,4bf58dd8d48988d1fa931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1fa931735
 4c7bec3b566db60cb9284c0e,Lime Jungle,40.7637209,-73.989186,741 9th Ave,New York,NY,1003,635,0,0,1,4bf58dd8d48988d1c1941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1c1941735
 4b1999c4f964a5203de023e3,Pho Anh Dao,40.5088398,-74.3900367,691 US Highway 1,Edison,NJ,314,174,0,0,1,4bf58dd8d48988d14a941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d14a941735
@@ -6483,6 +6537,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4cb20b16aef16dcbd04dbe54,Pan Asian,40.7784327,-73.9534158,215 E 86th St,New York,New York,64,53,0,0,1,4bf58dd8d48988d142941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d142941735
 4bd8e0980115c9b608bf7580,Euro Restaurant,-36.841299,174.763806,null,null,null,285,186,0,0,1,4bf58dd8d48988d1c4941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1c4941735
 4ad4c04af964a520aef220e3,Napoleon House Bar & Cafe,29.95581299,-90.06533861,500 Chartres St,New Orleans,LA,1241,1088,0,0,3,4bf58dd8d48988d121941735,4bf58dd8d48988d16d941735,4bf58dd8d48988d116941735,,,,,,,,,,,,,,,,4bf58dd8d48988d1c4941735
+4d430a79ec7b5941ddb503ab,"The fifth avenue counseling center,INC",40.703956,-73.944126,50,Manhattan,"NY,USA",6,1,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4d430a79ec7b5941ddb503ab,"The fifth avenue counseling center,INC",40.703956,-73.944126,50,Manhattan,"NY,USA",6,1,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
 49dcd96bf964a520b15f1fe3,Starbucks,40.74856558,-73.98422956,350 5th Ave,New York,NY,2936,1496,0,0,1,4bf58dd8d48988d1e0931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1e0931735
 4b980b49f964a5206e2835e3,Mmmpanadas,30.26662886,-97.7419281,2nd and Congress,Austin,TX,2,2,0,0,2,4bf58dd8d48988d1cd941735,4bf58dd8d48988d1cb941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1e0931735
 4a8efcbcf964a520791320e3,Wine Library,40.717,-74.3248,586 Morris Ave (NJ-124),Springfield,NJ,882,458,0,0,1,4bf58dd8d48988d1ff941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ff941735
@@ -6619,6 +6675,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4a3b07bbf964a52083a01fe3,Tehuitzingo Deli,40.763133,-73.992963,695 10th Ave,New York,NY,593,314,0,0,2,4bf58dd8d48988d151941735,4bf58dd8d48988d1c1941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d154941735
 3fd66200f964a520cdea1ee3,Bemelmans Bar,40.7744,-73.9635,35 East 76th St,New York,NY,286,249,0,0,1,4bf58dd8d48988d1d5941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1d5941735
 4d2c8744f7a9224ba2f618a0,The McKittrick Hotel,40.7507371,-74.0037929,530 W. 27th Street,New York,New York,490,402,0,0,1,4bf58dd8d48988d137941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d137941735
+4c5f5328de6920a1b9ad9364,Christian's Spa & Grill,34.08684,-118.386724,null,null,null,21,3,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4c5f5328de6920a1b9ad9364,Christian's Spa & Grill,34.08684,-118.386724,null,null,null,21,3,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
 417ee500f964a520d71d1fe3,Oola Restaurant & Bar,37.7809,-122.403,860 Folsom St,San Francisco,CA,2360,1229,0,0,1,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d14e941735
 4a9168cdf964a5201c1a20e3,Pearl Diner,40.7071,-74.0062,212 Pearl Street,New York,NY,404,251,0,0,1,4bf58dd8d48988d147941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d147941735
 4681449cf964a52020481fe3,Bar Bambino,37.7651234,-122.418165,2931 16th St,San Francisco,CA,833,638,0,0,2,4bf58dd8d48988d110941735,4bf58dd8d48988d123941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d147941735
@@ -6685,6 +6743,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4a6c8714f964a520bad01fe3,Portland lobster company,43.6559,-70.2525,180 Commercial Street,Portland,ME,445,355,0,0,1,4bf58dd8d48988d1ce941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ce941735
 49d25098f964a520a35b1fe3,Telegraphe Cafe,40.739977,-73.9952638,107 W 18th St,New York,NY,1535,468,0,0,1,4bf58dd8d48988d16d941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d16d941735
 458dadf6f964a5200c401fe3,Circus Circus Hotel & Casino,36.13693893,-115.1636267,2880 Las Vegas Blvd S,Las Vegas,NV,5370,3524,0,0,2,4bf58dd8d48988d17c941735,4bf58dd8d48988d1fa931735,,,,,,,,,,,,,,,,,4bf58dd8d48988d16d941735
+4b253c82f964a5207e6e24e3,Dave World Productions,40.585035,-80.2273113,518 Maplewood Avenue,Ambridge,PA,53,3,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4b253c82f964a5207e6e24e3,Dave World Productions,40.585035,-80.2273113,518 Maplewood Avenue,Ambridge,PA,53,3,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
 4ad4b49af964a520c4e820e3,Berkeley College NYC Midtown Campus,40.75356409,-73.97953033,3 East 43rd St,New York,NY,969,339,0,0,1,4bf58dd8d48988d1a8941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1a8941735
 4aebbcfcf964a520a4c421e3,Gagopa Karaoke,40.747578,-73.987101,28 32nd,New York,New York,393,346,0,0,1,4bf58dd8d48988d120941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d120941735
 4bc4f2f80191c9b6c7e0eab1,∫?∫?∫?∫?∫?∫?∫?∫?∫?∫?∫?∫?∫? ∫?∫角∫?∫?∫?∫? (Leningradskiy Train Station),55.7764282,37.65508175,"∫?∫角∫?∫?∫角∫?∫角∫?∫?∫?∫?∫?∫? ∫芍∫?., 3",∫?∫角∫?∫?∫?∫?,∫?∫角∫?∫?∫角∫?∫?∫?∫?∫? ∫角∫?∫?∫?∫?∫?∫?,3343,1432,0,0,2,4bf58dd8d48988d129951735,4bf58dd8d48988d12a951735,,,,,,,,,,,,,,,,,4bf58dd8d48988d120941735
@@ -6727,7 +6787,9 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4af8f40cf964a520ab1022e3,Rockbar,40.732712,-74.009702,185 Christopher St.,New York,NY,1305,581,0,0,2,4bf58dd8d48988d116941735,4bf58dd8d48988d1d8941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ca941735
 4a8e0dd4f964a520e81120e3,Angelini Osteria,34.0762,-118.349,7313 Beverly Blvd.,Los Angeles,CA,456,393,0,0,1,4bf58dd8d48988d110941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d110941735
 4a1dc3adf964a520937b1fe3,Josie's East,40.7479,-73.9766,565 3rd Avenue,New York,NY,667,568,0,0,1,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d14e941735
-4a8978b0f964a520170820e3,Mojito Loco - Brooklyn,40.7078,-73.9459,102 Meserole St.,Brooklyn,NY,162,64,0,0,3,4bf58dd8d48988d1be941735,4bf58dd8d48988d116941735,4bf58dd8d48988d1c1941735,,,,,,,,,,,,,,,,4bf58dd8d48988d14e941735
+4cd329ab607a6dcb58be0d54,The Spot,40.705669,-73.9334,Bogart and seigel,Brooklyn,New York,38,5,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4cd329ab607a6dcb58be0d54,The Spot,40.705669,-73.9334,Bogart and seigel,Brooklyn,New York,38,5,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4a8978b0f964a520170820e3,Mojito Loco - Brooklyn,40.7078,-73.9459,102 Meserole St.,Brooklyn,NY,162,64,0,0,3,4bf58dd8d48988d1be941735,4bf58dd8d48988d116941735,4bf58dd8d48988d1c1941735,,,,,,,,,,,,,,,,-1
 44b75631f964a5206d351fe3,Paramount Theater,30.2694569,-97.7420864,713 Congress Ave,Austin,TX,4227,2435,0,0,3,4bf58dd8d48988d17f941735,4bf58dd8d48988d1e9931735,4bf58dd8d48988d17e941735,,,,,,,,,,,,,,,,4bf58dd8d48988d1e9931735
 4b2084bdf964a520de3224e3,Step-In Restaurant,40.83416291,-73.86113763,1309 Metropolitan Avenue,Bronx,NY,347,87,0,0,1,4bf58dd8d48988d147941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d147941735
 4562ff4cf964a520a43d1fe3,Taco Taco,40.78005399,-73.94979,1726 2nd Ave,New York,NY,641,396,0,0,1,4bf58dd8d48988d1c1941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1c1941735
@@ -6756,6 +6818,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4a5793d6f964a52063b61fe3,Mozza2Go,34.0834331,-118.3385449,6610 Melrose Ave,Los Angeles,CA,331,237,0,0,2,4bf58dd8d48988d1f5941735,4bf58dd8d48988d1ca941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1f5941735
 4b9e4581f964a52067d636e3,Harrisburg International Airport (MDT),40.1975743,-76.763693,One Terminal Dr,Middletown,PA,668,426,0,0,1,4bf58dd8d48988d1ed931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ed931735
 3fd66200f964a52012e51ee3,Nice Guy Eddie's,40.72241836,-73.98632035,5 Ave. A,New York,NY,1128,833,0,0,2,4bf58dd8d48988d11d941735,4bf58dd8d48988d116941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ed931735
+4ce539f36e842c0f8150fc40,Art of the Check In,34.031369,-118.469716,2700 Colorado Avenue,Santa Monica,CA,4,4,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4ce539f36e842c0f8150fc40,Art of the Check In,34.031369,-118.469716,2700 Colorado Avenue,Santa Monica,CA,4,4,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
 4c5ec104857ca5937761d0cb,BuddyVille,40.666694,-73.521852,Eastern ave,Bellmore,NY,64,9,0,0,3,4bf58dd8d48988d1b8941735,4bf58dd8d48988d1a5941735,4bf58dd8d48988d1d6941735,,,,,,,,,,,,,,,,4bf58dd8d48988d1b8941735
 4bc0b70e920eb7131663192c,Fultummy's,40.684495,-74.002652,221 Columbia St,Brooklyn,NY,218,68,0,0,1,4bf58dd8d48988d1c5941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1c5941735
 4a5eba92f964a5201ebf1fe3,Capogiro,39.9543,-75.2014,3925 Walnut St,Philadelphia,PA,3027,635,0,0,3,4bf58dd8d48988d1d0941735,4bf58dd8d48988d1c5941735,4bf58dd8d48988d16d941735,,,,,,,,,,,,,,,,4bf58dd8d48988d1c5941735
@@ -6804,6 +6868,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4b1f1584f964a520cf2324e3,Yummy Pho,47.6818443,-122.1235943,8920 161st Ave,Redmond,Washington,481,155,0,0,2,4bf58dd8d48988d14a941735,4bf58dd8d48988d1d1941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1cc941735
 44634287f964a5201c331fe3,The Runcible Spoon,41.092,-73.9177,37 North Broadway,Nyack,NY,458,184,0,0,3,4bf58dd8d48988d16a941735,4bf58dd8d48988d1c5941735,4bf58dd8d48988d16d941735,,,,,,,,,,,,,,,,4bf58dd8d48988d1cc941735
 469475aff964a520d6481fe3,Restaurant Eve,38.8041633,-77.0447384,110 S Pitt St,Alexandria,VA,366,279,0,0,1,4bf58dd8d48988d157941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d157941735
+4b4f9053f964a520970b27e3,Loehmann's - Houston,29.69791337,-95.5178833,7455 SOUTHWEST FRWY,Houston,TX,14,10,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4b4f9053f964a520970b27e3,Loehmann's - Houston,29.69791337,-95.5178833,7455 SOUTHWEST FRWY,Houston,TX,14,10,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
 4a7c8066f964a520d0ec1fe3,Tasty Cafe,40.778,-73.9819,2062 Broadway,New York,NY,301,147,0,0,1,4bf58dd8d48988d1c5941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1c5941735
 4c79874b2d3ba143a3a18ed0,Julius Brasserie,-22.9485262,-43.163701,"Av. Portugal, 986",Rio de Janeiro,RJ,211,37,0,0,1,4bf58dd8d48988d155941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d155941735
 4a6bc5aff964a520eacf1fe3,Slainte Pub & Grill,39.9549,-75.1834,3000 Market st,Philadelphia,PA,1123,640,0,0,1,4bf58dd8d48988d11b941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d11b941735
@@ -6843,6 +6909,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4c0048a137850f47a410983f,St. Giles Court and Tuscany Hotel,40.74963,-73.978245,120 East 39th Street,New York,NY,784,361,0,0,1,4bf58dd8d48988d1fa931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1fa931735
 49dea416f964a52099601fe3,Tropicana Hotel & Casino,36.0990449,-115.170452,3801 Las Vegas Blvd S,Las Vegas,NV,5663,3095,0,0,3,4bf58dd8d48988d17c941735,4bf58dd8d48988d1fa931735,4bf58dd8d48988d131951735,,,,,,,,,,,,,,,,4bf58dd8d48988d1fa931735
 4ad3efb9f964a520fee620e3,The Sackett,40.6779391,-73.9822717,661 Sackett St.,Brooklyn,NY,1029,433,0,0,1,4bf58dd8d48988d116941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d116941735
+4cc8d0fe4650a35d33fd8a1e,Cachacaria Boteco,40.72063202,-74.00530636,33 Avenue of the Americas,New York,New York,69,53,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4cc8d0fe4650a35d33fd8a1e,Cachacaria Boteco,40.72063202,-74.00530636,33 Avenue of the Americas,New York,New York,69,53,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
 4aa5739bf964a5206c4820e3,Toy Story Midway Mania!,33.80461352,-117.9215893,1313 S Harbor Blvd.,Anaheim,CA,8965,5921,0,0,1,4bf58dd8d48988d182941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d182941735
 4cad3f2e2f08236a01ba9261,Primo,47.6088992,-122.3293239,1106 8th Ave,Seattle,Washington,430,104,0,0,2,4bf58dd8d48988d1ca941735,4bf58dd8d48988d110941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d182941735
 4b109c80f964a520c47323e3,Skye Bar,-23.5820837,-46.6666934,"Av. Brg. Lu“?s Ant?nio, 4700",Sao Paulo,SP,1808,1423,0,0,2,4bf58dd8d48988d1d5941735,4bf58dd8d48988d16b941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d182941735
@@ -6907,7 +6975,9 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 49f6594df964a520346c1fe3,Venice Beach Boardwalk,33.9868592,-118.4735925,1600 Ocean Front Walk,Venice,CA,5040,3242,0,0,3,4bf58dd8d48988d1e2941735,4bf58dd8d48988d165941735,4bf58dd8d48988d1f7941735,,,,,,,,,,,,,,,,4bf58dd8d48988d16d941735
 40fb0f00f964a520db0a1fe3,Il Cortile,40.7180015,-73.9979058,125 Mulberry St,New York,NY,367,344,0,0,1,4bf58dd8d48988d110941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d110941735
 4b1074e6f964a520d67023e3,BQE Wines & Liquors,40.7201229,-73.9439174,504 Meeker Ave,Brooklyn,NY,199,94,0,0,1,4bf58dd8d48988d186941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d186941735
-4bcc74e70687ef3ba63adfcc,The Gallows,42.341109,-71.069842,1395 Washington St,Boston,MA,1595,788,0,0,3,4bf58dd8d48988d155941735,4bf58dd8d48988d14e941735,4bf58dd8d48988d1c7941735,,,,,,,,,,,,,,,,4bf58dd8d48988d186941735
+4ba3225cf964a520162d38e3,Minton's Playhouse,40.8047533,-73.9521349,208 W. 118th St.,New York,NY,42,19,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4ba3225cf964a520162d38e3,Minton's Playhouse,40.8047533,-73.9521349,208 W. 118th St.,New York,NY,42,19,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4bcc74e70687ef3ba63adfcc,The Gallows,42.341109,-71.069842,1395 Washington St,Boston,MA,1595,788,0,0,3,4bf58dd8d48988d155941735,4bf58dd8d48988d14e941735,4bf58dd8d48988d1c7941735,,,,,,,,,,,,,,,,-1
 4a00c58ef964a520af701fe3,Bamboleo,40.7287,-74.0007,170 Bleecker St,New York,NY,738,589,0,0,1,4bf58dd8d48988d1c1941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1c1941735
 4a22141ff964a5205c7d1fe3,Benkyodo Company,37.7863803,-122.4301077,1747 Buchanan St,San Francisco,CA,188,130,0,0,2,4bf58dd8d48988d111941735,4bf58dd8d48988d147941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1c1941735
 4c0f9bb715c2ef3bbf761b08,Web 2.0 Expo,40.762836,-73.981989,811 7th Avenue,New York,NY,1252,628,0,0,1,4bf58dd8d48988d171941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d171941735
@@ -6943,6 +7013,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4cd3704eb74860fc56a76e49,Dora,40.71423639,-73.98695469,221 East Broadway,New York,NY,433,106,0,0,3,4bf58dd8d48988d1e0931735,4bf58dd8d48988d16a941735,4bf58dd8d48988d16d941735,,,,,,,,,,,,,,,,4bf58dd8d48988d1e5941735
 4a57c629f964a520c1b61fe3,Helmers',40.7496791,-74.02738094,1036 Washington St,Hoboken,NJ,438,324,0,0,1,4bf58dd8d48988d10d941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d10d941735
 4cdc6d1bdf986ea882bfcf16,Earth,40.697624,-73.936975,Everywhere,Any,Any,393,151,0,0,1,4bf58dd8d48988d15f941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d15f941735
+4b0b4896f964a520e32f23e3,The Gnome Home,40.685607,-73.988318,Cobble Hill,Brooklyn,New York,84,11,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4b0b4896f964a520e32f23e3,The Gnome Home,40.685607,-73.988318,Cobble Hill,Brooklyn,New York,84,11,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
 4b4a5b85f964a520198526e3,Juan Santamaria International Airport (SJO),9.998013815,-84.20471191,SJO,Alajuela,Costa Rica,2340,1317,0,0,1,4bf58dd8d48988d1ed931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ed931735
 3fd66200f964a520cbe41ee3,Mission Cafe,40.7264961,-73.9890372,82 Second Avenue,New York,NY,151,99,0,0,2,4bf58dd8d48988d16d941735,4bf58dd8d48988d1a5941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ed931735
 4a6eff92f964a5202cd51fe3,PS 234 - Independence School,40.715891,-74.011127,292 Greenwich St,New York,NY,570,62,0,0,1,4bf58dd8d48988d13b941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d13b941735
@@ -6956,8 +7028,10 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4b22ce59f964a520df4d24e3,Sheraton Denver Downtown Hotel,39.7422154,-104.9890466,1550 Court Pl,Denver,CO,2584,1194,0,0,1,4bf58dd8d48988d1fa931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1fa931735
 4abe97d4f964a520b18e20e3,O'Connors Public House,41.202825,-73.727067,222 E Main St,Mount Kisco,NY,422,148,0,0,2,4bf58dd8d48988d11b941735,4bf58dd8d48988d116941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1fa931735
 429ba900f964a52084241fe3,Sachiko's on Clinton,40.7206,-73.9845,25 Clinton St,New York,NY,269,144,0,0,1,4bf58dd8d48988d111941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d111941735
-4c89508abbec6dcb4235db58,Barneys Co-op,40.69004288,-73.99309158,194 Atlantic Ave,Brooklyn,NY,356,279,0,0,2,4bf58dd8d48988d103951735,4bf58dd8d48988d1f6941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d111941735
-4af573edf964a52032f921e3,Claremont Preparatory School,40.70429408,-74.01141644,41 Broad St,New York,NY,204,37,0,0,2,4bf58dd8d48988d13b941735,4bf58dd8d48988d198941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d111941735
+4cb886ab035d236a22c5cd4e,"Silvia,s paradise,",0.519433,101.464428,Dwikora street 18c,Pekanbaru,Riau,7,3,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4cb886ab035d236a22c5cd4e,"Silvia,s paradise,",0.519433,101.464428,Dwikora street 18c,Pekanbaru,Riau,7,3,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4c89508abbec6dcb4235db58,Barneys Co-op,40.69004288,-73.99309158,194 Atlantic Ave,Brooklyn,NY,356,279,0,0,2,4bf58dd8d48988d103951735,4bf58dd8d48988d1f6941735,,,,,,,,,,,,,,,,,-1
+4af573edf964a52032f921e3,Claremont Preparatory School,40.70429408,-74.01141644,41 Broad St,New York,NY,204,37,0,0,2,4bf58dd8d48988d13b941735,4bf58dd8d48988d198941735,,,,,,,,,,,,,,,,,-1
 4ac7a3ddf964a520b1b820e3,Raffles,40.754978,-73.973458,511 Lexington Ave,New York,NY,288,207,0,0,1,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d14e941735
 40b28c80f964a5206bf81ee3,Redbones Barbecue,42.395093,-71.122302,55 Chester St,Somerville,MA,3695,2117,0,0,1,4bf58dd8d48988d1df931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1df931735
 4ae4e542f964a520339f21e3,Applebee's Neighborhood Grill & Bar,40.7556299,-73.92245,38-01 35th Ave,Astoria,NY,1057,657,0,0,2,4bf58dd8d48988d14e941735,4bf58dd8d48988d116941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1df931735
@@ -7046,6 +7120,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4ad7e4b4f964a520e10f21e3,Penthouse Executive Club,40.763019,-73.997125,603 West 45th Street,New York,NY,672,200,0,0,1,4bf58dd8d48988d1d6941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1d6941735
 4a907b5ff964a520231820e3,Gristedes Supermarkets #098,40.7849291,-73.9487043,202 East 96th Street,New York,NY,362,145,0,0,1,4bf58dd8d48988d118951735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d118951735
 4a4e253df964a52027ae1fe3,TGI Friday's,40.5865806,-73.9289537,3181 Harkness Ave,Brooklyn,NY,694,436,0,0,1,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d14e941735
+4be5dce7d4f7c9b67b0c2620,Casa De woof woof,40.352654,-74.753897,null,null,null,20,3,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4be5dce7d4f7c9b67b0c2620,Casa De woof woof,40.352654,-74.753897,null,null,null,20,3,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
 4adcda91f964a520ae4b21e3,Berlin-Sch?nefeld Airport (SXF),52.38848724,13.51882696,Flughafen 1,Sch?nefeld,Germany,5819,2900,0,0,1,4bf58dd8d48988d1ed931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ed931735
 4b16b655f964a52067bc23e3,Asian Temptation,41.0316678,-73.766334,23 Mamaroneck Avenue,White Plains,NY,269,183,0,0,1,4bf58dd8d48988d142941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d142941735
 4aaaee01f964a520185820e3,Lolita,39.950081,-75.162148,106 S 13th St,Philadelphia,PA,556,482,0,0,1,4bf58dd8d48988d1c1941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1c1941735
@@ -7207,6 +7283,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4a6754e6f964a52030c91fe3,Alto,40.76,-73.975,11 E. 53rd St.,New York,NY,364,271,0,0,1,4bf58dd8d48988d110941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d110941735
 3fd66200f964a520a5ed1ee3,The Mauna Loa Club,37.797317,-122.4356639,3009 Fillmore St,San Francisco,CA,2142,921,0,0,2,4bf58dd8d48988d116941735,4bf58dd8d48988d118941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d110941735
 3fd66200f964a52065e71ee3,Gemini Restaurant,40.7454074,-73.9754273,641 2nd Ave,New York,NY,611,351,0,0,1,4bf58dd8d48988d147941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d147941735
+4d84cd8af9f3a1cd8f49bd64,D Train Depot,40.747751,-73.830448,134-14 Booth Memorial avenue,Flushing,New York,30,2,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4d84cd8af9f3a1cd8f49bd64,D Train Depot,40.747751,-73.830448,134-14 Booth Memorial avenue,Flushing,New York,30,2,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
 4550e681f964a520e43c1fe3,Colibri,37.7871,-122.411,438 Geary St,San Francisco,CA,878,670,0,0,1,4bf58dd8d48988d1c1941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1c1941735
 45719c4bf964a520693e1fe3,National Museum of the American Indian,40.70444,-74.013723,One Bowling Green,New York,NY,879,737,0,0,2,4bf58dd8d48988d181941735,4bf58dd8d48988d190941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1c1941735
 4b9eb1b2f964a52035fa36e3,St. John's University Library,40.721632,-73.794436,8000 Utopia Pkwy,Jamaica,New York,974,174,0,0,1,4bf58dd8d48988d1a7941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1a7941735
@@ -7285,6 +7363,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4ad4c04cf964a52009f320e3,Creole Creamery,29.9245633,-90.108441,4924 Prytania,New Orleans,LA,1217,714,0,0,1,4bf58dd8d48988d1c9941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1c9941735
 49eb98b1f964a520fa661fe3,Ortine,40.6799,-73.9642,622 Washington Ave,Brooklyn,NY,329,183,0,0,2,4bf58dd8d48988d1e0931735,4bf58dd8d48988d143941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1c9941735
 4a5777c3f964a52028b61fe3,Aperitivo,40.67358,-73.982254,287 5th ave,Brooklyn,NY,546,308,0,0,1,4bf58dd8d48988d110941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d110941735
+4c3a02ea2c8020a13f988d00,Back Deck Bar,40.873392,-73.421036,null,Huntington,null,85,6,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4c3a02ea2c8020a13f988d00,Back Deck Bar,40.873392,-73.421036,null,Huntington,null,85,6,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
 40b3de00f964a52030001fe3,Palace Kitchen,47.61451,-122.340209,2030 5th Ave,Seattle,WA,2108,1378,0,0,1,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d14e941735
 4362bb80f964a5204d291fe3,Obivia,40.7214,-73.9979,201 Lafayette St,New York,NY,652,540,0,0,2,4bf58dd8d48988d116941735,4bf58dd8d48988d121941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d14e941735
 4ab3c747f964a520756e20e3,Staples,40.7355379,-73.9916064,5-9 Union Sq. W.,New York,NY,997,711,0,0,1,4bf58dd8d48988d121951735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d121951735
@@ -7348,6 +7428,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4cf6b3fc1801a143b649ebd4,Fish Tag,40.7833974,-73.9793949,222 W. 79th St.,New York,New York,186,152,0,0,1,4bf58dd8d48988d1ce941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ce941735
 4b2594aff964a5201b7424e3,Sentosa,40.759147,-73.831944,39-07Prince St,New York,NY,394,304,0,0,2,4bf58dd8d48988d156941735,4bf58dd8d48988d1e1931735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ce941735
 4bf3f8ca94af2d7f5d013a72,Lido Beach West Park,40.58557134,-73.6306715,Lido Blvd,Lido Beach,NY,668,401,0,0,1,4bf58dd8d48988d1e2941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1e2941735
+4aaf120af964a5200b6420e3,My sofa,40.733629,-73.98798,14th st,New York,NY,13,5,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4aaf120af964a5200b6420e3,My sofa,40.733629,-73.98798,14th st,New York,NY,13,5,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
 4ade491cf964a520a07421e3,Greg Valvano's Desk,40.726766,-74.005426,160 Varick St. 6th Floor,New York,NY,124,55,0,0,1,4bf58dd8d48988d124941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d124941735
 4c327771ed37a593e4f26b03,Tommy 2 Scoops,40.7164974,-74.0417807,175 York Street,Jersey City,New Jersey,458,240,0,0,1,4bf58dd8d48988d1c9941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1c9941735
 4b4cb0c5f964a52071ba26e3,Universit“∟ IULM,45.4427187,9.163723,Via Carlo Bo 1/2,Milano,Italy,2107,436,0,0,5,4bf58dd8d48988d1ae941735,4bf58dd8d48988d124941735,4bf58dd8d48988d197941735,4bf58dd8d48988d171941735,4bf58dd8d48988d1a1941735,,,,,,,,,,,,,,4bf58dd8d48988d1c9941735
@@ -7493,7 +7575,9 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4b661fbbf964a520fd142be3,Pollo Tropical,40.830504,-74.1387545,374 Route 3 West,Clifton,New Jersey,382,254,0,0,1,4bf58dd8d48988d150941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d150941735
 4abbe9d9f964a5207a8520e3,Salmon River,40.7519507,-73.981196,3 E 40th St,New York,NY,226,127,0,0,1,4bf58dd8d48988d1ce941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ce941735
 4ac8f390f964a5208bbd20e3,David's Cafe,25.781713,-80.131759,1058 Collins Ave.,Miami Beach,FL,873,661,0,0,4,4bf58dd8d48988d1e0931735,4bf58dd8d48988d1be941735,4bf58dd8d48988d154941735,4bf58dd8d48988d118951735,,,,,,,,,,,,,,,4bf58dd8d48988d1ce941735
-4af96f69f964a520bf1122e3,Radio-Canada,45.5187433,-73.5521491,1400 boulevard Ren“?-L“?vesque Est,Montr“?al,Qc,1903,306,0,0,2,4bf58dd8d48988d124941735,4bf58dd8d48988d1f1931735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ce941735
+4cdc8bedcea2224b850a8c4c,Outskirts Of Gamehendge,40.830185,-73.50305,null,null,null,78,5,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4cdc8bedcea2224b850a8c4c,Outskirts Of Gamehendge,40.830185,-73.50305,null,null,null,78,5,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4af96f69f964a520bf1122e3,Radio-Canada,45.5187433,-73.5521491,1400 boulevard Ren“?-L“?vesque Est,Montr“?al,Qc,1903,306,0,0,2,4bf58dd8d48988d124941735,4bf58dd8d48988d1f1931735,,,,,,,,,,,,,,,,,-1
 49ec0695f964a52055671fe3,AMC Northpark 15,32.86870667,-96.7735219,8687 N Central Expy,Dallas,TX,6981,3341,0,0,2,4bf58dd8d48988d180941735,4bf58dd8d48988d17f941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d180941735
 4a6da55cf964a520d2d21fe3,New York Sports Club,40.7708882,-73.9551567,349 E 76th St,New York,NY,4873,554,0,0,2,4bf58dd8d48988d176941735,4bf58dd8d48988d175941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d176941735
 4aa03296f964a520ac3e20e3,Caf“? 50 West,40.74187,-73.992552,50 West 22 Street,New York,NY,728,538,0,0,1,4bf58dd8d48988d143941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d143941735
@@ -7539,7 +7623,9 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4d684e101a88b1f79e5a1c5d,Good People @ The Samuel J. Friedman Theatre,40.7602341,-73.9868085,261 West 47th Street,New York,NY,136,101,0,0,1,4bf58dd8d48988d137941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d137941735
 40be6a00f964a520cc001fe3,Wolf Trap National Park for the Performing Arts (Filene Center),38.93677991,-77.26534367,1635 Trap Rd.,Vienna,VA,2534,1877,0,0,3,4bf58dd8d48988d1f3931735,4bf58dd8d48988d162941735,4bf58dd8d48988d1f2931735,,,,,,,,,,,,,,,,4bf58dd8d48988d1f3931735
 4b365ac3f964a520773325e3,Pure Yoga,40.7819103,-73.9794946,204 W 77th St,New York,NY,3184,1965,0,0,1,4bf58dd8d48988d102941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d102941735
-4bc86ab714d7952183fa68e9,The Studio Grill,42.29173289,-85.58630705,312 W. Michigan Ave.,Kalamazoo,MI,213,81,0,0,3,4bf58dd8d48988d14e941735,4bf58dd8d48988d1e2931735,4bf58dd8d48988d16c941735,,,,,,,,,,,,,,,,4bf58dd8d48988d102941735
+4c7bb9a2dbaa76b07fbd294b,Keller Williams Realty Greater Nassau,40.7423323,-73.6207995,"One Old Country Road, Suite 282",Carle Place,NY,8,4,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4c7bb9a2dbaa76b07fbd294b,Keller Williams Realty Greater Nassau,40.7423323,-73.6207995,"One Old Country Road, Suite 282",Carle Place,NY,8,4,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4bc86ab714d7952183fa68e9,The Studio Grill,42.29173289,-85.58630705,312 W. Michigan Ave.,Kalamazoo,MI,213,81,0,0,3,4bf58dd8d48988d14e941735,4bf58dd8d48988d1e2931735,4bf58dd8d48988d16c941735,,,,,,,,,,,,,,,,-1
 4a2a066bf964a52002961fe3,Nino's Pizza of New York,40.7268075,-73.9833716,131 St. Marks Pl.,New York,NY,732,502,0,0,1,4bf58dd8d48988d1ca941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ca941735
 4ba92fe6f964a52092123ae3,Schlub City,40.7669799,-73.912111,25-33 Steinway St,Astoria,NY,57,8,0,0,1,4bf58dd8d48988d11a941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d11a941735
 4bb7ba2f1261d13affc6e798,Concourse E - ATL,33.64063339,-84.42559719,Hartsfield-Jackson Atlanta International Airport,Atlanta,GA,3475,2582,0,0,3,4bf58dd8d48988d1eb931735,4bf58dd8d48988d1f0931735,4bf58dd8d48988d1ed931735,,,,,,,,,,,,,,,,4bf58dd8d48988d1eb931735
@@ -7553,7 +7639,9 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4a9317e3f964a520c71e20e3,Tenzan Sushi,40.756202,-73.967201,988 2nd ave,New York,NY,663,479,0,0,1,4bf58dd8d48988d1d2941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1d2941735
 4abef8bbf964a520a59020e3,Gordon Bennett Pub & Grub,40.710761,-73.96417,109 s 6th st,New York,NY,566,341,0,0,1,4bf58dd8d48988d116941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d116941735
 4befcfd1d4e4d13aca9515a7,Captree State Park,40.6415074,-73.25473309,Captree State Park,Babylon,NY,298,243,0,0,2,4bf58dd8d48988d163941735,4bf58dd8d48988d1e0941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d116941735
-3fd66200f964a52019ea1ee3,Veritas,40.7387,-73.9886,43 E. 20th St,New York,NY,264,168,0,0,2,4bf58dd8d48988d10c941735,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d116941735
+4ca68b37b0b8236a3495a0e6,Cesco,40.800391,-74.12799,null,null,null,239,3,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4ca68b37b0b8236a3495a0e6,Cesco,40.800391,-74.12799,null,null,null,239,3,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+3fd66200f964a52019ea1ee3,Veritas,40.7387,-73.9886,43 E. 20th St,New York,NY,264,168,0,0,2,4bf58dd8d48988d10c941735,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,,-1
 48f60864f964a52048521fe3,Brooklyn Botanica,40.6771,-74.0154,220 Conover St,Brooklyn,NY,192,164,0,0,1,4bf58dd8d48988d11e941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d11e941735
 4af70e8df964a5204e0522e3,HK Tea & Sushi,40.6040521,-73.9973874,2033 86th St,Brooklyn,New York,278,134,0,0,1,4bf58dd8d48988d142941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d142941735
 3fd66200f964a520bae71ee3,Chez Napoleon,40.763312,-73.988462,365 W. 50th St,New York,NY,111,97,0,0,1,4bf58dd8d48988d10c941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d10c941735
@@ -7575,6 +7663,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4a56a32ff964a52090b51fe3,Jubilee Marketplace,40.7079671,-74.005999,99 John St,New York,NY,2538,576,0,0,1,4bf58dd8d48988d118951735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d118951735
 4b636f3bf964a5208f792ae3,Dinosaur Bar-B-Que,43.052407,-76.154904,246 W Willow St,Syracuse,NY,3162,2231,0,0,1,4bf58dd8d48988d1df931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1df931735
 4ac94b30f964a52096bf20e3,Key Food,40.76614404,-73.91996384,32-21 Newtown Ave,Astoria,NY,1111,285,0,0,2,4bf58dd8d48988d118951735,4bf58dd8d48988d11f951735,,,,,,,,,,,,,,,,,4bf58dd8d48988d118951735
+4ae5aab9f964a52057a121e3,Manhattan Mini Storage - 2nd St,40.72453,-73.990211,28 Second Ave,New York,NY,142,38,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4ae5aab9f964a52057a121e3,Manhattan Mini Storage - 2nd St,40.72453,-73.990211,28 Second Ave,New York,NY,142,38,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
 44ae0270f964a5201e351fe3,Killmeyer's Old Bavarian Inn,40.5385,-74.2374,4256 Arthur Kill Rd.,Staten Island,NY,223,162,0,0,1,4bf58dd8d48988d10d941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d10d941735
 4a2bc609f964a520dd961fe3,Cup,40.7252499,-73.9523388,79 Norman Ave,Brooklyn,NY,1097,220,0,0,1,4bf58dd8d48988d1e0931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1e0931735
 42a4e380f964a520f7241fe3,Rosa Mexicano,40.75883,-73.962622,1063 1st Ave,New York,NY,764,639,0,0,1,4bf58dd8d48988d1c1941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1c1941735
@@ -7601,7 +7691,9 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4a3d9ccdf964a5208aa21fe3,In-N-Out Burger,33.43492426,-111.9254172,920 E Playa Del Norte Dr,Tempe,AZ,4441,2497,0,0,1,4bf58dd8d48988d16c941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d16c941735
 4c69844ecff29521fdbe175e,Fuel Center City,39.9491355,-75.1617672,1225 Walnut Street,Philadelphia,PA,513,265,0,0,3,4bf58dd8d48988d16d941735,4bf58dd8d48988d157941735,4bf58dd8d48988d112941735,,,,,,,,,,,,,,,,4bf58dd8d48988d16c941735
 4a0c627df964a52028751fe3,The Dubliner,40.7043657,-74.0102868,45 Stone Street,New York,NY,1453,1043,0,0,1,4bf58dd8d48988d11b941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d11b941735
-4a42a38bf964a52012a61fe3,Mad Mex,39.95330643,-75.19347668,3401 Walnut St,Philadelphia,PA,3516,1547,0,0,4,4bf58dd8d48988d1c1941735,4bf58dd8d48988d14c941735,4bf58dd8d48988d14e941735,4bf58dd8d48988d116941735,,,,,,,,,,,,,,,4bf58dd8d48988d11b941735
+4d274d53fb8e594126594c54,5 Years From Now?,-23.5452519,-46.6576427,"Rua Piaui, 760",S?o Paulo,S?o Paulo,156,30,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4d274d53fb8e594126594c54,5 Years From Now?,-23.5452519,-46.6576427,"Rua Piaui, 760",S?o Paulo,S?o Paulo,156,30,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4a42a38bf964a52012a61fe3,Mad Mex,39.95330643,-75.19347668,3401 Walnut St,Philadelphia,PA,3516,1547,0,0,4,4bf58dd8d48988d1c1941735,4bf58dd8d48988d14c941735,4bf58dd8d48988d14e941735,4bf58dd8d48988d116941735,,,,,,,,,,,,,,,-1
 4aef4c19f964a52058d721e3,New York Sports Bar,40.77456186,-73.87125492,LaGuardia Airport,East Elmhurst,NY,418,383,0,0,1,4bf58dd8d48988d11d941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d11d941735
 4a771079f964a52078e31fe3,Gourmet Dumpling House,42.3514344,-71.0606823,52 Beach St,Boston,MA,1138,662,0,0,1,4bf58dd8d48988d145941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d145941735
 4a399cf7f964a5209c9f1fe3,Annie's Cafe and Bar,30.2657637,-97.7436422,319 Congress Ave,Austin,TX,1733,1270,0,0,3,4bf58dd8d48988d143941735,4bf58dd8d48988d1e0931735,4bf58dd8d48988d121941735,,,,,,,,,,,,,,,,4bf58dd8d48988d145941735
@@ -7747,6 +7839,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4a32a06df964a5206d9a1fe3,Merchants NY Caf“?,40.70803,-74.014869,90 Washington Street,New York,NY,491,292,0,0,1,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d14e941735
 4a7dbbeaf964a52066ef1fe3,Connecticut Muffin,40.6949794,-73.9949213,115 Montague St.,Brooklyn,NY,802,315,0,0,1,4bf58dd8d48988d1e0931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1e0931735
 4c3ba081be4620a183ae0c13,LT Burger in the Harbor,41.000847,-72.2958,62 Main St,Sag Harbor,NY,342,225,0,0,1,4bf58dd8d48988d16c941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d16c941735
+4cba3196352ebfb778418df2,Jehovahs Witnesses kingdom hall,40.65,-73.95,711 58street,Brooklyn,"New York,USA",0,0,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4cba3196352ebfb778418df2,Jehovahs Witnesses kingdom hall,40.65,-73.95,711 58street,Brooklyn,"New York,USA",0,0,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
 4afd7ad3f964a5200b2822e3,Crown Deli,40.7629133,-73.9830554,1674 Broadway,New York,NY,781,135,0,0,1,4bf58dd8d48988d146941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d146941735
 4b6e04b6f964a520c5a32ce3,Kitchen Kabaret,40.78526946,-73.62306476,409 Glen Cove Rd,Roslyn Heights,NY,975,363,0,0,1,4bf58dd8d48988d1c4941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1c4941735
 4a84a641f964a52039fd1fe3,The Bad Apple,41.95967759,-87.68281281,4300 N. Lincoln Ave.,Chicago,IL,2091,1199,0,0,1,4bf58dd8d48988d16c941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d16c941735
@@ -7794,6 +7888,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4b78aac8f964a520f9dc2ee3,Michael Symon's Roast Detroit,42.33182881,-83.05139959,1128 Washington Blvd.,Detroit,MI,1296,767,0,0,3,4bf58dd8d48988d14e941735,4bf58dd8d48988d116941735,4bf58dd8d48988d1cc941735,,,,,,,,,,,,,,,,4bf58dd8d48988d1dd941735
 4d3dbbc5d2c8f04d5fd96c72,Meadhall,42.36368105,-71.08763695,4 Cambridge Center,Cambridge,MA,814,572,0,0,1,4bf58dd8d48988d116941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d116941735
 4b366439f964a520503425e3,Burger King,40.719294,-74.001012,273 Canal St,New York,New York,258,177,0,0,1,4bf58dd8d48988d16e941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d16e941735
+4c032a50f423a59339f4cf16,The Kontrakan,-7.008813,110.445731,Jalan pisang raya no 14 lamper tengah,Semarang,Central Java,144,4,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4c032a50f423a59339f4cf16,The Kontrakan,-7.008813,110.445731,Jalan pisang raya no 14 lamper tengah,Semarang,Central Java,144,4,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
 4b09c044f964a520ea1c23e3,Mindshare,40.752729,-73.989548,498 7th Ave,New York,NY,2917,475,0,0,6,4bf58dd8d48988d127941735,4bf58dd8d48988d1f1931735,4bf58dd8d48988d124941735,4bf58dd8d48988d114941735,4bf58dd8d48988d130941735,4bf58dd8d48988d1a5941735,,,,,,,,,,,,,4bf58dd8d48988d127941735
 4a9177cbf964a520481a20e3,Scopello,40.6872789,-73.976026,63 Lafayette Ave,Brooklyn,NY,350,245,0,0,1,4bf58dd8d48988d110941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d110941735
 4a9819bbf964a520772a20e3,Lenny's Pizzeria,40.6644099,-73.990589,594 5th Ave,New York,NY,265,156,0,0,1,4bf58dd8d48988d1ca941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ca941735
@@ -7859,6 +7955,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4d093990611ff04dca0b1ffb,Sephora SSP,42.22139879,-71.02446556,250 Granite Street,Braintree,Massachusetts,22,14,0,0,1,4bf58dd8d48988d10c951735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d10c951735
 4b09d2c5f964a520431e23e3,MoCA Asian Bistro,40.720942,-73.845215,107-18 70th Road,New York,Forest Hills,272,222,0,0,1,4bf58dd8d48988d142941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d142941735
 3fd66200f964a520fde41ee3,Boca Chica,40.723534,-73.98863,13 1st Ave,New York,NY,933,750,0,0,1,4bf58dd8d48988d1c1941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1c1941735
+4d425145ac556a31c4ac409d,Ruth's Room,-6.2569723,106.8493426,Jl.pahlawan no.1 kalibata jakarta selatan,Jakarta Selatan,Indonesia,12,1,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4d425145ac556a31c4ac409d,Ruth's Room,-6.2569723,106.8493426,Jl.pahlawan no.1 kalibata jakarta selatan,Jakarta Selatan,Indonesia,12,1,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
 4ccf1302c0378cfafba39748,Charmin Restrooms,40.75547196,-73.98562163,142 W 42nd St,New York,NY,477,387,0,0,1,4bf58dd8d48988d171941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d171941735
 433f2300f964a52050281fe3,Mike's Coffee Shop,40.68955477,-73.9654541,328 DeKalb Avenue,Brooklyn,NY,746,325,0,0,1,4bf58dd8d48988d147941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d147941735
 4bbd2d578a4fb713d5bf3c9d,Iris & B Gerald Cantor Roof Garden,40.77918876,-73.96353364,1000 Fifth Ave,New York,NY,1096,946,0,0,5,4bf58dd8d48988d18f941735,4bf58dd8d48988d11e941735,4bf58dd8d48988d16d941735,4bf58dd8d48988d181941735,4bf58dd8d48988d1e2931735,,,,,,,,,,,,,,4bf58dd8d48988d18f941735
@@ -7902,6 +8000,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 42af6f80f964a5205b251fe3,Grauman's Chinese Theatre,34.10174409,-118.340883,6925 Hollywood Blvd,Los Angeles,CA,5963,4848,0,0,3,4bf58dd8d48988d180941735,4bf58dd8d48988d17f941735,4bf58dd8d48988d1f2931735,,,,,,,,,,,,,,,,4bf58dd8d48988d180941735
 457d4c15f964a5201a3f1fe3,Thai Elephant,40.7778,-73.9087,21-09 31st St,Queens,NY,288,110,0,0,1,4bf58dd8d48988d149941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d149941735
 49c54d97f964a520f0561fe3,Swingers,34.0181645,-118.4896528,802 Broadway Ave.,Santa Monica,CA,3470,1910,0,0,3,4bf58dd8d48988d147941735,4bf58dd8d48988d16d941735,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,4bf58dd8d48988d149941735
+4b1bea5ff964a520f1fe23e3,Loehmann's,42.5253804,-83.3600085,31005 Orchard Lake Rd,Farmington HIlls,MI,46,41,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4b1bea5ff964a520f1fe23e3,Loehmann's,42.5253804,-83.3600085,31005 Orchard Lake Rd,Farmington HIlls,MI,46,41,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
 4b93a658f964a5209e4b34e3,The Kneaded Bread,41.004341,-73.659886,null,null,null,196,99,0,0,1,4bf58dd8d48988d16a941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d16a941735
 4b59147af964a520927b28e3,Bee Desserts & Caf“?,40.737944,-74.001638,94 Greenwich Ave,New York,NY,290,219,0,0,2,4bf58dd8d48988d16a941735,4bf58dd8d48988d1c9941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d16a941735
 49ccd922f964a52093591fe3,Art Cafe,41.0886,-73.9187,65 South Broadway,Nyack,NY,404,108,0,0,3,4bf58dd8d48988d143941735,4bf58dd8d48988d1d3941735,4bf58dd8d48988d1e0931735,,,,,,,,,,,,,,,,4bf58dd8d48988d16a941735
@@ -8033,6 +8133,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 49ff4e3df964a52004701fe3,Devon and Blakely,40.710475,-74.015493,3 World Financial Center,New York,NY,582,177,0,0,2,4bf58dd8d48988d16d941735,4bf58dd8d48988d1c5941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d114951735
 4b1d3931f964a5203e0d24e3,Wendy's,40.765573,-73.983298,938 Eighth Avenue,New York,NY,838,474,0,0,1,4bf58dd8d48988d16e941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d16e941735
 4c4cc90a50710f47dc9fa232,Aero apartments,40.732744,-73.850677,null,null,null,148,4,0,0,1,4bf58dd8d48988d103941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d103941735
+4b686bfdf964a5208d772be3,Manhattan Mini Storage - 23rd St,40.747984,-74.005606,524 W 23rd St,New York,NY,92,53,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4b686bfdf964a5208d772be3,Manhattan Mini Storage - 23rd St,40.747984,-74.005606,524 W 23rd St,New York,NY,92,53,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
 4badf74cf964a52049763be3,Pret A Manger,40.74797223,-73.99287701,342 7th Ave.,New York,NY,1639,593,0,0,1,4bf58dd8d48988d1c5941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1c5941735
 4bf746635ec320a13ed286d3,Ceviche Tapas Bar,40.798701,-73.9365048,2312 Second Ave.,New York,NY,76,60,0,0,1,4bf58dd8d48988d1db931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1db931735
 49cf8a7af964a520ac5a1fe3,Miranda,40.719923,-73.957891,80 Berry St,Brooklyn,NY,395,324,0,0,1,4bf58dd8d48988d1c1941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1c1941735
@@ -8418,6 +8520,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4bd9bece0115c9b6da7c7880,AllSaints Spitalfields,42.3512269,-71.0764616,122 Newbury St,Boston,MA,630,435,0,0,1,4bf58dd8d48988d103951735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d103951735
 4b2ac241f964a52009af24e3,Pongsri- Thailand Restaurant,40.71595632,-74.0001297,106 Bayard St,New York,NY,550,347,0,0,1,4bf58dd8d48988d149941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d149941735
 4aaa6549f964a520d25520e3,Zingerman's Delicatessen,42.2846909,-83.74522805,422 Detroit St,Ann Arbor,MI,2605,1701,0,0,2,4bf58dd8d48988d146941735,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d149941735
+4cb518163abd9c74da5d562f,CASTLE RAMSKULL,40.698739,-73.9397226,885 Park Ave.,Brooklyn,NY,7,1,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4cb518163abd9c74da5d562f,CASTLE RAMSKULL,40.698739,-73.9397226,885 Park Ave.,Brooklyn,NY,7,1,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
 4aa7a6c1f964a520e74c20e3,Sax Chicago - A Thompson Hotel,41.888461,-87.628841,333 North Dearborn,Chicago,IL,2048,1040,0,0,1,4bf58dd8d48988d1fa931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1fa931735
 49fa0280f964a520a76d1fe3,The Park Cafe,40.7645,-73.9808,861 7th Ave.,New York,NY,355,298,0,0,1,4bf58dd8d48988d147941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d147941735
 4b15503df964a5202eb023e3,PETCO Park,32.70755978,-117.157023,19 Tony Gwynn Dr,San Diego,CA,20671,9804,0,0,10,4bf58dd8d48988d18c941735,4bf58dd8d48988d1f1931735,4bf58dd8d48988d162941735,4bf58dd8d48988d163941735,4bf58dd8d48988d1e8941735,4bf58dd8d48988d184941735,4bf58dd8d48988d103941735,4bf58dd8d48988d124941735,4bf58dd8d48988d14e941735,4bf58dd8d48988d1e7941735,,,,,,,,,4bf58dd8d48988d18c941735
@@ -8443,6 +8547,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4b129b4ff964a520458b23e3,MTA Subway - 79th St (1),40.7838868,-73.9800804,79th St & Broadway,New York,NY,1592,516,0,0,1,4bf58dd8d48988d1fd931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1fd931735
 49cd2861f964a520c5591fe3,Above Allen,40.7224082,-73.9887199,190 Allen St,New York,NY,1659,1140,0,0,1,4bf58dd8d48988d131951735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d131951735
 49dad117f964a520b65e1fe3,Honey Honey Cafe & Crepery,37.787712,-122.411394,599 Post St,San Francisco,CA,1679,1041,0,0,3,4bf58dd8d48988d143941735,4bf58dd8d48988d16c941735,4bf58dd8d48988d110941735,,,,,,,,,,,,,,,,4bf58dd8d48988d131951735
+4c12a03177cea5935d66cd60,Coulson Manor,34.445864,-119.833277,6076 Ashley Pl,Goleta,California,41,2,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4c12a03177cea5935d66cd60,Coulson Manor,34.445864,-119.833277,6076 Ashley Pl,Goleta,California,41,2,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
 3fd66200f964a520c9e71ee3,The Iguana VIP Lounge,40.7642803,-73.9832217,240 West 54th St,New York,NY,646,554,0,0,1,4bf58dd8d48988d1c1941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1c1941735
 4b06bb18f964a52040ef22e3,Georgie's Alibi,26.1567679,-80.1375736,2266 Wilton Dr,Wilton Manors,FL,5966,1634,0,0,2,4bf58dd8d48988d1d8941735,4bf58dd8d48988d116941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1c1941735
 4a82cffff964a52065f91fe3,Studio Museum in Harlem,40.8085,-73.9472,144 West 125th St,New York,NY,365,259,0,0,1,4bf58dd8d48988d1e2931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1e2931735
@@ -8507,6 +8613,8 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4cd4b352dfb4a1cd26e8545c,Puerto Peru,18.456479,-66.07412,null,null,null,53,50,0,0,1,4bf58dd8d48988d1be941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1be941735
 4bb07c84f964a520e3473ce3,Carl-Benz-Stadion,49.47851178,8.502860069,Theodor-Heuss-Anlage,Mannheim,Germany,42,18,0,0,2,4bf58dd8d48988d188941735,4bf58dd8d48988d184941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d188941735
 4c005c3aad15a59328cc8d73,Manhattanhenge 2010,40.75857035,-74.0034771,Manhattan,New York,NY,345,269,0,0,3,4bf58dd8d48988d165941735,4bf58dd8d48988d162941735,4bf58dd8d48988d1f9931735,,,,,,,,,,,,,,,,4bf58dd8d48988d188941735
+4b6628d5f964a520de162be3,gourmet food Inc,41.851237,-87.631794,null,null,null,78,21,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4b6628d5f964a520de162be3,gourmet food Inc,41.851237,-87.631794,null,null,null,78,21,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
 4a8c700af964a520fd0d20e3,Four Seasons Hotel Los Angeles at Beverly Hills,34.07313741,-118.389262,300 S Doheny Dr,Los Angeles,CA,2829,1454,0,0,4,4bf58dd8d48988d1fa931735,4bf58dd8d48988d1d5941735,4bf58dd8d48988d132951735,4bf58dd8d48988d133951735,,,,,,,,,,,,,,,4bf58dd8d48988d132951735
 4cdf2dfb94c3b60c64436aea,Swamps Of Jersey,40.745788,-74.117947,null,null,null,1062,401,0,0,1,4bf58dd8d48988d1d4941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1d4941735
 49eb46b0f964a520b1661fe3,The Pearl Cup,32.81156999,-96.77447677,1900 Henderson Ave.,Dallas,TX,2715,757,0,0,2,4bf58dd8d48988d1dc931735,4bf58dd8d48988d1e0931735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1d4941735
@@ -8813,8 +8921,12 @@ venueid,venuename,lat,lon,address,city,state,checkin,checkeduser,currentuser,tod
 4cacf63f76d3a0932b3b366b,Giuseppina's,40.660357,-73.990531,691 6th Avenue,Brooklyn,NY,127,99,0,0,1,4bf58dd8d48988d1ca941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ca941735
 4b8f2fabf964a520d14c33e3,Custom House Tavern,41.875335,-87.629499,500 S Dearborn St,Chicago,IL,458,384,0,0,2,4bf58dd8d48988d157941735,4bf58dd8d48988d14e941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1ca941735
 4b44a049f964a5201cf825e3,MTA - Bowling Green (4/5),40.70491221,-74.01401281,Bowling Green,New York,NY,2295,604,0,0,1,4bf58dd8d48988d1fd931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1fd931735
+4d922bc79d0f721ed4152773,Chancery Rooftop Carpark,-36.847902,174.769089,null,null,null,4,1,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4d922bc79d0f721ed4152773,Chancery Rooftop Carpark,-36.847902,174.769089,null,null,null,4,1,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
 4ac3ec04f964a5207c9d20e3,Andaz,40.76872,-73.954887,1378 1st avenue,New York,NY,112,79,0,0,1,4bf58dd8d48988d10f941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d10f941735
 49f7aadef964a520ce6c1fe3,East Village Radio,40.723621,-73.988551,19 1st Ave.,New York,NY,877,150,0,0,1,4bf58dd8d48988d1f1931735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1f1931735
+4c025f7b187ec928bb17b47b,Rokum Ogut,-6.258969665,106.8396378,Jl H Maun - Duren Tiga Selatan,Jakarta Selatan,Indonesia,32,3,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
+4c025f7b187ec928bb17b47b,Rokum Ogut,-6.258969665,106.8396378,Jl H Maun - Duren Tiga Selatan,Jakarta Selatan,Indonesia,32,3,0,0,0,,,,,,,,,,,,,,,,,,,-1,-1
 46de9aa4f964a520984a1fe3,107 West,40.8025,-73.9678,2787 Broadway,New York,NY,222,152,0,0,1,4bf58dd8d48988d1c4941735,,,,,,,,,,,,,,,,,,4bf58dd8d48988d1c4941735
 49f26f67f964a5202e6a1fe3,Piece of Chicken,40.7602,-73.9908,362 West 45th St,New York,NY,128,84,0,0,2,4bf58dd8d48988d1df931735,4bf58dd8d48988d14f941735,,,,,,,,,,,,,,,,,4bf58dd8d48988d1c4941735
 429ba900f964a52082241fe3,Cobb's Comedy Club,37.802909,-122.414217,915 Columbus Ave,San Francisco,CA,2263,1669,0,0,3,4bf58dd8d48988d18e941735,4bf58dd8d48988d116941735,4bf58dd8d48988d1f2931735,,,,,,,,,,,,,,,,4bf58dd8d48988d1c4941735
