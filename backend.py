@@ -11,6 +11,65 @@ con = sqlite3.connect(SQL_PATH)
 # @route('/hello')
 # @route('/hello/<name>')
 
+@route('/friendship')
+def do_handlefrienship():
+    usera = request.query.usera    
+    userb = request.query.userb
+    action = request.query.action
+    if (usera!="" and userb!="" and usera!=userb):
+        try:
+            if(action=="add"):
+                con.execute('insert into friendship(usera,userb) values(?,?)',[usera,userb])
+                con.commit()
+                data = {"text":"Add successful", "code":"OK"}
+                return json.dumps(data)
+            elif(action=="del"):
+                con.execute('delete from friendship where usera=(?) and userb=(?)',[usera,userb])
+                con.commit()
+                data = {"text":"Delete successful", "code":"OK"}
+                return json.dumps(data)
+            else:
+                data = {"text":"Invaild Request","code":"Error"}
+                return json.dumps(data)
+        except:
+            data = {"text":"Operation failed, place try again", "code":"Error"}
+            return json.dumps(data)
+    else:
+        data = {"text":"Invaild Request","code":"Error"}
+        return json.dumps(data)
+
+@route('/friendlist')
+def do_getfriendlist():
+    userid = request.query.userid
+    action = request.query.action
+    if (userid!=""):
+        if(action=="following"):
+            c = con.cursor()
+            c.execute("select userid,username,gender,homecity from user where userid in (select userb from friendship where usera = (?)) limit 100",[userid])
+            result = c.fetchall()
+            result_format=[]
+            for item in result:
+                item_json = {"userid":item[0],"username":item[1],"gender":item[2],"homecity":item[3]}
+                result_format.append(item_json)
+            data = {"result":result_format}
+            return json.dumps(data)
+        elif(action=="followers"):
+            c = con.cursor()
+            c.execute("select userid,username,gender,homecity from user where userid in (select usera from friendship where userb = (?)) limit 100",[userid])
+            result = c.fetchall()
+            result_format=[]
+            for item in result:
+                item_json = {"userid":item[0],"username":item[1],"gender":item[2],"homecity":item[3]}
+                result_format.append(item_json)
+            data = {"result":result_format}
+            return json.dumps(data)
+        else:
+            data = {"text":"Invaild Request","code":"Error"}
+            return json.dumps(data) 
+    else:
+        data = {"text":"Invaild Request","code":"Error"}
+        return json.dumps(data)
+        
 @route('/login',method='POST')
 def do_login():
     # m = hashlib.sha256()
@@ -289,12 +348,36 @@ def do_handlefavorite():
         data = {"result":result_format}
         return json.dumps(data)
 
-@route('friend')
-def do_handlefrienship():
+@route('/userhome')
+def do_getuserhome():
     userid = request.query.userid
-    action = request.query.action
-
-
+    if(userid!=""):
+        try:
+            c = con.cursor()
+            c.execute("select userid,username,gender,homecity from user where userid = (?)",[userid])
+            basicinfo = c.fetchall()
+            c = con.cursor()
+            c.execute("select E.categoryname,F.* from category as E join (select C.* from venue as C join (select venueid,createtime from tip as A join (select * from user where user.userid =(?)) as B on A.userid = B.userid) as D on C.venueid = D.venueid order by D.createtime desc) as F on E.categoryid = F.category limit 10",[userid])
+            recenthistory = c.fetchall()
+            recenthistory_format=[]
+            for item in recenthistory:
+                item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[4],"longitude":item[5],"address":item[6]}
+                recenthistory_format.append(item_json)
+            c = con.cursor()
+            c.execute("select count(userb) as uesrbcount from friendship where usera = (?)",[userid])
+            following = c.fetchall()
+            c = con.cursor()
+            c.execute("select count(usera) as uesracount from friendship where userb = (?)",[userid])
+            followers = c.fetchall()
+            data = {"userid":basicinfo[0][0],"username":basicinfo[0][1],"gender":"Male" if(basicinfo[0][2]==1) else "Female",
+            "city":basicinfo[0][3],"history":recenthistory_format,"following":following[0][0],"followers":followers[0][0]}
+            return json.dumps(data)
+        except:
+            data = {}
+            return json.dumps(data)
+    else:
+        data = {}
+        return json.dumps(data)
 @route('/positioninfo')
 def do_getpositioninfo():
     userid = request.query.userid
