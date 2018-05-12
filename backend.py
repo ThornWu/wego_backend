@@ -38,11 +38,11 @@ def do_getuserhome():
             c.execute("select userid,username,gender,homecity from user where userid = (?)",[userid])
             basicinfo = c.fetchall()
             c = con.cursor()
-            c.execute("select E.categoryname,F.* from category as E join (select C.* from venue as C join (select venueid,createtime from tip as A join (select * from user where user.userid =(?)) as B on A.userid = B.userid) as D on C.venueid = D.venueid order by D.createtime desc) as F on E.categoryid = F.category limit 10",[userid])
+            c.execute("select E.categoryname,F.* from category as E join (select C.* ,D.createtime from venue as C join (select venueid,createtime from tip as A join (select * from user where user.userid =(?)) as B on A.userid = B.userid) as D on C.venueid = D.venueid order by D.createtime desc) as F on E.categoryid = F.category limit 10",[userid])
             recenthistory = c.fetchall()
             recenthistory_format=[]
             for item in recenthistory:
-                item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[4],"longitude":item[5],"address":item[6]}
+                item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[4],"longitude":item[5],"address":item[6],"createtime":item[11]}
                 recenthistory_format.append(item_json)
             c = con.cursor()
             c.execute("select count(userb) as uesrbcount from friendship where usera = (?)",[userid])
@@ -348,11 +348,11 @@ def do_handlehistory():
     userid=request.query.userid
     try:
         c = con.cursor()
-        c.execute("select E.categoryname,F.* from category as E join (select C.* from venue as C join (select venueid,createtime from tip as A join (select * from user where user.userid =(?)) as B on A.userid = B.userid) as D on C.venueid = D.venueid order by D.createtime desc) as F on E.categoryid = F.category limit 100",[userid])
+        c.execute("select E.categoryname,F.* from category as E join (select C.* ,D.createtime from venue as C join (select venueid,createtime from tip as A join (select * from user where user.userid =(?)) as B on A.userid = B.userid) as D on C.venueid = D.venueid order by D.createtime desc) as F on E.categoryid = F.category limit 100",[userid])
         result = c.fetchall()
         result_format = []
         for item in result:
-            item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[4],"longitude":item[5],"address":item[6]}
+            item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[4],"longitude":item[5],"address":item[6],"createtime":item[11]}
             result_format.append(item_json)
     except:
         result_format = []
