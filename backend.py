@@ -99,7 +99,7 @@ def do_getfriendlist():
             result = c.fetchall()
             result_format=[]
             for item in result:
-                item_json = {"userid":item[0],"username":item[1],"gender":item[2],"homecity":item[3]}
+                item_json = {"userid":item[0],"username":item[1],"gender":"Male" if(item[2]==1) else "Female","homecity":item[3]}
                 result_format.append(item_json)
             data = {"result":result_format}
             return json.dumps(data)
@@ -109,7 +109,7 @@ def do_getfriendlist():
             result = c.fetchall()
             result_format=[]
             for item in result:
-                item_json = {"userid":item[0],"username":item[1],"gender":item[2],"homecity":item[3]}
+                item_json = {"userid":item[0],"username":item[1],"gender":"Male" if(item[2]==1) else "Female","homecity":item[3]}
                 result_format.append(item_json)
             data = {"result":result_format}
             return json.dumps(data)
