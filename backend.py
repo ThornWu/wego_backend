@@ -31,27 +31,32 @@ def handle_userinfo():
 
 @route('/userhome')
 def do_getuserhome():
-    userid = request.query.userid
-    if(userid!=""):
+    currentuser = request.query.currentuser
+    targetuser = request.query.targetuser
+    if(currentuser!="" and targetuser!=""):
         try:
             c = con.cursor()
-            c.execute("select userid,username,gender,homecity from user where userid = (?)",[userid])
+            c.execute("select userid,username,gender,homecity from user where userid = (?)",[targetuser])
             basicinfo = c.fetchall()
             c = con.cursor()
-            c.execute("select E.categoryname,F.* from category as E join (select C.* ,D.createtime from venue as C join (select venueid,createtime from tip as A join (select * from user where user.userid =(?)) as B on A.userid = B.userid) as D on C.venueid = D.venueid order by D.createtime desc) as F on E.categoryid = F.category limit 10",[userid])
+            c.execute("select E.categoryname,F.* from category as E join (select C.* ,D.createtime from venue as C join (select venueid,createtime from tip as A join (select * from user where user.userid =(?)) as B on A.userid = B.userid) as D on C.venueid = D.venueid order by D.createtime desc) as F on E.categoryid = F.category limit 10",[targetuser])
             recenthistory = c.fetchall()
             recenthistory_format=[]
             for item in recenthistory:
                 item_json = {"category":item[0],"venueid":item[1],"venuename":item[2],"latitude":item[4],"longitude":item[5],"address":item[6],"createtime":item[11]}
                 recenthistory_format.append(item_json)
             c = con.cursor()
-            c.execute("select count(userb) as uesrbcount from friendship where usera = (?)",[userid])
+            c.execute("select count(userb) as uesrbcount from friendship where usera = (?)",[targetuser])
             following = c.fetchall()
             c = con.cursor()
-            c.execute("select count(usera) as uesracount from friendship where userb = (?)",[userid])
+            c.execute("select count(usera) as uesracount from friendship where userb = (?)",[targetuser])
             followers = c.fetchall()
+            c = con.cursor()
+            c.execute("select * from friendship where usera = (?) and userb = (?)",[currentuser,targetuser])
+            isfriend = c.fetchall()
             data = {"userid":basicinfo[0][0],"username":basicinfo[0][1],"gender":"Male" if(basicinfo[0][2]==1) else "Female",
-            "city":basicinfo[0][3],"history":recenthistory_format,"following":following[0][0],"followers":followers[0][0]}
+            "city":basicinfo[0][3],"history":recenthistory_format,"following":following[0][0],"followers":followers[0][0],
+            "isfriend":"True" if(len(isfriend)!=0) else "False"}
             return json.dumps(data)
         except:
             data = {}
