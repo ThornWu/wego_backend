@@ -51,3 +51,9 @@ CREATE TABLE `favorite` (
 	`createtime` integer(10) not null,
 	PRIMARY KEY(userid,venueid)
 );
+
+CREATE TABLE `admin` (
+	`username` varchar(30) NOT NULL UNIQUE,
+	`password` varchar(64) NOT NULL,
+	PRIMARY KEY(username)
+);

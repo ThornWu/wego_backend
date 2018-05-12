@@ -239,6 +239,17 @@ def DoUpdateLabel():
     f.close()
     print("Error count:" + str(error_count))
     print("Finish update labels")
+
+def DoInitAdmin():
+    username = "admin"
+    password = "admin123456"
+    try:
+        con.execute('insert into admin(username,password) values(?,?)',[username,password])
+        con.commit()
+    except:
+        print("Some errors happened when init admin")
+    print("Finish init admin")
+
     
 DoInsertUser("LA")
 DoInsertUser("NYC")
@@ -250,3 +261,4 @@ DoInsertFriendship("LA")
 DoInsertFriendship("NYC")
 DoInsertCategory()
 DoUpdateLabel()
+DoInitAdmin()
