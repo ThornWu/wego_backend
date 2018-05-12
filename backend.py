@@ -93,37 +93,59 @@ def do_getfriendlist():
     userid = request.query.userid
     action = request.query.action
     if (userid!=""):
-        if(action=="following"):
-            c = con.cursor()
-            c.execute("select userid,username,gender,homecity from user where userid in (select userb from friendship where usera = (?)) limit 100",[userid])
-            result = c.fetchall()
-            result_format=[]
-            for item in result:
-                item_json = {"userid":item[0],"username":item[1],"gender":"Male" if(item[2]==1) else "Female","homecity":item[3]}
-                result_format.append(item_json)
-            data = {"result":result_format}
+        try:
+            if(action=="following"):
+                c = con.cursor()
+                c.execute("select userid,username,gender,homecity from user where userid in (select userb from friendship where usera = (?)) limit 100",[userid])
+                result = c.fetchall()
+                result_format=[]
+                for item in result:
+                    item_json = {"userid":item[0],"username":item[1],"gender":"Male" if(item[2]==1) else "Female","homecity":item[3]}
+                    result_format.append(item_json)
+                data = {"result":result_format}
+                return json.dumps(data)
+            elif(action=="followers"):
+                c = con.cursor()
+                c.execute("select userid,username,gender,homecity from user where userid in (select usera from friendship where userb = (?)) limit 100",[userid])
+                result = c.fetchall()
+                result_format=[]
+                for item in result:
+                    item_json = {"userid":item[0],"username":item[1],"gender":"Male" if(item[2]==1) else "Female","homecity":item[3]}
+                    result_format.append(item_json)
+                data = {"result":result_format}
+                return json.dumps(data)
+            else:
+                data = {"text":"Invaild Request","code":"Error"}
+                return json.dumps(data) 
+        except:
+            data = {"text":"Operation failed, place try again", "code":"Error"}
             return json.dumps(data)
-        elif(action=="followers"):
-            c = con.cursor()
-            c.execute("select userid,username,gender,homecity from user where userid in (select usera from friendship where userb = (?)) limit 100",[userid])
-            result = c.fetchall()
-            result_format=[]
-            for item in result:
-                item_json = {"userid":item[0],"username":item[1],"gender":"Male" if(item[2]==1) else "Female","homecity":item[3]}
-                result_format.append(item_json)
-            data = {"result":result_format}
-            return json.dumps(data)
-        else:
-            data = {"text":"Invaild Request","code":"Error"}
-            return json.dumps(data) 
+        
     else:
         data = {"text":"Invaild Request","code":"Error"}
         return json.dumps(data)
 
-
-
-
-
+@route('/searchfriend')
+def handle_search_friend():
+    keyword = request.query.keyword
+    if (keyword!=""):
+        try:
+            keyword = '%' + keyword + '%'
+            c = con.cursor()
+            c.execute("select userid,username,gender,homecity from user where username like (?) limit 100",[keyword])
+            result = c.fetchall()
+            result_format=[]
+            for item in result:
+                item_json = {"userid":item[0],"username":item[1],"gender":"Male" if(item[2]==1) else "Female","homecity":item[3]}
+                result_format.append(item_json)
+            data = {"result":result_format}
+            return json.dumps(data)
+        except:
+            data = {"text":"Operation failed, place try again", "code":"Error"}
+            return json.dumps(data)
+    else:
+        data = {"text":"Invaild Request","code":"Error"}
+        return json.dumps(data)
 
 
 
