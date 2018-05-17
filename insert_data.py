@@ -201,7 +201,7 @@ def DoUpdateLabel():
     f.close()
 
     count = 0
-    with open(os.path.join(PROJECT_ROOT,"Origin","Result","user_cluster_la.csv"), 'r', encoding='ISO-8859-1') as f:
+    with open(os.path.join(PROJECT_ROOT,"Origin","Result","user_cluster_LA_min.csv"), 'r', encoding='ISO-8859-1') as f:
         f_csv = csv.reader(f)
         headers = next(f_csv) # 取出表头
         for item in f_csv:
@@ -220,7 +220,7 @@ def DoUpdateLabel():
     f.close()
 
     count = 0
-    with open(os.path.join(PROJECT_ROOT,"Origin","Result","user_cluster_nyc.csv"), 'r', encoding='ISO-8859-1') as f:
+    with open(os.path.join(PROJECT_ROOT,"Origin","Result","user_cluster_NYC_min.csv"), 'r', encoding='ISO-8859-1') as f:
         f_csv = csv.reader(f)
         headers = next(f_csv) # 取出表头
         for item in f_csv:
