@@ -3,7 +3,7 @@ from math import radians, cos, sin, asin, sqrt
 import sqlite3
 import os
 import json,pickle
-import time
+import time,random
 from processmodel import * 
 # import hashlib
 
@@ -426,7 +426,7 @@ def do_recommend():
     result = []
     data = {}
     err_flag = 0
-    if(lat!="" and lon!=""):
+    if(lat!="" and lon!="" and userid!=""):
         try:
             R1 = pickle.load(open(os.path.join(os.getcwd(),'Origin','Model', city + '_' + str(timeid) + '_' + userid + '.pkl'),'rb'))
             top_k_cluster = findTopKCluster(R1,TOPK,int(userid))
@@ -450,9 +450,9 @@ def do_recommend():
         except:
             try:
                 if(city=="LA"):
-                    c.execute("select D.categoryname,C.* from category as D join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where la_label!=-2) ) as B on A.venueid = B.venueid) as C on D.categoryid = C.category limit "+ str(timeid*100)+",500")
+                    c.execute("select D.categoryname,C.* from category as D join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where la_label!=-2) ) as B on A.venueid = B.venueid) as C on D.categoryid = C.category limit "+ str(int(random.random()*1000)*timeid)+",500")
                 else:
-                    c.execute("select D.categoryname,C.* from category as D join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where ny_label!=-2) ) as B on A.venueid = B.venueid) as C on D.categoryid = C.category limit "+ str(timeid*100)+",500")                
+                    c.execute("select D.categoryname,C.* from category as D join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where ny_label!=-2) ) as B on A.venueid = B.venueid) as C on D.categoryid = C.category limit "+ str(int(random.random()*1000)*timeid)+",500")                
                 result = c.fetchall()
             except:
                 err_flag = 1
@@ -476,8 +476,6 @@ def do_recommend():
 
     else:
         data = {"text":"Invaild Request","code":"Error","result":[]}
-
-
     return json.dumps(data)
 
 run(reloader=True, host='0.0.0.0', port=8088)
