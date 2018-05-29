@@ -2,8 +2,9 @@ from bottle import route, run, template, request, redirect, response
 from math import radians, cos, sin, asin, sqrt
 import sqlite3
 import os
-import json
+import json,pickle
 import time
+from processmodel import * 
 # import hashlib
 
 SQL_PATH = os.path.join(os.getcwd(),"wego.db")
@@ -309,72 +310,72 @@ def do_search():
         if(keyword=="restaurant"):
             try:
                 if(city=="LA"):
-                    c.execute("select B.categoryname,C.* from category as B join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in (select categoryid from category where parentid = '3' or categoryid='3') and la_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on B.categoryid = C.category")
+                    c.execute("select D.categoryname,C.* from category as D join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in (select categoryid from category where parentid = '3' or categoryid='3') and la_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on D.categoryid = C.category")
                 else:
-                    c.execute("select B.categoryname,C.* from category as B join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in (select categoryid from category where parentid = '3' or categoryid='3') and ny_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on B.categoryid = C.category")                
+                    c.execute("select D.categoryname,C.* from category as D join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in (select categoryid from category where parentid = '3' or categoryid='3') and ny_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on D.categoryid = C.category")                
                 result = c.fetchall()
             except:
                 err_flag = 1
         elif(keyword=="mall"):
             try:
                 if(city=="LA"):
-                    c.execute("select B.categoryname,C.* from category as B join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in ('4bf58dd8d48988d1fd941735') and la_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on B.categoryid = C.category")
+                    c.execute("select D.categoryname,C.* from category as D join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in ('4bf58dd8d48988d1fd941735') and la_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on D.categoryid = C.category")
                 else:
-                    c.execute("select B.categoryname,C.* from category as B join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in ('4bf58dd8d48988d1fd941735') and ny_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on B.categoryid = C.category")                
+                    c.execute("select D.categoryname,C.* from category as D join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in ('4bf58dd8d48988d1fd941735') and ny_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on D.categoryid = C.category")                
                 result = c.fetchall()
             except:
                 err_flag = 1
         elif(keyword=="nightlife"):
             try:
                 if(city=="LA"):
-                    c.execute("select B.categoryname,C.* from category as B join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in (select categoryid from category where parentid ='6' or categoryid = '6') and la_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on B.categoryid = C.category")
+                    c.execute("select D.categoryname,C.* from category as D join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in (select categoryid from category where parentid ='6' or categoryid = '6') and la_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on D.categoryid = C.category")
                 else:
-                    c.execute("select B.categoryname,C.* from category as B join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in (select categoryid from category where parentid ='6' or categoryid = '6') and ny_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on B.categoryid = C.category")                
+                    c.execute("select D.categoryname,C.* from category as D join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in (select categoryid from category where parentid ='6' or categoryid = '6') and ny_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on D.categoryid = C.category")                
                 result = c.fetchall()
             except:
                 err_flag = 1
         elif(keyword=="hotel"):
             try:
                 if(city=="LA"):
-                    c.execute("select B.categoryname,C.* from category as B join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in (select categoryid from category where parentid = '4bf58dd8d48988d1f0941735' or categoryid='4bf58dd8d48988d1fa931735') and la_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on B.categoryid = C.category")
+                    c.execute("select D.categoryname,C.* from category as D join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in (select categoryid from category where parentid = '4bf58dd8d48988d1f0941735' or categoryid='4bf58dd8d48988d1fa931735') and la_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on D.categoryid = C.category")
                 else:
-                    c.execute("select B.categoryname,C.* from category as B join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in (select categoryid from category where parentid = '4bf58dd8d48988d1f0941735' or categoryid='4bf58dd8d48988d1fa931735') and ny_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on B.categoryid = C.category")                
+                    c.execute("select D.categoryname,C.* from category as D join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in (select categoryid from category where parentid = '4bf58dd8d48988d1f0941735' or categoryid='4bf58dd8d48988d1fa931735') and ny_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on D.categoryid = C.category")                
                 result = c.fetchall()
             except:
                 err_flag = 1
         elif(keyword=="park"):
             try:
                 if(city=="LA"):
-                    c.execute("select B.categoryname,C.* from category as B join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in ('4bf58dd8d48988d182941735', '4bf58dd8d48988d193941735', '4bf58dd8d48988d163941735') and la_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on B.categoryid = C.category")
+                    c.execute("select D.categoryname,C.* from category as D join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in ('4bf58dd8d48988d182941735', '4bf58dd8d48988d193941735', '4bf58dd8d48988d163941735') and la_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on D.categoryid = C.category")
                 else:
-                    c.execute("select B.categoryname,C.* from category as B join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in ('4bf58dd8d48988d182941735', '4bf58dd8d48988d193941735', '4bf58dd8d48988d163941735') and ny_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on B.categoryid = C.category")                
+                    c.execute("select D.categoryname,C.* from category as D join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in ('4bf58dd8d48988d182941735', '4bf58dd8d48988d193941735', '4bf58dd8d48988d163941735') and ny_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on D.categoryid = C.category")                
                 result = c.fetchall()
             except:
                 err_flag = 1
         elif(keyword=="movie"):
             try:
                 if(city=="LA"):
-                    c.execute("select B.categoryname,C.* from category as B join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in (select categoryid from category where parentid = '4bf58dd8d48988d17f941735' or categoryid='4bf58dd8d48988d17f941735') and la_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on B.categoryid = C.category")
+                    c.execute("select D.categoryname,C.* from category as D join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in (select categoryid from category where parentid = '4bf58dd8d48988d17f941735' or categoryid='4bf58dd8d48988d17f941735') and la_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on D.categoryid = C.category")
                 else:
-                    c.execute("select B.categoryname,C.* from category as B join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in (select categoryid from category where parentid = '4bf58dd8d48988d17f941735' or categoryid='4bf58dd8d48988d17f941735') and ny_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on B.categoryid = C.category")                
+                    c.execute("select D.categoryname,C.* from category as D join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in (select categoryid from category where parentid = '4bf58dd8d48988d17f941735' or categoryid='4bf58dd8d48988d17f941735') and ny_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on D.categoryid = C.category")                
                 result = c.fetchall()
             except:
                 err_flag = 1
         elif(keyword=="museum"):
             try:
                 if(city=="LA"):
-                    c.execute("select B.categoryname,C.* from category as B join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in (select categoryid from category where parentid = '4bf58dd8d48988d181941735' or categoryid='4bf58dd8d48988d181941735') and la_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on B.categoryid = C.category")
+                    c.execute("select D.categoryname,C.* from category as D join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in (select categoryid from category where parentid = '4bf58dd8d48988d181941735' or categoryid='4bf58dd8d48988d181941735') and la_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on D.categoryid = C.category")
                 else:
-                    c.execute("select B.categoryname,C.* from category as B join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in (select categoryid from category where parentid = '4bf58dd8d48988d181941735' or categoryid='4bf58dd8d48988d181941735') and ny_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on B.categoryid = C.category")                
+                    c.execute("select D.categoryname,C.* from category as D join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in (select categoryid from category where parentid = '4bf58dd8d48988d181941735' or categoryid='4bf58dd8d48988d181941735') and ny_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on D.categoryid = C.category")                
                 result = c.fetchall()
             except:
                 err_flag = 1
         elif(keyword=="stadium"):
             try:
                 if(city=="LA"):
-                    c.execute("select B.categoryname,C.* from category as B join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in (select categoryid from category where parentid = '4bf58dd8d48988d184941735' or categoryid='4bf58dd8d48988d184941735' or parentid ='4bf58dd8d48988d1b4941735' or categoryid='4bf58dd8d48988d1b4941735') and la_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on B.categoryid = C.category")
+                    c.execute("select D.categoryname,C.* from category as D join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in (select categoryid from category where parentid = '4bf58dd8d48988d184941735' or categoryid='4bf58dd8d48988d184941735' or parentid ='4bf58dd8d48988d1b4941735' or categoryid='4bf58dd8d48988d1b4941735') and la_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on D.categoryid = C.category")
                 else:
-                    c.execute("select B.categoryname,C.* from category as B join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in (select categoryid from category where parentid = '4bf58dd8d48988d184941735' or categoryid='4bf58dd8d48988d184941735' or parentid ='4bf58dd8d48988d1b4941735' or categoryid='4bf58dd8d48988d1b4941735') and ny_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on B.categoryid = C.category")                
+                    c.execute("select D.categoryname,C.* from category as D join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where category in (select categoryid from category where parentid = '4bf58dd8d48988d184941735' or categoryid='4bf58dd8d48988d184941735' or parentid ='4bf58dd8d48988d1b4941735' or categoryid='4bf58dd8d48988d1b4941735') and ny_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on D.categoryid = C.category")                
                 result = c.fetchall()
             except:
                 err_flag = 1
@@ -382,9 +383,9 @@ def do_search():
             try:
                 keyword = '%' + keyword + '%'
                 if(city=="LA"):
-                    c.execute("select B.categoryname,C.* from category as B join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where venuename like (?) and la_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on B.categoryid = C.category",[keyword])
+                    c.execute("select D.categoryname,C.* from category as D join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where venuename like (?) and la_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on D.categoryid = C.category",[keyword])
                 else:
-                    c.execute("select B.categoryname,C.* from category as B join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where venuename like (?) and ny_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on B.categoryid = C.category",[keyword])                
+                    c.execute("select D.categoryname,C.* from category as D join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where venuename like (?) and ny_label!=-2) group by venueid order by count(venueid) desc) as B on A.venueid = B.venueid) as C on D.categoryid = C.category",[keyword])                
                 result = c.fetchall()
             except:
                 err_flag = 1
@@ -415,9 +416,11 @@ def do_recommend():
     timeid = int(request.query.timeid) if(request.query.timeid!="") else 0
     lat = request.query.lat
     lon = request.query.lon
-    city = request.query.city
+    city = "LA" if(request.query.city=="LA") else "NYC"
 
-    DMAX = 10 # 距离阈值
+    DMAX = 15 # 距离阈值
+    TOPK = 10
+    TOPN = 5
 
     c = con.cursor()
     result = []
@@ -425,13 +428,34 @@ def do_recommend():
     err_flag = 0
     if(lat!="" and lon!=""):
         try:
-            if(city=="LA"):
-                c.execute("select B.categoryname,C.* from category as B join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where la_label!=-2) ) as B on A.venueid = B.venueid) as C on B.categoryid = C.category limit "+ str(timeid*100)+",500")
-            else:
-                c.execute("select B.categoryname,C.* from category as B join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where ny_label!=-2) ) as B on A.venueid = B.venueid) as C on B.categoryid = C.category limit "+ str(timeid*100)+",500")                
-            result = c.fetchall()
+            R1 = pickle.load(open(os.path.join(os.getcwd(),'Origin','Model', city + '_' + str(timeid) + '_' + userid + '.pkl'),'rb'))
+            top_k_cluster = findTopKCluster(R1,TOPK,int(userid))
+            venue_list = []
+            for i in range(len(top_k_cluster)):
+                pops = cal_popularity(top_k_cluster[i],city)
+                venues = findTopKVenue(pops,TOPN,top_k_cluster[i],city)
+                for j in range(len(venues)):
+                    venue_list.append(venues[j])
+            venuetext = ""
+            for i in range(len(venue_list)):
+                if(i==0):
+                    venuetext = venuetext + "'" + venue_list[i] + "'"
+                else:
+                    venuetext = venuetext + ", " + "'" + venue_list[i] + "'"    
+            try:
+                c.execute("select D.categoryname,C.* from category as D join(select * from venue where venueid in (" + venuetext + ") ) as C on D.categoryid = C.category")                
+                result = c.fetchall()
+            except:
+                err_flag = 1
         except:
-            err_flag = 1
+            try:
+                if(city=="LA"):
+                    c.execute("select D.categoryname,C.* from category as D join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where la_label!=-2) ) as B on A.venueid = B.venueid) as C on D.categoryid = C.category limit "+ str(timeid*100)+",500")
+                else:
+                    c.execute("select D.categoryname,C.* from category as D join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where ny_label!=-2) ) as B on A.venueid = B.venueid) as C on D.categoryid = C.category limit "+ str(timeid*100)+",500")                
+                result = c.fetchall()
+            except:
+                err_flag = 1
 
         if(err_flag!=1):
             result_format = []
@@ -452,6 +476,9 @@ def do_recommend():
 
     else:
         data = {"text":"Invaild Request","code":"Error","result":[]}
+
+
     return json.dumps(data)
 
 run(reloader=True, host='0.0.0.0', port=8088)
+
