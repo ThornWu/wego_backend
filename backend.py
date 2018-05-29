@@ -300,7 +300,7 @@ def do_search():
     keyword = request.query.keyword
     lat = request.query.lat
     lon = request.query.lon
-    DMAX = int(request.query.dmax) if (request.query.dmax!="") else 10 # 距离阈值
+    DMAX = int(request.query.dmax) if (request.query.dmax!="") else 10
 
     c = con.cursor()
     result = []
