@@ -11,7 +11,7 @@ SQL_PATH = os.path.join(os.getcwd(),"wego.db")
 # SQL_PATH = os.path.join("/usr/tomcat/apache-tomcat-9.0.8/webapps/ROOT/WEB-INF/classes","wego.db")
 con = sqlite3.connect(SQL_PATH)
 
-R = 6371 # 地球半径
+R = 6371 
 
 @route('/register', method='POST')
 def do_register():
@@ -418,7 +418,7 @@ def do_recommend():
     lon = request.query.lon
     city = "LA" if(request.query.city=="LA") else "NYC"
 
-    DMAX = 15 # 距离阈值
+    DMAX = 15 
     TOPK = 10
     TOPN = 5
 
