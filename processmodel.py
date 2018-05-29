@@ -10,15 +10,15 @@ PROJECT_ROOT = os.getcwd()
 
 location_groups_la = []    
 location_groups_nyc = []    
-dataset_num_venueid_dict_la = {} # 数据表行数:真实id
+dataset_num_venueid_dict_la = {} 
 dataset_num_venueid_dict_nyc = {} 
-venue_cate_dict_la = {} # 数据表行数:类别
+venue_cate_dict_la = {} 
 venue_cate_dict_nyc = {} 
-venue_group_dict_la = {} # 数据表行数:组号
+venue_group_dict_la = {} 
 venue_group_dict_nyc = {} 
-venue_tip_dict_la = {} # 数据库表行数:签到次数
+venue_tip_dict_la = {}
 venue_tip_dict_nyc = {} 
-same_category_dict_la = {} # 类别:同类别位置个数
+same_category_dict_la = {} 
 same_category_dict_nyc = {} 
 total_la = 0
 total_nyc = 0
@@ -67,7 +67,6 @@ def init():
     f.close()
     for outer in range(len(location_groups_la)):
         for inner in range(len(location_groups_la[outer])):
-            # -1 聚类为最后一个
             venue_group_dict_la.update({location_groups_la[outer][inner]+1:outer})
     
     with open(os.path.join(PROJECT_ROOT, 'Origin', 'Result','location_cluster_NYC.txt'),'r',encoding='ISO-8859-1') as f:
@@ -78,7 +77,6 @@ def init():
     f.close()
     for outer in range(len(location_groups_nyc)):
         for inner in range(len(location_groups_nyc[outer])):
-            # -1 聚类为最后一个
             venue_group_dict_nyc.update({location_groups_nyc[outer][inner]+1:outer})
     print("Init OK")
 
