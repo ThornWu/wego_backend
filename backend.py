@@ -176,6 +176,8 @@ def handle_search_friend():
 def do_getpositioninfo():
     userid = request.query.userid
     venueid = request.query.venueid
+    lat = request.query.lat
+    lon = request.query.lon
     data = {}
     if(userid!="" and venueid!=""):
         try:
@@ -196,7 +198,14 @@ def do_getpositioninfo():
             c.execute("select * from favorite where userid =(?) and venueid = (?)",[userid,venueid])
             result = c.fetchall()
             isstarred = "True" if(len(result)!=0) else "False"
-            data = {"category":position[0],"venueid":position[1],"venuename":position[2],"latitude":position[4],"longitude":position[5],"address":position[6],"isused":position[-1],"lastvisited":lastvisited,"isstarred":isstarred}
+            geographicl_distance = -1
+            if(lat!="" and lon!=""):
+                lat_i, lon_i, lat_j, lon_j = float(lat), float(lon), float(position[4]), float(position[5])
+                lat_i, lon_i, lat_j, lon_j = map(radians, [lat_i, lon_i, lat_j, lon_j])
+                d_lat = lat_i - lat_j
+                d_lon = lon_i - lon_j
+                geographicl_distance = R * 2 * asin(sqrt(sin(d_lat/2) * sin(d_lat/2) + cos(lat_i) * cos(lat_j) * sin(d_lon/2) * sin(d_lon/2))) 
+            data = {"category":position[0],"venueid":position[1],"venuename":position[2],"latitude":position[4],"longitude":position[5],"address":position[6],"isused":position[-1],"lastvisited":lastvisited,"isstarred":isstarred,"distance":geographicl_distance}
         except:
             print("Error")
 
