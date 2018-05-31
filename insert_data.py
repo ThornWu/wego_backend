@@ -19,7 +19,7 @@ def DoInsertUser(dataset):
         for item in f_csv:
             userid = int(item[0])
             username = item[0]
-            password = "123456"
+            password = "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92"
             email = "test@thornwu.com"
             gender = (item[4] == "male")
             homecity = (item[5]).split(',')[0]

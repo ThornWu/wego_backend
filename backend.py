@@ -5,7 +5,7 @@ import os
 import json,pickle
 import time,random
 from processmodel import * 
-# import hashlib
+import hashlib
 
 SQL_PATH = os.path.join(os.getcwd(),"wego.db")
 # SQL_PATH = os.path.join("/usr/tomcat/apache-tomcat-9.0.8/webapps/ROOT/WEB-INF/classes","wego.db")
@@ -15,17 +15,19 @@ R = 6371
 
 @route('/register', method='POST')
 def do_register():
-    # m = hashlib.sha256()
+    m = hashlib.sha256()
     userid = int(round(time.time() * 1000))
     username = request.forms.get('username')
     password = request.forms.get('password')
     email = request.forms.get('email')
-    # m.update(password.encode(encoding='utf-8'))
+    m.update(password.encode(encoding='utf-8'))
+    shapass = m.hexdigest()
+    
     gender = True
     data = {}
     if(username!=None and password!=None and email!=None):
         try:
-            con.execute('insert into user(userid,username,password,email,gender) values(?,?,?,?,?)',[userid,username,password,email,gender])
+            con.execute('insert into user(userid,username,password,email,gender) values(?,?,?,?,?)',[userid,username,shapass,email,gender])
             con.commit()
             data = {"text":"Register successful", "code":"OK"}
         except:
@@ -36,17 +38,19 @@ def do_register():
 
 @route('/login',method='POST')
 def do_login():
+    m = hashlib.sha256() 
     username = request.forms.get('username')
     password = request.forms.get('password')
+    m.update(password.encode(encoding='utf-8'))
+    shapass = m.hexdigest()
 
     data = {}
-    print(username,password)
     if(username!=None and password!=None):
         try:
             c = con.cursor()
             c.execute("select * from user where username=(?)",[username])
             result = c.fetchall()
-            if password == result[0][2]:
+            if shapass == result[0][2]:
                 if (result[0][-1]=='True'):
                     data = {"text":"Login successful", "code":"OK", "user":{"userid":result[0][0],"username":result[0][1]}}
                 else:
