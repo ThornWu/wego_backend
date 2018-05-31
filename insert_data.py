@@ -242,7 +242,7 @@ def DoUpdateLabel():
 
 def DoInitAdmin():
     username = "admin"
-    password = "admin123456"
+    password = "ac0e7d037817094e9e0b4441f9bae3209d67b02fa484917065f71b16109a1a78"
     try:
         con.execute('insert into admin(username,password) values(?,?)',[username,password])
         con.commit()
