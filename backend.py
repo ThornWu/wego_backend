@@ -441,7 +441,7 @@ def do_recommend():
     err_flag = 0
     if(lat!="" and lon!="" and userid!=""):
         try:
-            R1 = pickle.load(open(os.path.join(os.getcwd(),'Origin','Model', city + '_' + str(timeid) + '_' + userid + '.pkl'),'rb'))
+            R1 = pickle.load(open(os.path.join(os.getcwd(),'Origin','Model', city , city + '_' + str(timeid) + '_' + userid + '.pkl'),'rb'))
             top_k_cluster = findTopKCluster(R1,TOPK,int(userid))
             venue_list = []
             for i in range(len(top_k_cluster)):
