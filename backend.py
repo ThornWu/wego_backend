@@ -447,9 +447,9 @@ def get_recommend():
         except:
             try:
                 if(city=="LA"):
-                    c.execute("select D.categoryname,C.* from category as D join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where la_label!=-2) ) as B on A.venueid = B.venueid) as C on D.categoryid = C.category limit "+ str(int(random.random()*1000)*timeid)+",500")
+                    c.execute("select D.categoryname,C.* from category as D join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where la_label!=-2) ) as B on A.venueid = B.venueid) as C on D.categoryid = C.category limit "+ str(int(random.random()*1000)*(timeid+1))+",500")
                 else:
-                    c.execute("select D.categoryname,C.* from category as D join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where ny_label!=-2) ) as B on A.venueid = B.venueid) as C on D.categoryid = C.category limit "+ str(int(random.random()*1000)*timeid)+",500")                
+                    c.execute("select D.categoryname,C.* from category as D join(select A.* from venue as A join (select venueid from tip where venueid in (select venueid from venue where ny_label!=-2) ) as B on A.venueid = B.venueid) as C on D.categoryid = C.category limit "+ str(int(random.random()*1000)*(timeid+1))+",500")                
                 result = c.fetchall()
             except:
                 err_flag = 1
