@@ -64,7 +64,7 @@ def do_login():
     return json.dumps(data)
 
 @route('/userhome')
-def do_getuserhome():
+def get_userhome():
     currentuser = request.query.currentuser
     targetuser = request.query.targetuser
 
@@ -99,7 +99,7 @@ def do_getuserhome():
     return json.dumps(data)
 
 @route('/friendship')
-def do_handlefrienship():
+def handle_friendship():
     usera = request.query.usera    
     userb = request.query.userb
     action = request.query.action
@@ -123,7 +123,7 @@ def do_handlefrienship():
     return json.dumps(data)
 
 @route('/friendlist')
-def do_getfriendlist():
+def get_friendlist():
     userid = request.query.userid
     action = request.query.action
     data = {}
@@ -156,7 +156,7 @@ def do_getfriendlist():
     return json.dumps(data)
 
 @route('/searchfriend')
-def handle_search_friend():
+def search_friend():
     keyword = request.query.keyword
     data = {}
     if (keyword!=""):
@@ -177,7 +177,7 @@ def handle_search_friend():
     return json.dumps(data)
 
 @route('/positioninfo')
-def do_getpositioninfo():
+def get_positioninfo():
     userid = request.query.userid
     venueid = request.query.venueid
     lat = request.query.lat
@@ -215,25 +215,8 @@ def do_getpositioninfo():
 
     return json.dumps(data)
 
-@route('/userinfo')
-def handle_userinfo():
-    userid = request.query.userid
-    key = request.query.key
-    value = request.query.value
-    data={}
-    if(userid!="" and key!="userid" and key!="username" and key!="password" and key!="isused" and key!="la_label" and key!="ny_label"):
-        try:
-            con.execute("update user set "+key+" = (?)",[value])
-            con.commit()
-            data = {"text":"Edit successfully","code":"OK"}
-        except:
-            data = {"text":"Invaild Request","code":"Error"}
-    else:
-        data = {"text":"Invaild Request","code":"Error"}
-    return json.dumps(data)
-
 @route('/sign')
-def do_handlesign():
+def do_sign():
     userid = request.query.userid
     venueid = request.query.venueid
     data = {}
@@ -251,7 +234,7 @@ def do_handlesign():
     return json.dumps(data)
 
 @route('/history')
-def do_handlehistory():
+def handle_history():
     userid=request.query.userid
     if(userid!=""):
         try:
@@ -270,7 +253,7 @@ def do_handlehistory():
     return json.dumps(data) 
 
 @route('/favorite')
-def do_handlefavorite():
+def handle_favorite():
     userid = request.query.userid
     venueid = request.query.venueid
     action = request.query.action
@@ -308,7 +291,7 @@ def do_handlefavorite():
     return json.dumps(data)
 
 @route('/search')
-def do_search():
+def search_position():
     city = request.query.city
     keyword = request.query.keyword
     lat = request.query.lat
@@ -423,7 +406,7 @@ def do_search():
     return json.dumps(data)
     
 @route('/recommend')
-def do_recommend():
+def get_recommend():
     userid = request.query.userid
     # 0-3: weekday 4-7:weekend 0\4:morning 1\5:afternoon 2\6:evening 3\7:midnight
     timeid = int(request.query.timeid) if(request.query.timeid!="") else 0
@@ -450,6 +433,7 @@ def do_recommend():
                 for j in range(len(venues)):
                     venue_list.append(venues[j])
             venuetext = ""
+            print("OK")
             for i in range(len(venue_list)):
                 if(i==0):
                     venuetext = venuetext + "'" + venue_list[i] + "'"
