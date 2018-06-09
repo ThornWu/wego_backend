@@ -418,14 +418,37 @@ def get_recommend():
     TOPK = 10
     TOPN = 5
 
+    user_id_index = pickle.load(open(os.path.join(os.getcwd(),'Origin','Result', city + '-userid-index.pkl'),'rb'))
+    user_groups = []
+    with open(os.path.join(os.getcwd(), 'Origin', 'Result','user_cluster_'+ city +'.txt'),'r',encoding='ISO-8859-1') as f:
+        data = f.readlines()
+        for line in data:
+            a = line.strip('\n').split(":")
+            user_groups.append(ast.literal_eval(a[1]))
+
     c = con.cursor()
     result = []
     data = {}
     err_flag = 0
+
     if(lat!="" and lon!="" and userid!=""):
         try:
-            R1 = pickle.load(open(os.path.join(os.getcwd(),'Origin','Model', city , city + '_' + str(timeid) + '_' + userid + '.pkl'),'rb'))
-            top_k_cluster = findTopKCluster(R1,TOPK,int(userid))
+            matrix_user_id = user_id_index[int(userid)]
+            group_user_id = 0
+            if(city=="LA"):
+                c.execute("select la_label from user where userid=(?)",[userid])
+            else:
+                c.execute("select ny_label from user where userid=(?)",[userid])
+            result_l = c.fetchall()
+            
+            user_group = user_groups[int(result_l[0][0])]
+
+            for i in range(len(user_group)):
+                if(user_group[i]==matrix_user_id):
+                    group_user_id=i
+                    break
+            R1 = pickle.load(open(os.path.join(os.getcwd(),'Origin','Model', city , city + '_' + str(timeid) + '_' + str(matrix_user_id) + '.pkl'),'rb'))
+            top_k_cluster = findTopKCluster(R1,TOPK,group_user_id)
             venue_list = []
             for i in range(len(top_k_cluster)):
                 pops = cal_popularity(top_k_cluster[i],city)
@@ -433,7 +456,7 @@ def get_recommend():
                 for j in range(len(venues)):
                     venue_list.append(venues[j])
             venuetext = ""
-            print("OK")
+
             for i in range(len(venue_list)):
                 if(i==0):
                     venuetext = venuetext + "'" + venue_list[i] + "'"
@@ -473,6 +496,15 @@ def get_recommend():
 
     else:
         data = {"text":"Invaild Request","code":"Error","result":[]}
+    return json.dumps(data)
+
+@route('/test')
+def test():
+    userid = request.query.userid
+    city = "LA" if(request.query.city=="LA") else "NYC"
+    user_id_index = pickle.load(open(os.path.join(os.getcwd(),'Origin','Result', city + '-userid-index.pkl'),'rb'))
+    user_id_reverse = dict(map(lambda t:(t[1],t[0]), user_id_index.items()))
+    data = {"text":"OK", "code":"OK","result":str(user_id_reverse[int(userid)])}
     return json.dumps(data)
 
 run(reloader=True, host='0.0.0.0', port=8088)
