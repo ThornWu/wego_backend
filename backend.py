@@ -7,7 +7,9 @@ import time,random
 from processmodel import * 
 import hashlib
 
-SQL_PATH = os.path.join(os.getcwd(),"wego.db")
+PROJECT_ROOT = os.getcwd()
+SQL_PATH = os.path.join(PROJECT_ROOT,"wego.db")
+# PROJECT_ROOT = "/home/ubuntu/Project/wego_backend"
 # SQL_PATH = os.path.join("/usr/tomcat/apache-tomcat-9.0.8/webapps/ROOT/WEB-INF/classes","wego.db")
 con = sqlite3.connect(SQL_PATH)
 
@@ -239,7 +241,7 @@ def handle_history():
     if(userid!=""):
         try:
             c = con.cursor()
-            c.execute("select E.categoryname,F.* from category as E join (select C.* ,D.createtime from venue as C join (select venueid,createtime from tip as A join (select * from user where user.userid =(?)) as B on A.userid = B.userid) as D on C.venueid = D.venueid order by D.createtime desc) as F on E.categoryid = F.category limit 100",[userid])
+            c.execute("select E.categoryname,F.* from category as E join (select C.* ,D.createtime from venue as C join (select venueid,createtime from tip where tip.userid=(?)) as D on C.venueid = D.venueid order by D.createtime desc) as F on E.categoryid = F.category limit 100",[userid])
             result = c.fetchall()
             result_format = []
             for item in result:
@@ -418,9 +420,9 @@ def get_recommend():
     TOPK = 10
     TOPN = 5
 
-    user_id_index = pickle.load(open(os.path.join(os.getcwd(),'Origin','Result', city + '-userid-index.pkl'),'rb'))
+    user_id_index = pickle.load(open(os.path.join(PROJECT_ROOT,'Origin','Result', city + '-userid-index.pkl'),'rb'))
     user_groups = []
-    with open(os.path.join(os.getcwd(), 'Origin', 'Result','user_cluster_'+ city +'.txt'),'r',encoding='ISO-8859-1') as f:
+    with open(os.path.join(PROJECT_ROOT, 'Origin', 'Result','user_cluster_'+ city +'.txt'),'r',encoding='ISO-8859-1') as f:
         data = f.readlines()
         for line in data:
             a = line.strip('\n').split(":")
@@ -447,7 +449,7 @@ def get_recommend():
                 if(user_group[i]==matrix_user_id):
                     group_user_id=i
                     break
-            R1 = pickle.load(open(os.path.join(os.getcwd(),'Origin','Model', city , city + '_' + str(timeid) + '_' + str(matrix_user_id) + '.pkl'),'rb'))
+            R1 = pickle.load(open(os.path.join(PROJECT_ROOT,'Origin','Model', city , city + '_' + str(timeid) + '_' + str(matrix_user_id) + '.pkl'),'rb'))
             top_k_cluster = findTopKCluster(R1,TOPK,group_user_id)
             venue_list = []
             for i in range(len(top_k_cluster)):
@@ -498,14 +500,14 @@ def get_recommend():
         data = {"text":"Invaild Request","code":"Error","result":[]}
     return json.dumps(data)
 
-@route('/test')
-def test():
-    userid = request.query.userid
-    city = "LA" if(request.query.city=="LA") else "NYC"
-    user_id_index = pickle.load(open(os.path.join(os.getcwd(),'Origin','Result', city + '-userid-index.pkl'),'rb'))
-    user_id_reverse = dict(map(lambda t:(t[1],t[0]), user_id_index.items()))
-    data = {"text":"OK", "code":"OK","result":str(user_id_reverse[int(userid)])}
-    return json.dumps(data)
+# @route('/test')
+# def test():
+#     userid = request.query.userid
+#     city = "LA" if(request.query.city=="LA") else "NYC"
+#     user_id_index = pickle.load(open(os.path.join(PROJECT_ROOT,'Origin','Result', city + '-userid-index.pkl'),'rb'))
+#     user_id_reverse = dict(map(lambda t:(t[1],t[0]), user_id_index.items()))
+#     data = {"text":"OK", "code":"OK","result":str(user_id_reverse[int(userid)])}
+#     return json.dumps(data)
 
 run(reloader=True, host='0.0.0.0', port=8088)
 
